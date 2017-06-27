@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-//        if CheckUpdated(){
+        if CheckUpdated(){
             //plistファイル更新
             let plistFileManager = PlistFileManager.plistFileManager
             plistFileManager.UpdatePlistFile()
@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             //SQLファイル更新
             let sqlFileManager = SqlFileManager.sqlFileManager
             sqlFileManager.UpdateSQLFile()
-//        }
+        }
         
         return true
     }

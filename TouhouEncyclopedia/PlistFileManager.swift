@@ -13,7 +13,7 @@ class PlistFileManager
 {
     private var plistFilePath:String
     private let plistKeyList:[String] = ["bootTab", "sortOrder", "textSize", "appearanceTilteDetail", "showSpellPronunciation", "sortByPronunciationOption", "customTitleImage", "SQLUpdate", "openCell", "rotationImage", "showEnglishMode",]
-    private let plistValueList:[NSNumber] = [0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 6]
+    private let plistValueList:[NSNumber] = [0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0]
     
     private init()
     {
