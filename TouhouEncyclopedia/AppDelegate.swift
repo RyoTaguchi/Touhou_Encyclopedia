@@ -13,10 +13,22 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    //その他に含まれる作品数
+    let exceptionTitle:Int = 5;
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+//        if CheckUpdated(){
+            //plistファイル更新
+            let plistFileManager = PlistFileManager.plistFileManager
+            plistFileManager.UpdatePlistFile()
+            
+            //SQLファイル更新
+            let sqlFileManager = SqlFileManager.sqlFileManager
+            sqlFileManager.UpdateSQLFile()
+//        }
+        
         return true
     }
 
@@ -42,6 +54,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    
+    //アップロード後か確認
+    func CheckUpdated() -> Bool
+    {
+        let loadedVersion:String
+        
+        //以前にロードしたバージョン確認
+        let userDefaults = UserDefaults.standard
+        if let tmpStr:String = userDefaults.string(forKey: "appVersionString"){
+            loadedVersion = tmpStr
+        } else {
+            return false
+        }
+        
+        //現在のバンドルのバージョン確認
+        let infoDictionary = Bundle.main.infoDictionary!
+        let bundleVersion:String = infoDictionary["CFBundleShortVersionString"]! as! String
+        
+        return !(loadedVersion == bundleVersion)
+    }
 }
 
