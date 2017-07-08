@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>M9727FS5CP.RyoTaguchi.TouhouEncyclopedia</string>
+	<key>com.apple.developer.team-identifier</key>
+	<string>M9727FS5CP</string>
+	<key>get-task-allow</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>M9727FS5CP.RyoTaguchi.TouhouEncyclopedia</string>
+	</array>
+</dict>
+</plist>

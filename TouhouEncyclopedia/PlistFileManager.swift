@@ -14,6 +14,7 @@ class PlistFileManager
     private var plistFilePath:String
     private let plistKeyList:[String] = ["bootTab", "sortOrder", "textSize", "appearanceTilteDetail", "showSpellPronunciation", "sortByPronunciationOption", "customTitleImage", "SQLUpdate", "openCell", "rotationImage", "showEnglishMode",]
     private let plistValueList:[NSNumber] = [0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0]
+    var plistData:Dictionary<String, NSNumber>?
     
     private init()
     {
@@ -21,23 +22,23 @@ class PlistFileManager
         let documentDirPath:String = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0];
         plistFilePath = documentDirPath.appending("/Setting.plist");
         
+        
         //plistファイルがなければ作成
         if !(FileManager.default.fileExists(atPath:plistFilePath)) {
-            MakePlistFile()
+            makePlistFile()
+        } else {
+            plistData = NSDictionary(contentsOfFile:plistFilePath) as? Dictionary<String, NSNumber>
         }
     }
     
     //plistファイル作成
-    private func MakePlistFile()
+    private func makePlistFile()
     {
-        //plist用ディクショナリ
-        var settingDic : Dictionary<String, NSNumber> = [:]
-        
         //各値を格納
         for i in 0...(plistKeyList.count-1) {
-            settingDic[plistKeyList[i]] = plistValueList[i]
+            plistData?[plistKeyList[i]] = plistValueList[i]
         }
-        let nsdictionary = settingDic as NSDictionary
+        let nsdictionary = plistData! as NSDictionary
         
         if nsdictionary.write(toFile:plistFilePath, atomically: true) {
             print("Successed to write plist.")
@@ -47,21 +48,22 @@ class PlistFileManager
     }
     
     //plistファイル更新
-    func UpdatePlistFile()
+    func updatePlistFile()
     {
-        //plist用ディクショナリ
-        var plistDic = NSDictionary(contentsOfFile:plistFilePath) as? Dictionary<String, NSNumber>
+        if plistData == nil {
+            return
+        }
         
         //各値を更新
         for i in 0..<(plistKeyList.count) {
-            if let _:NSNumber = plistDic?[plistKeyList[i]] {
+            if let _:NSNumber = plistData?[plistKeyList[i]] {
                 //plistDic?[plistKeyList[i]] = plistValueList[i]
             } else {
-                plistDic?[plistKeyList[i]] = plistValueList[i]
+                plistData?[plistKeyList[i]] = plistValueList[i]
             }
         }
         
-        let nsdictionary = plistDic! as NSDictionary
+        let nsdictionary = plistData! as NSDictionary
         if nsdictionary.write(toFile:plistFilePath, atomically: true) {
             print("Successed to write plist.")
         } else {
@@ -70,9 +72,22 @@ class PlistFileManager
     }
     
     //plist値変更
-    func ChangePlistValue()
+    func changePlistValue(key:String, value:NSNumber) -> Bool
     {
+        if let _:NSNumber = plistData?[key] {
+            plistData?[key] = value
+        } else {
+            return false
+        }
         
+        let nsdictionary = plistData! as NSDictionary
+        if nsdictionary.write(toFile:plistFilePath, atomically: true) {
+            print("Successed to write plist.")
+        } else {
+            print("Failed to write plist.")
+        }
+        
+        return true
     }
     
     

@@ -8,6 +8,7 @@
 //  SQLの管理クラス
 
 import UIKit
+import SQLite
 
 class SqlFileManager
 {
@@ -15,10 +16,10 @@ class SqlFileManager
     
     private init()
     {
-        
     }
     
-    func UpdateSQLFile()
+    // ファイルの更新必要ないかも？
+    func updateSQLFile()
     {
         //ドキュメントディレクトリのファイル一覧取得
         let documentDirPath:String = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
@@ -62,6 +63,73 @@ class SqlFileManager
             } catch {
                 print("Error : Cannot copy file to domumentDir.")
             }
+        }
+    }
+        
+// これは一応消さない
+//        do {
+//            let db:SQLite.Connection = try Connection(path, readonly: true)
+//            let Query:SQLite.Table = Table("ZOLD")
+//            let all:Array<SQLite.Row> = Array(try db.prepare(Query))
+//        } catch {
+//            
+//        }
+    
+    
+    //SQL,Table,Key,Keyの条件を指定し、レコードを一つ取得
+    func getOneRecord(sql: String, table: String, key: String, filter: String) -> SQLite.Row?
+    {
+        let path:String = Bundle.main.bundlePath + "/SqlFile/" + sql + ".sqlite"
+        
+        do {
+            let db:SQLite.Connection = try Connection(path, readonly: true)
+            
+            // クエリ作成
+            let searchTable:SQLite.Table = Table(table)
+            let searchKey = Expression<String>(key)
+            let query = searchTable.filter(searchKey == filter)
+            
+            do {
+                if let record:SQLite.Row = try db.pluck(query){
+                    return record
+                } else {
+                    print("ERROR: db.pluck(query) result is nil.")
+                    return nil
+                }
+            } catch {
+                print("ERROR: db.pluck(query) failed.")
+                return nil
+            }
+        } catch {
+            print("ERROR: Connection database failed.")
+            return nil
+        }
+    }
+    
+    //SQL,Table,Keyを指定し、Keyがnilでないレコードの集合を取得
+    
+    //SQL,Tableを指定し、要素数を取得
+    func getTableElementCount(sql: String, table: String) -> Int
+    {
+        let path:String = Bundle.main.bundlePath + "/SqlFile/" + sql + ".sqlite"
+        
+        do {
+            let db:SQLite.Connection = try Connection(path, readonly: true)
+            
+            // クエリ作成
+            let searchTable:SQLite.Table = Table(table)
+            
+            //検索
+            do {
+                let count = try db.scalar(searchTable.count)
+                return count
+            } catch {
+                print("ERROR: Search database failed.")
+                return 0
+            }
+        } catch {
+            print("ERROR: Connection database failed.")
+            return 0
         }
     }
     

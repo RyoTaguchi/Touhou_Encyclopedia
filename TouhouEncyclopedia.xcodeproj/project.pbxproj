@@ -7,17 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C25C8DD1F0EB0EF000B7988 /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = 2C25C8DC1F0EB0EF000B7988 /* Icon */; };
 		2C3F79261F013D210030ED3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F79251F013D210030ED3A /* AppDelegate.swift */; };
-		2C3F79281F013D210030ED3A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F79271F013D210030ED3A /* FirstViewController.swift */; };
 		2C3F792A1F013D210030ED3A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F79291F013D210030ED3A /* SecondViewController.swift */; };
 		2C3F792D1F013D210030ED3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3F792B1F013D210030ED3A /* Main.storyboard */; };
 		2C3F792F1F013D210030ED3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3F792E1F013D210030ED3A /* Assets.xcassets */; };
 		2C3F79321F013D210030ED3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3F79301F013D210030ED3A /* LaunchScreen.storyboard */; };
 		2C3F793D1F013D210030ED3A /* TouhouEncyclopediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F793C1F013D210030ED3A /* TouhouEncyclopediaTests.swift */; };
 		2C3F79481F013D210030ED3A /* TouhouEncyclopediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F79471F013D210030ED3A /* TouhouEncyclopediaUITests.swift */; };
+		2C916FE01F10E46B00C81C01 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C916FDF1F10E46B00C81C01 /* TextViewController.swift */; };
+		2C916FE81F10E55800C81C01 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C916FE71F10E55800C81C01 /* MainPageViewController.swift */; };
+		2C916FEA1F10E60A00C81C01 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 2C916FE91F10E60A00C81C01 /* images */; };
 		2C93968D1F01442B00F82CD4 /* PlistFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93968C1F01442B00F82CD4 /* PlistFileManager.swift */; };
 		2C93968F1F029B0200F82CD4 /* SqlFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93968E1F029B0200F82CD4 /* SqlFileManager.swift */; };
 		2C9396911F02A81200F82CD4 /* SqlFile in Resources */ = {isa = PBXBuildFile; fileRef = 2C9396901F02A81200F82CD4 /* SqlFile */; };
+		2C9396CA1F05A7EE00F82CD4 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9396BC1F05A76400F82CD4 /* SQLite.framework */; };
+		2C9396CC1F05A82100F82CD4 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9396BC1F05A76400F82CD4 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,26 +40,101 @@
 			remoteGlobalIDString = 2C3F79211F013D210030ED3A;
 			remoteInfo = TouhouEncyclopedia;
 		};
+		2C9396BB1F05A76400F82CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9396B11F05A76400F82CD4 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		2C9396BD1F05A76400F82CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9396B11F05A76400F82CD4 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		2C9396BF1F05A76400F82CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9396B11F05A76400F82CD4 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		2C9396C11F05A76400F82CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9396B11F05A76400F82CD4 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		2C9396C31F05A76400F82CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9396B11F05A76400F82CD4 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		2C9396C51F05A76400F82CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9396B11F05A76400F82CD4 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		2C9396C71F05A76400F82CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9396B11F05A76400F82CD4 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+		2C9396CD1F05A82100F82CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9396B11F05A76400F82CD4 /* SQLite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EE247AD21C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2C9396CF1F05A82100F82CD4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2C9396CC1F05A82100F82CD4 /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2C25C8DC1F0EB0EF000B7988 /* Icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icon; sourceTree = "<group>"; };
 		2C3F79221F013D210030ED3A /* TouhouEncyclopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouhouEncyclopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3F79251F013D210030ED3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C3F79271F013D210030ED3A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		2C3F79291F013D210030ED3A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2C3F792C1F013D210030ED3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C3F792E1F013D210030ED3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C3F79311F013D210030ED3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2C3F79331F013D210030ED3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C3F79331F013D210030ED3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = TouhouEncyclopedia/Info.plist; sourceTree = "<group>"; };
 		2C3F79381F013D210030ED3A /* TouhouEncyclopediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouhouEncyclopediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3F793C1F013D210030ED3A /* TouhouEncyclopediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouhouEncyclopediaTests.swift; sourceTree = "<group>"; };
 		2C3F793E1F013D210030ED3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C3F79431F013D210030ED3A /* TouhouEncyclopediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouhouEncyclopediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3F79471F013D210030ED3A /* TouhouEncyclopediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouhouEncyclopediaUITests.swift; sourceTree = "<group>"; };
 		2C3F79491F013D210030ED3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C916FDF1F10E46B00C81C01 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		2C916FE71F10E55800C81C01 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		2C916FE91F10E60A00C81C01 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		2C93968C1F01442B00F82CD4 /* PlistFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistFileManager.swift; sourceTree = "<group>"; };
 		2C93968E1F029B0200F82CD4 /* SqlFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SqlFileManager.swift; sourceTree = "<group>"; };
 		2C9396901F02A81200F82CD4 /* SqlFile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SqlFile; sourceTree = "<group>"; };
+		2C9396931F05A57E00F82CD4 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = Carthage/Build/iOS/SQLite.framework; sourceTree = "<group>"; };
+		2C9396B11F05A76400F82CD4 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = Carthage/Checkouts/SQLite.swift/SQLite.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9396CA1F05A7EE00F82CD4 /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,9 +167,12 @@
 			isa = PBXGroup;
 			children = (
 				2C3F79241F013D210030ED3A /* TouhouEncyclopedia */,
+				2C3F79331F013D210030ED3A /* Info.plist */,
 				2C3F793B1F013D210030ED3A /* TouhouEncyclopediaTests */,
 				2C3F79461F013D210030ED3A /* TouhouEncyclopediaUITests */,
 				2C3F79231F013D210030ED3A /* Products */,
+				2C9396921F05A57D00F82CD4 /* Frameworks */,
+				2C9396B11F05A76400F82CD4 /* SQLite.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,13 +192,15 @@
 				2C3F79251F013D210030ED3A /* AppDelegate.swift */,
 				2C93968C1F01442B00F82CD4 /* PlistFileManager.swift */,
 				2C93968E1F029B0200F82CD4 /* SqlFileManager.swift */,
-				2C3F79271F013D210030ED3A /* FirstViewController.swift */,
+				2C916FE71F10E55800C81C01 /* MainPageViewController.swift */,
+				2C916FDF1F10E46B00C81C01 /* TextViewController.swift */,
 				2C3F79291F013D210030ED3A /* SecondViewController.swift */,
 				2C3F792B1F013D210030ED3A /* Main.storyboard */,
 				2C3F792E1F013D210030ED3A /* Assets.xcassets */,
 				2C3F79301F013D210030ED3A /* LaunchScreen.storyboard */,
+				2C916FE91F10E60A00C81C01 /* images */,
 				2C9396901F02A81200F82CD4 /* SqlFile */,
-				2C3F79331F013D210030ED3A /* Info.plist */,
+				2C25C8DC1F0EB0EF000B7988 /* Icon */,
 			);
 			path = TouhouEncyclopedia;
 			sourceTree = "<group>";
@@ -137,6 +223,28 @@
 			path = TouhouEncyclopediaUITests;
 			sourceTree = "<group>";
 		};
+		2C9396921F05A57D00F82CD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C9396931F05A57E00F82CD4 /* SQLite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C9396B21F05A76400F82CD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C9396BC1F05A76400F82CD4 /* SQLite.framework */,
+				2C9396BE1F05A76400F82CD4 /* SQLiteTests iOS.xctest */,
+				2C9396C01F05A76400F82CD4 /* SQLite.framework */,
+				2C9396C21F05A76400F82CD4 /* SQLiteTests Mac.xctest */,
+				2C9396C41F05A76400F82CD4 /* SQLite.framework */,
+				2C9396C61F05A76400F82CD4 /* SQLiteTests tvOS.xctest */,
+				2C9396C81F05A76400F82CD4 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,10 +255,12 @@
 				2C3F791E1F013D210030ED3A /* Sources */,
 				2C3F791F1F013D210030ED3A /* Frameworks */,
 				2C3F79201F013D210030ED3A /* Resources */,
+				2C9396CF1F05A82100F82CD4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2C9396CE1F05A82100F82CD4 /* PBXTargetDependency */,
 			);
 			name = TouhouEncyclopedia;
 			productName = TouhouEncyclopedia;
@@ -233,6 +343,12 @@
 			mainGroup = 2C3F79191F013D210030ED3A;
 			productRefGroup = 2C3F79231F013D210030ED3A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2C9396B21F05A76400F82CD4 /* Products */;
+					ProjectRef = 2C9396B11F05A76400F82CD4 /* SQLite.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2C3F79211F013D210030ED3A /* TouhouEncyclopedia */,
@@ -242,15 +358,69 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		2C9396BC1F05A76400F82CD4 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 2C9396BB1F05A76400F82CD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C9396BE1F05A76400F82CD4 /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 2C9396BD1F05A76400F82CD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C9396C01F05A76400F82CD4 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 2C9396BF1F05A76400F82CD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C9396C21F05A76400F82CD4 /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 2C9396C11F05A76400F82CD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C9396C41F05A76400F82CD4 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 2C9396C31F05A76400F82CD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C9396C61F05A76400F82CD4 /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 2C9396C51F05A76400F82CD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C9396C81F05A76400F82CD4 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 2C9396C71F05A76400F82CD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		2C3F79201F013D210030ED3A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C916FEA1F10E60A00C81C01 /* images in Resources */,
 				2C3F79321F013D210030ED3A /* LaunchScreen.storyboard in Resources */,
 				2C3F792F1F013D210030ED3A /* Assets.xcassets in Resources */,
 				2C3F792D1F013D210030ED3A /* Main.storyboard in Resources */,
 				2C9396911F02A81200F82CD4 /* SqlFile in Resources */,
+				2C25C8DD1F0EB0EF000B7988 /* Icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +449,8 @@
 				2C93968F1F029B0200F82CD4 /* SqlFileManager.swift in Sources */,
 				2C3F792A1F013D210030ED3A /* SecondViewController.swift in Sources */,
 				2C3F79261F013D210030ED3A /* AppDelegate.swift in Sources */,
-				2C3F79281F013D210030ED3A /* FirstViewController.swift in Sources */,
+				2C916FE81F10E55800C81C01 /* MainPageViewController.swift in Sources */,
+				2C916FE01F10E46B00C81C01 /* TextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +482,11 @@
 			isa = PBXTargetDependency;
 			target = 2C3F79211F013D210030ED3A /* TouhouEncyclopedia */;
 			targetProxy = 2C3F79441F013D210030ED3A /* PBXContainerItemProxy */;
+		};
+		2C9396CE1F05A82100F82CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQLite iOS";
+			targetProxy = 2C9396CD1F05A82100F82CD4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -430,9 +606,14 @@
 		2C3F794D1F013D210030ED3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = M9727FS5CP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TouhouEncyclopedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RyoTaguchi.TouhouEncyclopedia;
@@ -446,9 +627,14 @@
 		2C3F794E1F013D210030ED3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = M9727FS5CP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TouhouEncyclopedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RyoTaguchi.TouhouEncyclopedia;

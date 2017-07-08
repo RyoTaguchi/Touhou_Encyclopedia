@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SQLite
 
 
 @UIApplicationMain
@@ -22,12 +23,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if CheckUpdated(){
             //plistファイル更新
             let plistFileManager = PlistFileManager.plistFileManager
-            plistFileManager.UpdatePlistFile()
+            plistFileManager.updatePlistFile()
             
             //SQLファイル更新
             let sqlFileManager = SqlFileManager.sqlFileManager
-            sqlFileManager.UpdateSQLFile()
+            sqlFileManager.updateSQLFile()
         }
+        
+        //let sqlFileManager = SqlFileManager.sqlFileManager
+        
+        //let testData:SQLite.Row? = sqlFileManager.GetOneRecord(sql: "charDetailData", table: "OLD", key: "ID", filter: "1")
+        //let testCount:Int = sqlFileManager.GetTableElementCount(sql: "charDetailData", table: "WIN")
         
         return true
     }
