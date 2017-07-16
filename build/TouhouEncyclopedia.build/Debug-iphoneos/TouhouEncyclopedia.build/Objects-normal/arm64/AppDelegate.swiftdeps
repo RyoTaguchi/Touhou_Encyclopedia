@@ -493,4 +493,4 @@ depends-external:
 - "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/Carthage/Build/iOS/SQLite.framework/Headers/SQLite-Swift.h"
 - "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/Carthage/Build/iOS/SQLite.framework/Modules/module.modulemap"
 - "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/Carthage/Checkouts/SQLite.swift/CocoaPods/iphoneos/module.modulemap"
-interface-hash: "163ecf59fdc14a760d524af9a1f2fab1"
+interface-hash: "328825930d65a1cf41d82b808dfaf15d"

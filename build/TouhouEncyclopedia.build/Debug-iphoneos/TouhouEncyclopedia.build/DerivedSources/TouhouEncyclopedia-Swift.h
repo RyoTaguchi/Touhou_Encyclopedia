@@ -155,11 +155,25 @@ SWIFT_CLASS("_TtC18TouhouEncyclopedia11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITableView;
+@class UITableViewCell;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC18TouhouEncyclopedia23ListTableViewController")
+@interface ListTableViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified listTableView;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UICollectionView;
 @class UIButton;
 @class UICollectionViewCell;
-@class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC18TouhouEncyclopedia22MainPageViewController")
 @interface MainPageViewController : UIViewController <UIScrollViewDelegate, UICollectionViewDataSource, UICollectionViewDelegate>
@@ -185,13 +199,19 @@ SWIFT_CLASS("_TtC18TouhouEncyclopedia20SecondViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITextField;
+@class UITextView;
 
 SWIFT_CLASS("_TtC18TouhouEncyclopedia18TextViewController")
 @interface TextViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified textView;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified textView;
+@property (nonatomic, copy) NSString * _Nonnull barTitle;
+@property (nonatomic, copy) NSString * _Nonnull text;
+@property (nonatomic) BOOL isQA;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidLayoutSubviews;
 - (void)didReceiveMemoryWarning;
+- (void)backBeforeView;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

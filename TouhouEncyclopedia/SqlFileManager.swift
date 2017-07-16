@@ -10,17 +10,14 @@
 import UIKit
 import SQLite
 
-class SqlFileManager
-{
+class SqlFileManager {
     private let sqlFileList:[String] = ["charDetailData", "landData", "musicData", "musicData2", "shotDetailData", "skillDetailData", "spellDetailData", "stageDetailData", "talkData", "titleDetailData"]
     
-    private init()
-    {
+    private init() {
     }
     
     // ファイルの更新必要ないかも？
-    func updateSQLFile()
-    {
+    func updateSQLFile() {
         //ドキュメントディレクトリのファイル一覧取得
         let documentDirPath:String = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
         var fileList:[String] {
@@ -33,7 +30,7 @@ class SqlFileManager
         }
         
         //更新するファイルを削除
-        for fileName:String in fileList{
+        for fileName:String in fileList {
             if fileName.contains(".jpg"){
                 continue
             } else if fileName.contains(".plist"){
@@ -53,7 +50,7 @@ class SqlFileManager
         //sqlファイルをコピー
         let bundlePath:String = Bundle.main.bundlePath + "/SqlFile/"
         
-        for sqlName:String in sqlFileList{
+        for sqlName:String in sqlFileList {
             let tmp:String = sqlName + ".sqlite"
             do {
                 try FileManager.default.copyItem(atPath: bundlePath + tmp, toPath: documentDirPath + "/" + tmp)
@@ -77,8 +74,8 @@ class SqlFileManager
     
     
     //SQL,Table,Key,Keyの条件を指定し、レコードを一つ取得
-    func getOneRecord(sql: String, table: String, key: String, filter: String) -> SQLite.Row?
-    {
+    func getOneRecord(sql: String, table: String, key: String, filter: String) -> SQLite.Row? {
+        
         let path:String = Bundle.main.bundlePath + "/SqlFile/" + sql + ".sqlite"
         
         do {
@@ -109,8 +106,8 @@ class SqlFileManager
     //SQL,Table,Keyを指定し、Keyがnilでないレコードの集合を取得
     
     //SQL,Tableを指定し、要素数を取得
-    func getTableElementCount(sql: String, table: String) -> Int
-    {
+    func getTableElementCount(sql: String, table: String) -> Int {
+        
         let path:String = Bundle.main.bundlePath + "/SqlFile/" + sql + ".sqlite"
         
         do {

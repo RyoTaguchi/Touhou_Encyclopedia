@@ -9,18 +9,17 @@
 
 import UIKit
 
-class PlistFileManager
-{
+class PlistFileManager {
+    
     private var plistFilePath:String
     private let plistKeyList:[String] = ["bootTab", "sortOrder", "textSize", "appearanceTilteDetail", "showSpellPronunciation", "sortByPronunciationOption", "customTitleImage", "SQLUpdate", "openCell", "rotationImage", "showEnglishMode",]
     private let plistValueList:[NSNumber] = [0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0]
     var plistData:Dictionary<String, NSNumber>?
     
-    private init()
-    {
+    private init(){
         //initialize
-        let documentDirPath:String = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0];
-        plistFilePath = documentDirPath.appending("/Setting.plist");
+        let documentDirPath:String = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
+        plistFilePath = documentDirPath.appending("/Setting.plist")
         
         
         //plistファイルがなければ作成
@@ -32,8 +31,7 @@ class PlistFileManager
     }
     
     //plistファイル作成
-    private func makePlistFile()
-    {
+    private func makePlistFile() {
         //各値を格納
         for i in 0...(plistKeyList.count-1) {
             plistData?[plistKeyList[i]] = plistValueList[i]
@@ -48,8 +46,7 @@ class PlistFileManager
     }
     
     //plistファイル更新
-    func updatePlistFile()
-    {
+    func updatePlistFile() {
         if plistData == nil {
             return
         }
@@ -72,8 +69,7 @@ class PlistFileManager
     }
     
     //plist値変更
-    func changePlistValue(key:String, value:NSNumber) -> Bool
-    {
+    func changePlistValue(key:String, value:NSNumber) -> Bool {
         if let _:NSNumber = plistData?[key] {
             plistData?[key] = value
         } else {

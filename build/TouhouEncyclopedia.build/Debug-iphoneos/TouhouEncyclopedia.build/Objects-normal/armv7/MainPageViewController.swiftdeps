@@ -20,6 +20,7 @@ depends-top-level:
 - "CastingPrecedence"
 - "IndexPath"
 - "Int"
+- !private "ListTableViewController"
 - "MainPageViewController"
 - !private "String"
 - !private "StringLiteralType"
@@ -356,6 +357,7 @@ depends-member:
 - ["C18TouhouEncyclopedia22MainPageViewController", "Bool"]
 - ["C18TouhouEncyclopedia22MainPageViewController", "IndexPath"]
 - ["C18TouhouEncyclopedia22MainPageViewController", "Int"]
+- !private ["C18TouhouEncyclopedia22MainPageViewController", "ListTableViewController"]
 - !private ["C18TouhouEncyclopedia22MainPageViewController", "String"]
 - !private ["C18TouhouEncyclopedia22MainPageViewController", "UIBarButtonItem"]
 - !private ["C18TouhouEncyclopedia22MainPageViewController", "UIBarButtonItemStyle"]
@@ -489,6 +491,7 @@ depends-member:
 - ["CSo8NSObject", "Bool"]
 - ["CSo8NSObject", "IndexPath"]
 - ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "ListTableViewController"]
 - !private ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "UIBarButtonItem"]
 - !private ["CSo8NSObject", "UIBarButtonItemStyle"]
@@ -839,6 +842,7 @@ depends-member:
 - ["CSo11UIResponder", "Bool"]
 - ["CSo11UIResponder", "IndexPath"]
 - ["CSo11UIResponder", "Int"]
+- !private ["CSo11UIResponder", "ListTableViewController"]
 - !private ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "UIBarButtonItem"]
 - !private ["CSo11UIResponder", "UIBarButtonItemStyle"]
@@ -1065,6 +1069,7 @@ depends-member:
 - ["CSo16UIViewController", "Bool"]
 - ["CSo16UIViewController", "IndexPath"]
 - ["CSo16UIViewController", "Int"]
+- !private ["CSo16UIViewController", "ListTableViewController"]
 - !private ["CSo16UIViewController", "String"]
 - !private ["CSo16UIViewController", "UIBarButtonItem"]
 - !private ["CSo16UIViewController", "UIBarButtonItemStyle"]
@@ -1303,4 +1308,4 @@ depends-external:
 - "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/Carthage/Build/iOS/SQLite.framework/Headers/SQLite-Swift.h"
 - "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/Carthage/Build/iOS/SQLite.framework/Modules/module.modulemap"
 - "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/Carthage/Checkouts/SQLite.swift/CocoaPods/iphoneos/module.modulemap"
-interface-hash: "2da9b221ca5940f8ec29c64e0756aaf0"
+interface-hash: "813dbaa9a176a55e6dc68e4739ea9551"

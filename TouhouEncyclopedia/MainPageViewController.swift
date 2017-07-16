@@ -12,10 +12,9 @@ class MainPageViewController: UIViewController, UICollectionViewDelegate, UIColl
 
     @IBOutlet weak var collectionView: UICollectionView!
     
-    var m_iconNum:Int = 9;
+    var m_iconNum:Int = 9
     
-    override func viewDidLoad()
-    {
+    override func viewDidLoad() {
         super.viewDidLoad()
 
         collectionView.delegate = self
@@ -24,47 +23,48 @@ class MainPageViewController: UIViewController, UICollectionViewDelegate, UIColl
         setQuestionButton()
     }
 
-    override func didReceiveMemoryWarning()
-    {
+    override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
-    override func viewWillAppear(_ animated: Bool)
-    {
-        self.tabBarController?.title = "東方Project大百科";
+    override func viewWillAppear(_ animated: Bool) {
+        self.tabBarController?.title = "東方Project大百科"
         setQuestionButton()
     }
     
     //ナビゲーションバーにボタンを設定
-    func setQuestionButton()
-    {
-        self.tabBarController?.navigationItem.rightBarButtonItem = nil;
+    func setQuestionButton() {
+        self.tabBarController?.navigationItem.rightBarButtonItem = nil
         let questionBtn:UIBarButtonItem = UIBarButtonItem(image: UIImage(named: "images/question.png"), style: UIBarButtonItemStyle.plain, target: self, action: #selector(segueInformationPage))
         
-        self.tabBarController?.navigationItem.rightBarButtonItem = questionBtn;
+        self.tabBarController?.navigationItem.rightBarButtonItem = questionBtn
     }
     
     //Informationページに遷移
-    func segueInformationPage(sender: UIButton)
-    {
+    func segueInformationPage(sender: UIButton) {
+        //遷移先のview取得
         let storyboard: UIStoryboard = self.storyboard!
-        let nextView = storyboard.instantiateViewController(withIdentifier: "TextView")
+//        let nextView = storyboard.instantiateViewController(withIdentifier: "TextView") as! TextViewController
+//        nextView.text = "test\n\ntest2"
+//        nextView.barTitle = "Q & A"
+//        nextView.isQA = true
+        let nextView = storyboard.instantiateViewController(withIdentifier: "ListView") as! ListTableViewController
+        
+        //navigationコントローラー、アニメーションの設定
         let navi = UINavigationController(rootViewController: nextView)
-        // アニメーションの設定
         navi.modalTransitionStyle = .coverVertical
         present(navi, animated: true, completion: nil)
     }
     
     //セルの個数を返すメソッド
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
-    {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return m_iconNum
     }
     
     
     //セルを返すメソッド
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
-    {
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
         //セルを取得
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "icon", for: indexPath as IndexPath) as UICollectionViewCell
         

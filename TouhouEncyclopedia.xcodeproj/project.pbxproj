@@ -18,6 +18,8 @@
 		2C916FE01F10E46B00C81C01 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C916FDF1F10E46B00C81C01 /* TextViewController.swift */; };
 		2C916FE81F10E55800C81C01 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C916FE71F10E55800C81C01 /* MainPageViewController.swift */; };
 		2C916FEA1F10E60A00C81C01 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 2C916FE91F10E60A00C81C01 /* images */; };
+		2C916FED1F11056000C81C01 /* textData in Resources */ = {isa = PBXBuildFile; fileRef = 2C916FEC1F11056000C81C01 /* textData */; };
+		2C916FF61F11528300C81C01 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C916FF51F11528300C81C01 /* ListTableViewController.swift */; };
 		2C93968D1F01442B00F82CD4 /* PlistFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93968C1F01442B00F82CD4 /* PlistFileManager.swift */; };
 		2C93968F1F029B0200F82CD4 /* SqlFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93968E1F029B0200F82CD4 /* SqlFileManager.swift */; };
 		2C9396911F02A81200F82CD4 /* SqlFile in Resources */ = {isa = PBXBuildFile; fileRef = 2C9396901F02A81200F82CD4 /* SqlFile */; };
@@ -130,6 +132,8 @@
 		2C916FDF1F10E46B00C81C01 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		2C916FE71F10E55800C81C01 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		2C916FE91F10E60A00C81C01 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		2C916FEC1F11056000C81C01 /* textData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = textData; sourceTree = "<group>"; };
+		2C916FF51F11528300C81C01 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		2C93968C1F01442B00F82CD4 /* PlistFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistFileManager.swift; sourceTree = "<group>"; };
 		2C93968E1F029B0200F82CD4 /* SqlFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SqlFileManager.swift; sourceTree = "<group>"; };
 		2C9396901F02A81200F82CD4 /* SqlFile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SqlFile; sourceTree = "<group>"; };
@@ -193,11 +197,13 @@
 				2C93968C1F01442B00F82CD4 /* PlistFileManager.swift */,
 				2C93968E1F029B0200F82CD4 /* SqlFileManager.swift */,
 				2C916FE71F10E55800C81C01 /* MainPageViewController.swift */,
+				2C916FF51F11528300C81C01 /* ListTableViewController.swift */,
 				2C916FDF1F10E46B00C81C01 /* TextViewController.swift */,
 				2C3F79291F013D210030ED3A /* SecondViewController.swift */,
 				2C3F792B1F013D210030ED3A /* Main.storyboard */,
 				2C3F792E1F013D210030ED3A /* Assets.xcassets */,
 				2C3F79301F013D210030ED3A /* LaunchScreen.storyboard */,
+				2C916FEC1F11056000C81C01 /* textData */,
 				2C916FE91F10E60A00C81C01 /* images */,
 				2C9396901F02A81200F82CD4 /* SqlFile */,
 				2C25C8DC1F0EB0EF000B7988 /* Icon */,
@@ -416,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C916FEA1F10E60A00C81C01 /* images in Resources */,
+				2C916FED1F11056000C81C01 /* textData in Resources */,
 				2C3F79321F013D210030ED3A /* LaunchScreen.storyboard in Resources */,
 				2C3F792F1F013D210030ED3A /* Assets.xcassets in Resources */,
 				2C3F792D1F013D210030ED3A /* Main.storyboard in Resources */,
@@ -451,6 +458,7 @@
 				2C3F79261F013D210030ED3A /* AppDelegate.swift in Sources */,
 				2C916FE81F10E55800C81C01 /* MainPageViewController.swift in Sources */,
 				2C916FE01F10E46B00C81C01 /* TextViewController.swift in Sources */,
+				2C916FF61F11528300C81C01 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
