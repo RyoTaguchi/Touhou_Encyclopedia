@@ -12,13 +12,19 @@ class MainPageViewController: UIViewController, UICollectionViewDelegate, UIColl
 
     @IBOutlet weak var collectionView: UICollectionView!
     
-    var m_iconNum:Int = 9
+    private let m_iconNum:Int = 9
+    private var m_selectedIcon = 0;
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         collectionView.delegate = self
         collectionView.dataSource = self
+        
+        let backButtonItem = UIBarButtonItem(title:"", style: .plain, target: nil, action: nil)
+        self.tabBarController?.navigationItem.backBarButtonItem = backButtonItem
+        
+        self.navigationController?.navigationBar.isTranslucent = false
         
         setQuestionButton()
     }
@@ -30,6 +36,8 @@ class MainPageViewController: UIViewController, UICollectionViewDelegate, UIColl
     override func viewWillAppear(_ animated: Bool) {
         self.tabBarController?.title = "東方Project大百科"
         setQuestionButton()
+        
+        //遷移時にナビゲーションバーが乱れる問題（要修正）
     }
     
     //ナビゲーションバーにボタンを設定
@@ -44,11 +52,9 @@ class MainPageViewController: UIViewController, UICollectionViewDelegate, UIColl
     func segueInformationPage(sender: UIButton) {
         //遷移先のview取得
         let storyboard: UIStoryboard = self.storyboard!
-//        let nextView = storyboard.instantiateViewController(withIdentifier: "TextView") as! TextViewController
-//        nextView.text = "test\n\ntest2"
-//        nextView.barTitle = "Q & A"
-//        nextView.isQA = true
-        let nextView = storyboard.instantiateViewController(withIdentifier: "ListView") as! ListTableViewController
+        let nextView = storyboard.instantiateViewController(withIdentifier: "TextView") as! TextViewController
+        nextView.barTitle = "Q & A"
+        nextView.isQA = true
         
         //navigationコントローラー、アニメーションの設定
         let navi = UINavigationController(rootViewController: nextView)
@@ -118,5 +124,54 @@ class MainPageViewController: UIViewController, UICollectionViewDelegate, UIColl
         
         return cell
     }
+    
+    //セルが選択された場合の処理
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        m_selectedIcon = indexPath.row
+        performSegue(withIdentifier: "SegueForTableView",sender: nil)
+    }
+    
+    // Segue 準備
+    override func prepare(for segue: UIStoryboardSegue, sender: Any!) {
+        
+        //ListTableViewに遷移
+        if (segue.identifier == "SegueForTableView") {
+            let nextView: ListTableViewController = (segue.destination as? ListTableViewController)!
+            
+            switch (m_selectedIcon) {
+            case 0:
+                nextView.dataType = ListTableViewController.ListDataType.LIST_DATA_WORKS
+                nextView.barTitle = "作品集"
+                break
+            case 1:
+                nextView.dataType = ListTableViewController.ListDataType.LIST_DATA_CHARACTERS
+                break
+            case 2:
+                nextView.dataType = ListTableViewController.ListDataType.LIST_DATA_CHARACTERS
+                break
+            case 3:
+                nextView.dataType = ListTableViewController.ListDataType.LIST_DATA_SPELLS
+                break
+            case 4:
+                nextView.dataType = ListTableViewController.ListDataType.LIST_DATA_SKILLS
+                break
+            case 5:
+                nextView.dataType = ListTableViewController.ListDataType.LIST_DATA_SHOTS
+                break
+            case 6:
+                nextView.dataType = ListTableViewController.ListDataType.LIST_DATA_MUSICS
+                break
+            case 7:
+                nextView.dataType = ListTableViewController.ListDataType.LIST_DATA_LANDS
+                break
+            case 8:
+                nextView.dataType = ListTableViewController.ListDataType.LIST_DATA_TALKS
+                break
+            default:
+                break
+            }
 
+        }
+    }
 }

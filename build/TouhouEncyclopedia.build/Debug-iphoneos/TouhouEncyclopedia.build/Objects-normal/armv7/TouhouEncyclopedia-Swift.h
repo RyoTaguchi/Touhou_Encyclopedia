@@ -163,10 +163,18 @@ SWIFT_CLASS("_TtC18TouhouEncyclopedia11AppDelegate")
 SWIFT_CLASS("_TtC18TouhouEncyclopedia23ListTableViewController")
 @interface ListTableViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified listTableView;
+@property (nonatomic, copy) NSString * _Nonnull barTitle;
+@property (nonatomic, copy) NSArray<NSString *> * _Nonnull sectionList;
+@property (nonatomic, copy) NSArray<NSNumber *> * _Nonnull sectionNumList;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (void)viewWillAppear:(BOOL)animated;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)SetSectionInfo;
+- (void)InitObjectList;
+- (NSInteger)ConvertIndexpathToTatalIndexWithIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)isWithImage SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -174,11 +182,11 @@ SWIFT_CLASS("_TtC18TouhouEncyclopedia23ListTableViewController")
 @class UICollectionView;
 @class UIButton;
 @class UICollectionViewCell;
+@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC18TouhouEncyclopedia22MainPageViewController")
 @interface MainPageViewController : UIViewController <UIScrollViewDelegate, UICollectionViewDataSource, UICollectionViewDelegate>
 @property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified collectionView;
-@property (nonatomic) NSInteger m_iconNum;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (void)viewWillAppear:(BOOL)animated;
@@ -186,6 +194,8 @@ SWIFT_CLASS("_TtC18TouhouEncyclopedia22MainPageViewController")
 - (void)segueInformationPageWithSender:(UIButton * _Nonnull)sender;
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Null_unspecified)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

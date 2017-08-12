@@ -7,8 +7,11 @@ provides-member:
 - ["C18TouhouEncyclopedia14SqlFileManager", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "!="
 - !private "+"
 - !private "=="
+- "Array"
+- "AssignmentPrecedence"
 - !private "BooleanLiteralType"
 - !private "Bundle"
 - !private "Connection"
@@ -24,6 +27,7 @@ depends-top-level:
 - !private "UnicodeScalarType"
 - !private "print"
 depends-member:
+- !private ["Ps9AnyObject", "Array"]
 - !private ["Ps9AnyObject", "Bundle"]
 - !private ["Ps9AnyObject", "Connection"]
 - !private ["Ps9AnyObject", "Expression"]
@@ -39,12 +43,15 @@ depends-member:
 - ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "main"]
 - !private ["Ps9AnyObject", "pluck"]
+- !private ["Ps9AnyObject", "prepare"]
 - !private ["Ps9AnyObject", "print"]
 - !private ["Ps9AnyObject", "removeItem"]
 - !private ["Ps9AnyObject", "scalar"]
 - !private ["Ps9AnyObject", "sqlFileList"]
 - ["Ps9AnyObject", ""]
+- !private ["Sa", "init"]
 - !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "init"]
 - !private ["Ps23BidirectionalCollection", "subscript"]
 - !private ["P6SQLite7Binding", "_getBuiltinLogicValue"]
 - !private ["P6SQLite7Binding", "contains"]
@@ -61,11 +68,13 @@ depends-member:
 - !private ["Ps7CVarArg", "main"]
 - !private ["Ps7CVarArg", "removeItem"]
 - !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "init"]
 - !private ["Ps10Collection", "subscript"]
 - !private ["Ps10Comparable", "contains"]
 - ["Ps10Comparable", "init"]
 - !private ["C6SQLite10Connection", "init"]
 - !private ["C6SQLite10Connection", "pluck"]
+- !private ["C6SQLite10Connection", "prepare"]
 - !private ["C6SQLite10Connection", "scalar"]
 - !private ["Ps28CustomDebugStringConvertible", "bundlePath"]
 - !private ["Ps28CustomDebugStringConvertible", "contains"]
@@ -92,6 +101,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "main"]
 - !private ["Ps23CustomStringConvertible", "pluck"]
+- !private ["Ps23CustomStringConvertible", "prepare"]
 - !private ["Ps23CustomStringConvertible", "removeItem"]
 - !private ["Ps23CustomStringConvertible", "scalar"]
 - !private ["Ps23CustomStringConvertible", "subscript"]
@@ -111,6 +121,7 @@ depends-member:
 - !private ["P6SQLite11Expressible", "count"]
 - !private ["P6SQLite11Expressible", "filter"]
 - ["P6SQLite11Expressible", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
 - !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
 - !private ["Ps25ExpressibleByArrayLiteral", "userDomainMask"]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
@@ -141,6 +152,7 @@ depends-member:
 - ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "contains"]
 - ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "init"]
 - !private ["Ps17MutableCollection", "subscript"]
 - !private ["PSo8NSCoding", "contains"]
 - ["PSo8NSCoding", "init"]
@@ -171,7 +183,9 @@ depends-member:
 - !private ["P6SQLite9QueryType", "count"]
 - !private ["P6SQLite9QueryType", "filter"]
 - !private ["P6SQLite9QueryType", "init"]
+- !private ["Ps22RandomAccessCollection", "init"]
 - !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
 - !private ["Ps26RangeReplaceableCollection", "subscript"]
 - !private ["Ps16RawRepresentable", "documentDirectory"]
 - !private ["Ps16RawRepresentable", "userDomainMask"]
@@ -180,8 +194,10 @@ depends-member:
 - !private ["P6SQLite10SchemaType", "init"]
 - !private ["OCSo11FileManager19SearchPathDirectory", "documentDirectory"]
 - !private ["VCSo11FileManager20SearchPathDomainMask", "userDomainMask"]
+- !private ["Ps8Sequence", "init"]
 - !private ["Ps8Sequence", "subscript"]
 - !private ["Ps10SetAlgebra", "userDomainMask"]
+- ["C18TouhouEncyclopedia14SqlFileManager", "Array"]
 - !private ["C18TouhouEncyclopedia14SqlFileManager", "Bundle"]
 - !private ["C18TouhouEncyclopedia14SqlFileManager", "Connection"]
 - !private ["C18TouhouEncyclopedia14SqlFileManager", "Expression"]
@@ -194,6 +210,7 @@ depends-member:
 - !private ["C18TouhouEncyclopedia14SqlFileManager", "Table"]
 - ["C18TouhouEncyclopedia14SqlFileManager", "deinit"]
 - ["C18TouhouEncyclopedia14SqlFileManager", "getOneRecord"]
+- ["C18TouhouEncyclopedia14SqlFileManager", "getRecordArray"]
 - ["C18TouhouEncyclopedia14SqlFileManager", "getTableElementCount"]
 - ["C18TouhouEncyclopedia14SqlFileManager", "init"]
 - !private ["C18TouhouEncyclopedia14SqlFileManager", "print"]
@@ -212,8 +229,11 @@ depends-member:
 - !private ["P6SQLite5Value", "_getBuiltinLogicValue"]
 - !private ["P6SQLite5Value", "contains"]
 - ["P6SQLite5Value", "init"]
+- !private ["Ps14_ArrayProtocol", "init"]
 - !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
 - !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
 - !private ["Ps24_DestructorSafeContainer", "subscript"]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "contains"]
@@ -238,14 +258,19 @@ depends-member:
 - ["Ps9_Hashable", "init"]
 - !private ["Ps9_Hashable", "main"]
 - !private ["Ps9_Hashable", "removeItem"]
+- !private ["Ps10_Indexable", "init"]
 - !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "init"]
 - !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "init"]
 - !private ["Ps17_MutableIndexable", "subscript"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "contains"]
 - ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
 - !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
 - !private ["Ps26_RangeReplaceableIndexable", "subscript"]
 depends-nominal:
 - "Ps9AnyObject"
@@ -342,4 +367,4 @@ depends-external:
 - "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/Carthage/Build/iOS/SQLite.framework/Headers/SQLite-Swift.h"
 - "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/Carthage/Build/iOS/SQLite.framework/Modules/module.modulemap"
 - "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/Carthage/Checkouts/SQLite.swift/CocoaPods/iphoneos/module.modulemap"
-interface-hash: "bd0f91429bc2b97f194511efc63e16a1"
+interface-hash: "6234a8f9d945c8a77f5ef33c79e527a1"

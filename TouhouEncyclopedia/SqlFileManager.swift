@@ -62,15 +62,6 @@ class SqlFileManager {
             }
         }
     }
-        
-// これは一応消さない
-//        do {
-//            let db:SQLite.Connection = try Connection(path, readonly: true)
-//            let Query:SQLite.Table = Table("ZOLD")
-//            let all:Array<SQLite.Row> = Array(try db.prepare(Query))
-//        } catch {
-//            
-//        }
     
     
     //SQL,Table,Key,Keyの条件を指定し、レコードを一つ取得
@@ -103,7 +94,35 @@ class SqlFileManager {
         }
     }
     
-    //SQL,Table,Keyを指定し、Keyがnilでないレコードの集合を取得
+    
+    //SQL,Table,Key,SortKeyを指定し、Keyがnilでないレコードの集合を取得, sortKeyでソート
+    func getRecordArray(sql: String, table: String, key: String, sortKey: String) -> Array<SQLite.Row> {
+        
+        var sqlRowArray:Array<SQLite.Row> = []
+        let path:String = Bundle.main.bundlePath + "/SqlFile/" + sql + ".sqlite"
+        
+        do {
+            let db:SQLite.Connection = try Connection(path, readonly: true)
+            
+            // クエリ作成
+            let searchTable:SQLite.Table = Table(table)
+            let strSearchKey = Expression<String>(key)
+            let strSortKey = Expression<String>(sortKey)
+            let query = searchTable.filter(strSearchKey != "0" && strSearchKey != "")
+                                   .order(strSortKey)
+            
+            do {
+                sqlRowArray = Array(try db.prepare(query))
+            } catch {
+                print("ERROR: db.pluck(query) failed.")
+            }
+        } catch {
+            print("ERROR: Connection database failed.")
+        }
+        
+        return sqlRowArray
+    }
+    
     
     //SQL,Tableを指定し、要素数を取得
     func getTableElementCount(sql: String, table: String) -> Int {
