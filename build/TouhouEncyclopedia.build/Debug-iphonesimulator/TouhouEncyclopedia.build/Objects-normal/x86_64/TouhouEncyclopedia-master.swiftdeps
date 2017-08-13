@@ -1,7 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "a3845805744ca3a59a114415566fb12f"
-build_time: [551797822, 340386000]
-inputs:
-  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/SecondViewController.swift": [551797281, 0]
-  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/AppDelegate.swift": [551797753, 0]
-  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/FirstViewController.swift": [551797281, 0]

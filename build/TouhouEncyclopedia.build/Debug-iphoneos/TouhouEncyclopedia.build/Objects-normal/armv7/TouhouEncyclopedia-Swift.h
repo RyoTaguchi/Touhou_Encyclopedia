@@ -155,6 +155,7 @@ SWIFT_CLASS("_TtC18TouhouEncyclopedia11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSFileManager;
 @class UITableView;
 @class UITableViewCell;
 @class NSBundle;
@@ -162,6 +163,7 @@ SWIFT_CLASS("_TtC18TouhouEncyclopedia11AppDelegate")
 
 SWIFT_CLASS("_TtC18TouhouEncyclopedia23ListTableViewController")
 @interface ListTableViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, strong) NSFileManager * _Nonnull checkValidation;
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified listTableView;
 @property (nonatomic, copy) NSString * _Nonnull barTitle;
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull sectionList;
@@ -171,10 +173,14 @@ SWIFT_CLASS("_TtC18TouhouEncyclopedia23ListTableViewController")
 - (void)viewWillAppear:(BOOL)animated;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (void)SetSectionInfo;
-- (void)InitObjectList;
-- (NSInteger)ConvertIndexpathToTatalIndexWithIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)setSectionInfo;
+- (void)initObjectList SWIFT_METHOD_FAMILY(none);
+- (NSInteger)convertIndexpathToTatalIndexWithIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getCellTextWithIndex:(NSInteger)index SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getCellImagePathWithIndex:(NSInteger)index SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isWithImage SWIFT_WARN_UNUSED_RESULT;
+- (NSArray<NSString *> * _Nullable)sectionIndexTitlesForTableViewWithTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView sectionForSectionIndexTitle:(NSString * _Nonnull)title atIndex:(NSInteger)index SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

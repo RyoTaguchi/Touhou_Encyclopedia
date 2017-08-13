@@ -25,6 +25,7 @@
 		2C9396911F02A81200F82CD4 /* SqlFile in Resources */ = {isa = PBXBuildFile; fileRef = 2C9396901F02A81200F82CD4 /* SqlFile */; };
 		2C9396CA1F05A7EE00F82CD4 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9396BC1F05A76400F82CD4 /* SQLite.framework */; };
 		2C9396CC1F05A82100F82CD4 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9396BC1F05A76400F82CD4 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2CB7C09D1F40126D00679936 /* charLogo in Resources */ = {isa = PBXBuildFile; fileRef = 2CB7C09B1F40124000679936 /* charLogo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +140,7 @@
 		2C9396901F02A81200F82CD4 /* SqlFile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SqlFile; sourceTree = "<group>"; };
 		2C9396931F05A57E00F82CD4 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = Carthage/Build/iOS/SQLite.framework; sourceTree = "<group>"; };
 		2C9396B11F05A76400F82CD4 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = Carthage/Checkouts/SQLite.swift/SQLite.xcodeproj; sourceTree = "<group>"; };
+		2CB7C09B1F40124000679936 /* charLogo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = charLogo; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 				2C3F792B1F013D210030ED3A /* Main.storyboard */,
 				2C3F792E1F013D210030ED3A /* Assets.xcassets */,
 				2C3F79301F013D210030ED3A /* LaunchScreen.storyboard */,
+				2CB7C09B1F40124000679936 /* charLogo */,
 				2C916FEC1F11056000C81C01 /* textData */,
 				2C916FE91F10E60A00C81C01 /* images */,
 				2C9396901F02A81200F82CD4 /* SqlFile */,
@@ -421,6 +424,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB7C09D1F40126D00679936 /* charLogo in Resources */,
 				2C916FEA1F10E60A00C81C01 /* images in Resources */,
 				2C916FED1F11056000C81C01 /* textData in Resources */,
 				2C3F79321F013D210030ED3A /* LaunchScreen.storyboard in Resources */,

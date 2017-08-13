@@ -145,10 +145,11 @@ class MainPageViewController: UIViewController, UICollectionViewDelegate, UIColl
                 nextView.barTitle = "作品集"
                 break
             case 1:
-                nextView.dataType = ListTableViewController.ListDataType.LIST_DATA_CHARACTERS
+                nextView.dataType = ListTableViewController.ListDataType.LIST_DATA_CHAR_WIN
+                nextView.barTitle = "キャラクター集"
                 break
             case 2:
-                nextView.dataType = ListTableViewController.ListDataType.LIST_DATA_CHARACTERS
+                nextView.dataType = ListTableViewController.ListDataType.LIST_DATA_CHAR_OLD
                 break
             case 3:
                 nextView.dataType = ListTableViewController.ListDataType.LIST_DATA_SPELLS

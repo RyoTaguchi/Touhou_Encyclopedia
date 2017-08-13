@@ -300,7 +300,8 @@ depends-member:
 - ["Ps23CustomStringConvertible", "viewForZoomingInScrollView"]
 - !private ["Ps23CustomStringConvertible", "viewWithTag"]
 - ["Ps23CustomStringConvertible", ""]
-- !private ["Ps9Equatable", "LIST_DATA_CHARACTERS"]
+- !private ["Ps9Equatable", "LIST_DATA_CHAR_OLD"]
+- !private ["Ps9Equatable", "LIST_DATA_CHAR_WIN"]
 - !private ["Ps9Equatable", "LIST_DATA_LANDS"]
 - !private ["Ps9Equatable", "LIST_DATA_MUSICS"]
 - !private ["Ps9Equatable", "LIST_DATA_SHOTS"]
@@ -378,7 +379,8 @@ depends-member:
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
-- !private ["Ps8Hashable", "LIST_DATA_CHARACTERS"]
+- !private ["Ps8Hashable", "LIST_DATA_CHAR_OLD"]
+- !private ["Ps8Hashable", "LIST_DATA_CHAR_WIN"]
 - !private ["Ps8Hashable", "LIST_DATA_LANDS"]
 - !private ["Ps8Hashable", "LIST_DATA_MUSICS"]
 - !private ["Ps8Hashable", "LIST_DATA_SHOTS"]
@@ -450,7 +452,8 @@ depends-member:
 - !private ["Ps8Hashable", "viewWithTag"]
 - ["Ps8Hashable", ""]
 - !private ["V10Foundation9IndexPath", "row"]
-- !private ["OC18TouhouEncyclopedia23ListTableViewController12ListDataType", "LIST_DATA_CHARACTERS"]
+- !private ["OC18TouhouEncyclopedia23ListTableViewController12ListDataType", "LIST_DATA_CHAR_OLD"]
+- !private ["OC18TouhouEncyclopedia23ListTableViewController12ListDataType", "LIST_DATA_CHAR_WIN"]
 - !private ["OC18TouhouEncyclopedia23ListTableViewController12ListDataType", "LIST_DATA_LANDS"]
 - !private ["OC18TouhouEncyclopedia23ListTableViewController12ListDataType", "LIST_DATA_MUSICS"]
 - !private ["OC18TouhouEncyclopedia23ListTableViewController12ListDataType", "LIST_DATA_SHOTS"]
@@ -757,7 +760,8 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
 - !private ["Ps22RandomAccessCollection", "row"]
-- !private ["Ps16RawRepresentable", "LIST_DATA_CHARACTERS"]
+- !private ["Ps16RawRepresentable", "LIST_DATA_CHAR_OLD"]
+- !private ["Ps16RawRepresentable", "LIST_DATA_CHAR_WIN"]
 - !private ["Ps16RawRepresentable", "LIST_DATA_LANDS"]
 - !private ["Ps16RawRepresentable", "LIST_DATA_MUSICS"]
 - !private ["Ps16RawRepresentable", "LIST_DATA_SHOTS"]
@@ -1048,6 +1052,9 @@ depends-member:
 - !private ["PSo11UIFocusItem", "isTranslucent"]
 - !private ["PSo11UIFocusItem", "text"]
 - !private ["PSo11UIFocusItem", "viewWithTag"]
+- !private ["PSo27UIGestureRecognizerDelegate", "ListDataType"]
+- !private ["PSo27UIGestureRecognizerDelegate", "barTitle"]
+- !private ["PSo27UIGestureRecognizerDelegate", "dataType"]
 - !private ["CSo7UIImage", "init"]
 - !private ["CSo11UIImageView", "image"]
 - !private ["CSo7UILabel", "text"]
@@ -1421,7 +1428,8 @@ depends-member:
 - !private ["Ps26_ExpressibleByImageLiteral", "init"]
 - !private ["Ps33_ExpressibleByStringInterpolation", "init"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
-- !private ["Ps9_Hashable", "LIST_DATA_CHARACTERS"]
+- !private ["Ps9_Hashable", "LIST_DATA_CHAR_OLD"]
+- !private ["Ps9_Hashable", "LIST_DATA_CHAR_WIN"]
 - !private ["Ps9_Hashable", "LIST_DATA_LANDS"]
 - !private ["Ps9_Hashable", "LIST_DATA_MUSICS"]
 - !private ["Ps9_Hashable", "LIST_DATA_SHOTS"]
@@ -1561,6 +1569,7 @@ depends-nominal:
 - !private "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
 - !private "PSo11UIFocusItem"
+- !private "PSo27UIGestureRecognizerDelegate"
 - !private "CSo7UIImage"
 - !private "CSo11UIImageView"
 - !private "CSo7UILabel"
