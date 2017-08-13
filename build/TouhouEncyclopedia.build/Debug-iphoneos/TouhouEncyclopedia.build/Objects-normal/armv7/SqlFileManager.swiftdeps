@@ -8,6 +8,7 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "!="
+- !private "&&"
 - !private "+"
 - !private "=="
 - "Array"
@@ -121,6 +122,7 @@ depends-member:
 - !private ["P6SQLite11Expressible", "count"]
 - !private ["P6SQLite11Expressible", "filter"]
 - ["P6SQLite11Expressible", "init"]
+- !private ["P6SQLite11Expressible", "order"]
 - !private ["Ps25ExpressibleByArrayLiteral", "init"]
 - !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
 - !private ["Ps25ExpressibleByArrayLiteral", "userDomainMask"]
@@ -183,6 +185,7 @@ depends-member:
 - !private ["P6SQLite9QueryType", "count"]
 - !private ["P6SQLite9QueryType", "filter"]
 - !private ["P6SQLite9QueryType", "init"]
+- !private ["P6SQLite9QueryType", "order"]
 - !private ["Ps22RandomAccessCollection", "init"]
 - !private ["Ps22RandomAccessCollection", "subscript"]
 - !private ["Ps26RangeReplaceableCollection", "init"]
@@ -192,6 +195,7 @@ depends-member:
 - !private ["P6SQLite10SchemaType", "count"]
 - !private ["P6SQLite10SchemaType", "filter"]
 - !private ["P6SQLite10SchemaType", "init"]
+- !private ["P6SQLite10SchemaType", "order"]
 - !private ["OCSo11FileManager19SearchPathDirectory", "documentDirectory"]
 - !private ["VCSo11FileManager20SearchPathDomainMask", "userDomainMask"]
 - !private ["Ps8Sequence", "init"]
@@ -222,6 +226,7 @@ depends-member:
 - !private ["V6SQLite5Table", "count"]
 - !private ["V6SQLite5Table", "filter"]
 - !private ["V6SQLite5Table", "init"]
+- !private ["V6SQLite5Table", "order"]
 - !private ["Ps16TextOutputStream", "contains"]
 - ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "contains"]
