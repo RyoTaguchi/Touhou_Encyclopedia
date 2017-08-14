@@ -36,8 +36,6 @@ class MainPageViewController: UIViewController, UICollectionViewDelegate, UIColl
     override func viewWillAppear(_ animated: Bool) {
         self.tabBarController?.title = "東方Project大百科"
         setQuestionButton()
-        
-        //遷移時にナビゲーションバーが乱れる問題（要修正）
     }
     
     //ナビゲーションバーにボタンを設定
@@ -146,10 +144,11 @@ class MainPageViewController: UIViewController, UICollectionViewDelegate, UIColl
                 break
             case 1:
                 nextView.dataType = ListTableViewController.ListDataType.LIST_DATA_CHAR_WIN
-                nextView.barTitle = "キャラクター集"
+                nextView.barTitle = "キャラクター集（Win版）"
                 break
             case 2:
                 nextView.dataType = ListTableViewController.ListDataType.LIST_DATA_CHAR_OLD
+                nextView.barTitle = "キャラクター集（旧作）"
                 break
             case 3:
                 nextView.dataType = ListTableViewController.ListDataType.LIST_DATA_SPELLS

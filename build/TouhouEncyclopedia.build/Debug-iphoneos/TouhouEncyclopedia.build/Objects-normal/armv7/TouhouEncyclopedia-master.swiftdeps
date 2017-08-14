@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "1aa464f4d596ee6608b792bfc44b4fd8"
-build_time: [555958471, 887783000]
+build_time: [556025147, 211671000]
 inputs:
   "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/PlistFileManager.swift": [552830739, 0]
   "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/SqlFileManager.swift": [555874623, 0]
@@ -8,4 +8,4 @@ inputs:
   "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/AppDelegate.swift": [552830737, 0]
   "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/MainPageViewController.swift": [555956659, 0]
   "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/TextViewController.swift": [555326214, 0]
-  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/ListTableViewController.swift": [555958461, 0]
+  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/ListTableViewController.swift": [556025143, 0]

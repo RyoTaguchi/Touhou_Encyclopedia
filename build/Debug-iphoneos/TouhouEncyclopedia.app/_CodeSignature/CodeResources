@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		NyD2nImnY845MS7BOIXamGLevO0=
+		bzT8XYYztAnuLgCI3a55BkO49NI=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Frameworks/SQLite.framework/SQLite</key>
 		<data>
-		jw5Jldtn9Me6b6t65SoNwL1pwfg=
+		7ggKs7vTzJKNGg4oE2R4cu6x0Vg=
 		</data>
 		<key>Frameworks/SQLite.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -191,6 +191,10 @@
 		<key>SqlFile/titleDetailData.sqlite</key>
 		<data>
 		cffxiNuK9TvDB6lTQ+g4q97G8g0=
+		</data>
+		<key>SqlFile/titleDetailData.sqlite-journal</key>
+		<data>
+		ShyvKi1kpwk1eBQkny4dddzSygk=
 		</data>
 		<key>charLogo/Akyu.png</key>
 		<data>
@@ -620,17 +624,9 @@
 		<data>
 		8XetmgyCa+9OAWRGcAI3+Fxk+2k=
 		</data>
-		<key>charLogo/logo_0.png</key>
+		<key>charLogo/forOldChar.png</key>
 		<data>
 		IVnuGmGz9ysCvE90rF4qrdCvqcY=
-		</data>
-		<key>charLogo/logo_89.png</key>
-		<data>
-		BoJ3gTp5EQALt0x+78dYuGSprh4=
-		</data>
-		<key>charLogo/logo_90.png</key>
-		<data>
-		BoJ3gTp5EQALt0x+78dYuGSprh4=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -771,11 +767,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NyD2nImnY845MS7BOIXamGLevO0=
+			bzT8XYYztAnuLgCI3a55BkO49NI=
 			</data>
 			<key>hash2</key>
 			<data>
-			eIPzoFxXNnZwWPwg7CFFJ7R5gRhk1VnqkoCCXrzKJwI=
+			ugi4Zlkw3PBoa6GyIHC/2PeMqc0X6FSRKIiPbdQUmUc=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -925,11 +921,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jw5Jldtn9Me6b6t65SoNwL1pwfg=
+			7ggKs7vTzJKNGg4oE2R4cu6x0Vg=
 			</data>
 			<key>hash2</key>
 			<data>
-			c33Z9bGvq7JEj2WBwZW51DPRQIydKErAtae6ajGEhAY=
+			05vIXwToE3IysbBuMAwcscwS0pdPQGJSs/imLJJh03Q=
 			</data>
 		</dict>
 		<key>Frameworks/SQLite.framework/_CodeSignature/CodeResources</key>
@@ -1260,6 +1256,17 @@
 			<key>hash2</key>
 			<data>
 			/lo6Tp/gDVFWUpofdUzV4DzAmiFm74jYyCgnvHog+9c=
+			</data>
+		</dict>
+		<key>SqlFile/titleDetailData.sqlite-journal</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ShyvKi1kpwk1eBQkny4dddzSygk=
+			</data>
+			<key>hash2</key>
+			<data>
+			kprS47LM7LAxx7KJHng6WbEIKqyjAytl2DRUxG9zwDM=
 			</data>
 		</dict>
 		<key>charLogo/Akyu.png</key>
@@ -2439,7 +2446,7 @@
 			y/LnXCxeeC2iPpUmF62MTOyr3b3tPIcSyufBRL+jBuE=
 			</data>
 		</dict>
-		<key>charLogo/logo_0.png</key>
+		<key>charLogo/forOldChar.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2448,28 +2455,6 @@
 			<key>hash2</key>
 			<data>
 			rta6OEGIa8NwkI43JNCjnNSexYF2rhsELieeYd/nfAE=
-			</data>
-		</dict>
-		<key>charLogo/logo_89.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BoJ3gTp5EQALt0x+78dYuGSprh4=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZRI2MbjpBGzifaOk1i4hy0wPGnT0ajjtWywb9yfaklI=
-			</data>
-		</dict>
-		<key>charLogo/logo_90.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BoJ3gTp5EQALt0x+78dYuGSprh4=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZRI2MbjpBGzifaOk1i4hy0wPGnT0ajjtWywb9yfaklI=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>

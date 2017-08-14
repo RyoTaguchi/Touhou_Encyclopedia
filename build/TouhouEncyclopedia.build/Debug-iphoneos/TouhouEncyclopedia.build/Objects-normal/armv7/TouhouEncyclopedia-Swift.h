@@ -155,32 +155,34 @@ SWIFT_CLASS("_TtC18TouhouEncyclopedia11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSFileManager;
 @class UITableView;
 @class UITableViewCell;
+@class UILongPressGestureRecognizer;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC18TouhouEncyclopedia23ListTableViewController")
-@interface ListTableViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
-@property (nonatomic, strong) NSFileManager * _Nonnull checkValidation;
+@interface ListTableViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate, UITableViewDelegate>
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified listTableView;
 @property (nonatomic, copy) NSString * _Nonnull barTitle;
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull sectionList;
 @property (nonatomic, copy) NSArray<NSNumber *> * _Nonnull sectionNumList;
 - (void)viewDidLoad;
+- (void)initObjectList SWIFT_METHOD_FAMILY(none);
+- (void)initSectionList SWIFT_METHOD_FAMILY(none);
 - (void)didReceiveMemoryWarning;
 - (void)viewWillAppear:(BOOL)animated;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (NSArray<NSString *> * _Nullable)sectionIndexTitlesForTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView sectionForSectionIndexTitle:(NSString * _Nonnull)title atIndex:(NSInteger)index SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (void)setSectionInfo;
-- (void)initObjectList SWIFT_METHOD_FAMILY(none);
+- (BOOL)isWithImage SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)convertIndexpathToTatalIndexWithIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getCellTextWithIndex:(NSInteger)index SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getCellImagePathWithIndex:(NSInteger)index SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)isWithImage SWIFT_WARN_UNUSED_RESULT;
-- (NSArray<NSString *> * _Nullable)sectionIndexTitlesForTableViewWithTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView sectionForSectionIndexTitle:(NSString * _Nonnull)title atIndex:(NSInteger)index SWIFT_WARN_UNUSED_RESULT;
+- (void)cellLongPressedWithSender:(UILongPressGestureRecognizer * _Nonnull)sender;
+- (void)showAlertWithIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

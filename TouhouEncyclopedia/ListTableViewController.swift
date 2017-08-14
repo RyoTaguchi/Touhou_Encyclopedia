@@ -25,29 +25,33 @@ class ListTableViewController: UIViewController, UITableViewDelegate, UITableVie
         case LIST_DATA_TALKS        = 9
     }
     
-    var checkValidation = FileManager.default
-    
     @IBOutlet weak var listTableView: UITableView!
     
-    var barTitle:String = ""
+    private var checkValidation = FileManager.default
     
+    var barTitle:String = ""
     var dataType:ListDataType = ListDataType.LIST_DATA_INIT_VALUE
     
-    var sectionList:Array<String> = []
-    var sectionNumList:Array<Int> = []
+    private var sectionNameList:Array<String> = []      //セクション名を格納する配列
+    private var sectionNumList:Array<Int> = []          //各セクションの要素数を格納する配列
+    private var objectList:Array<SQLite.Row> = []       //表示するオブジェクトを一括で持つ配列
+    private var sectionDataList:Array<Array<SQLite.Row>> = []      //セクション分けが必要な際に使う配列（作品集用）
     
-    // 表示するオブジェクトを一括で持つ配列
-    var objectList:Array<SQLite.Row> = []
+    private var isDisplayMainChar = true
 
+    
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
     
         listTableView.delegate = self
         listTableView.dataSource = self
 
         //各種初期化
-        initSectionList()
+        initsectionNameList()
         initObjectList()
+        initBarRightButton()
         
         //listTableViewにイベントのrecognaizer設定
         let longPressRecognizer = UILongPressGestureRecognizer(target: self, action: #selector(ListTableViewController.cellLongPressed(sender:)))
@@ -61,12 +65,29 @@ class ListTableViewController: UIViewController, UITableViewDelegate, UITableVie
         let sqlFileManager = SqlFileManager.sqlFileManager
         
         switch dataType {
+            
         case ListDataType.LIST_DATA_WORKS:
+            var tmpList:Array<SQLite.Row> = []
+            tmpList = sqlFileManager.getRecordArray(sql: "titleDetailData", table: "GAME", key: "READ", sortKey: "ID")
+            sectionDataList.append(tmpList)
+            tmpList = sqlFileManager.getRecordArray(sql: "titleDetailData", table: "CD", key: "ID", sortKey: "ID")
+            sectionDataList.append(tmpList)
+            tmpList = sqlFileManager.getRecordArray(sql: "titleDetailData", table: "BOOK", key: "ID", sortKey: "ID")
+            sectionDataList.append(tmpList)
+            tmpList = sqlFileManager.getRecordArray(sql: "titleDetailData", table: "OTHER", key: "ID", sortKey: "ID")
+            sectionDataList.append(tmpList)
             return
+            
         case ListDataType.LIST_DATA_CHAR_WIN:
-            objectList = sqlFileManager.getRecordArray(sql: "charDetailData", table: "WIN", key: "IS_DETAILPAGE", sortKey: "IS_DETAILPAGE")
+            if isDisplayMainChar == true {
+                objectList = sqlFileManager.getRecordArray(sql: "charDetailData", table: "WIN", key: "IS_DETAILPAGE", sortKey: "IS_DETAILPAGE")
+            } else {
+                objectList = sqlFileManager.getRecordArray(sql: "charDetailData", table: "SUB", key: "ID", sortKey: "ID")
+            }
             return
+            
         case ListDataType.LIST_DATA_CHAR_OLD:
+            objectList = sqlFileManager.getRecordArray(sql: "charDetailData", table: "OLD", key: "ID", sortKey: "ID")
             return
         case ListDataType.LIST_DATA_SPELLS:
             return
@@ -86,14 +107,50 @@ class ListTableViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     //セクションリストを初期化
-    func initSectionList(){
+    func initsectionNameList() {
+        
         switch dataType {
+        case ListDataType.LIST_DATA_WORKS:
+            sectionNameList = ["Game"," ","CD"," ","書籍"," ","他"]
         case ListDataType.LIST_DATA_CHAR_WIN:
-            sectionList = ["紅"," ","妖"," ","萃"," ","永"," ","花"," ","風"," ","緋"," ","地"," ","星"," ","非"," ","ダ"," ","神"," ","心"," ","輝"," ","深"," ","紺"," ","天"," ","他"]
-            sectionNumList = [1, 12, 23, 24, 32, 37, 45, 47, 55, 63, 64, 65, 72, 73, 81, 82, 89, 92, objectList.count]
+            if isDisplayMainChar == true {
+                sectionNameList = ["紅"," ","妖"," ","萃"," ","永"," ","花"," ","風"," ","緋"," ","地"," ","星"," ","非"," ","ダ"," ","神"," ","心"," ","輝"," ","深"," ","紺"," ","天"," ","他"]
+                sectionNumList = [1, 12, 23, 24, 32, 37, 45, 47, 55, 63, 64, 65, 72, 73, 81, 82, 89, 92, objectList.count]
+            }
+        case ListDataType.LIST_DATA_CHAR_OLD:
+            sectionNameList = ["靈"," ","封"," ","夢"," ","幻"," ","怪"]
+            sectionNumList = [1, 9, 20, 29, 38, objectList.count]
         default:
             return
         }
+    }
+    
+    //右上のボタン設定
+    func initBarRightButton() {
+        
+        switch dataType {
+        case ListDataType.LIST_DATA_CHAR_WIN:
+            self.navigationItem.rightBarButtonItem = nil
+            let exchangeDisplayCharBtn:UIBarButtonItem = UIBarButtonItem(title: "サブ", style: UIBarButtonItemStyle.plain, target: self, action: #selector(exchangeDisplayChar))
+            self.navigationItem.rightBarButtonItem = exchangeDisplayCharBtn
+        default:
+            return
+        }
+    }
+    
+    //Win版キャラ集のときのみ使用
+    //メインキャラとサブキャラの表示を入れ替え
+    func exchangeDisplayChar() {
+        
+        if isDisplayMainChar == true {
+            self.navigationItem.rightBarButtonItem?.title = "メイン"
+        } else {
+            self.navigationItem.rightBarButtonItem?.title = "サブ"
+        }
+        
+        isDisplayMainChar = !isDisplayMainChar
+        initObjectList()
+        listTableView.reloadData()
     }
 
     override func didReceiveMemoryWarning() {
@@ -106,9 +163,10 @@ class ListTableViewController: UIViewController, UITableViewDelegate, UITableVie
     
     //セクション数を設定
     func numberOfSections(in tableView: UITableView) -> Int {
+        
         switch dataType {
         case ListDataType.LIST_DATA_WORKS:
-            return 1
+            return sectionDataList.count
         default:
             return 1
         }
@@ -119,7 +177,7 @@ class ListTableViewController: UIViewController, UITableViewDelegate, UITableVie
         
         switch dataType {
         case ListDataType.LIST_DATA_WORKS:
-            return 1
+            return sectionDataList[section].count
         default:
             if section == 0 {
                 return objectList.count
@@ -131,7 +189,19 @@ class ListTableViewController: UIViewController, UITableViewDelegate, UITableVie
     
     //セクション名の配列を返す。セクションの名前と、各セクションの要素数を設定
     func sectionIndexTitles(for tableView: UITableView) -> [String]? {
-        return sectionList
+        
+        switch dataType {
+        case ListDataType.LIST_DATA_WORKS:
+            return sectionNameList
+        case ListDataType.LIST_DATA_CHAR_WIN:
+            if isDisplayMainChar == true {
+                return sectionNameList
+            } else {
+                return nil
+            }
+        default:
+            return sectionNameList
+        }
     }
     
     //セクションにジャンプする際に呼ばれる
@@ -140,7 +210,12 @@ class ListTableViewController: UIViewController, UITableViewDelegate, UITableVie
         var cellNum:Int = 0
         
         switch dataType {
-        case ListDataType.LIST_DATA_CHAR_WIN:
+        case ListDataType.LIST_DATA_WORKS:
+            cellNum = index/2
+            let indexPath:IndexPath = IndexPath(row: 0, section: index/2)
+            tableView.scrollToRow(at: indexPath, at: UITableViewScrollPosition.top, animated: false)
+            
+        case ListDataType.LIST_DATA_CHAR_WIN, ListDataType.LIST_DATA_CHAR_OLD:
             cellNum = sectionNumList[index/2]
             let indexPath:IndexPath = IndexPath(row: cellNum-1, section: 0)
             tableView.scrollToRow(at: indexPath, at: UITableViewScrollPosition.top, animated: false)
@@ -151,10 +226,19 @@ class ListTableViewController: UIViewController, UITableViewDelegate, UITableVie
         return cellNum
     }
     
-    
+    // セクションヘッダ設定
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if dataType == ListDataType.LIST_DATA_WORKS {
+            let sectionHeaderNameList:Array<String> = ["ゲーム", "音楽CD", "書籍", "その他"]
+            return sectionHeaderNameList[section]
+        } else {
+            return nil
+        }
+    }
     
     //セルの内容を設定
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         //セルを取得
         let cell:UITableViewCell
         if isWithImage() {
@@ -163,18 +247,15 @@ class ListTableViewController: UIViewController, UITableViewDelegate, UITableVie
             cell = listTableView.dequeueReusableCell(withIdentifier: "cellNoImage", for: indexPath) as UITableViewCell
         }
         
-        //インデックス取得
-        let allIndex:Int = convertIndexpathToTatalIndex(indexPath: indexPath)
-        
         //テキスト設定
         if let textLabel = cell.viewWithTag(1) as? UILabel {
-            textLabel.text = getCellText(index: allIndex)
+            textLabel.text = getCellText(indexPath: indexPath)
         }
         
         //画像設定
         if isWithImage() {
             if let imageView = cell.viewWithTag(2) as? UIImageView {
-                let imagePath:String = getCellImagePath(index: allIndex)
+                let imagePath:String = getCellImagePath(indexPath: indexPath)
                 if checkValidation.fileExists(atPath: imagePath) {
                     imageView.image = UIImage(contentsOfFile: imagePath)
                 } else {
@@ -189,7 +270,7 @@ class ListTableViewController: UIViewController, UITableViewDelegate, UITableVie
         return cell
     }
     
-    //画像ありか無しかを判定
+    //セルの画像の有無を判定
     func isWithImage() -> Bool {
         
         switch dataType {
@@ -219,7 +300,9 @@ class ListTableViewController: UIViewController, UITableViewDelegate, UITableVie
     //インデックスのパスを全体でのものに変換
     func convertIndexpathToTatalIndex(indexPath: IndexPath) -> Int {
      
-        if (sectionList.count <= 1) {
+        if sectionNameList.count <= 1 {
+            return indexPath.row
+        } else if dataType == ListDataType.LIST_DATA_WORKS {
             return indexPath.row
         } else {
             var totalIndex:Int = indexPath.row
@@ -228,27 +311,34 @@ class ListTableViewController: UIViewController, UITableViewDelegate, UITableVie
                     totalIndex += sectionNumList[(indexPath.section/2)+1] - sectionNumList[indexPath.section/2]
                 }
             }
-            
-            if totalIndex > 90 {
-                print("")
-            }
+
             return totalIndex
         }
     }
     
     
     //セルのテキスト取得
-    func getCellText(index: Int) -> String {
+    func getCellText(indexPath: IndexPath) -> String {
         
         var cellText:String = ""
         
+        if indexPath.section > 4 {
+            print("")
+        }
         switch dataType {
         case ListDataType.LIST_DATA_WORKS:
-            return cellText
-        case ListDataType.LIST_DATA_CHAR_WIN:
-            cellText = objectList[index][Expression<String>("NAME")]
-        case ListDataType.LIST_DATA_CHAR_OLD:
-            return cellText
+            let tmpSQLData:SQLite.Row = sectionDataList[indexPath.section][indexPath.row]
+            let title:String = tmpSQLData[Expression<String>("TITLE")]
+            let subTitle:String? = tmpSQLData[Expression<String?>("SUBTITLE")]
+            cellText = cellText + title
+            if subTitle != nil {
+                cellText = cellText + subTitle!
+            }
+            
+        case ListDataType.LIST_DATA_CHAR_WIN, ListDataType.LIST_DATA_CHAR_OLD:
+            let allIndex:Int = convertIndexpathToTatalIndex(indexPath: indexPath)
+            cellText = objectList[allIndex][Expression<String>("NAME")]
+            
         case ListDataType.LIST_DATA_SPELLS:
             return cellText
         case ListDataType.LIST_DATA_SKILLS:
@@ -270,7 +360,7 @@ class ListTableViewController: UIViewController, UITableViewDelegate, UITableVie
     
     
     //セル画像のパス取得
-    func getCellImagePath(index: Int) -> String {
+    func getCellImagePath(indexPath: IndexPath) -> String {
         
         var imagePath:String = ""
         
@@ -278,9 +368,15 @@ class ListTableViewController: UIViewController, UITableViewDelegate, UITableVie
         case ListDataType.LIST_DATA_WORKS:
             return imagePath
         case ListDataType.LIST_DATA_CHAR_WIN:
-            let fileName:String = "charLogo/" + objectList[index][Expression<String>("LOGOFILENAME")]
+            var fileName:String
+            if isDisplayMainChar == true {
+                fileName = "charLogo/" + objectList[convertIndexpathToTatalIndex(indexPath: indexPath)][Expression<String>("LOGOFILENAME")]
+            } else {
+                fileName = "charLogo/forOldChar"
+            }
             imagePath = Bundle.main.path(forResource:fileName , ofType: "png")!
         case ListDataType.LIST_DATA_CHAR_OLD:
+            imagePath = Bundle.main.path(forResource:"charLogo/forOldChar" , ofType: "png")!
             return imagePath
         case ListDataType.LIST_DATA_SPELLS:
             return imagePath
@@ -303,22 +399,101 @@ class ListTableViewController: UIViewController, UITableViewDelegate, UITableVie
     
     
     //セル長押し時の処理
-    func cellLongPressed(sender : UILongPressGestureRecognizer){
+    func cellLongPressed(sender : UILongPressGestureRecognizer) {
+        
         //押された位置でcellのpathを取得
         let point = sender.location(in: listTableView)
         let indexPath = listTableView.indexPathForRow(at: point)
         
-        //長押しの開始時は何もしない
+        //長押しの開始時にアクションシート表示
         if sender.state == UIGestureRecognizerState.began{
-            return
+            showAlert(indexPath: indexPath!)
         }
-        
-        showAlert(indexPath: indexPath!)
     }
     
     
     //アクションアラート生成
-    func showAlert(indexPath: IndexPath){
+    func showAlert(indexPath: IndexPath) {
         
+        let index:Int = convertIndexpathToTatalIndex(indexPath: indexPath)
+        let actionSheet = UIAlertController(title: "タイトル", message: nil, preferredStyle: UIAlertControllerStyle.actionSheet)
+        
+        var copyNameActionTitle: String = ""
+        var copyAllNameActionTitle: String = ""
+ 
+        
+        //各リスト固有のアクションタイトル
+        switch dataType {
+        case ListDataType.LIST_DATA_WORKS:
+            let tmpSQLData:SQLite.Row = sectionDataList[indexPath.section][indexPath.row]
+            let title:String = tmpSQLData[Expression<String>("TITLE")]
+            let subTitle:String? = tmpSQLData[Expression<String?>("SUBTITLE")]
+            actionSheet.title = title
+            if subTitle != nil {
+                actionSheet.title = actionSheet.title! + subTitle!
+            }
+            copyNameActionTitle = "選択した作品名をコピー"
+            copyAllNameActionTitle = "セクションの全ての作品名を一括コピー"
+        case ListDataType.LIST_DATA_CHAR_WIN, ListDataType.LIST_DATA_CHAR_OLD:
+            actionSheet.title = objectList[index][Expression<String>("NAME")]
+            copyNameActionTitle = "選択したキャラクター名をコピー"
+            copyAllNameActionTitle = "全てのキャラクター名を一括コピー"
+        default:
+            print("アクション未定義")
+        }
+        
+        
+        //アクションを作成
+        let action1 = UIAlertAction(title: copyNameActionTitle, style: UIAlertActionStyle.default, handler: {
+            (action: UIAlertAction) in
+            self.copyObjectName(indexPath: indexPath, isAllCopy: false)
+        })
+        let action2 = UIAlertAction(title: copyAllNameActionTitle, style: UIAlertActionStyle.default, handler: {
+            (action: UIAlertAction) in
+            self.copyObjectName(indexPath: indexPath, isAllCopy: true)
+        })
+        let cancel = UIAlertAction(title: "キャンセル", style: UIAlertActionStyle.cancel, handler: {
+            (action: UIAlertAction!) in
+            print("キャンセルをタップした時の処理")
+        })
+        
+        //シートにアクションを追加
+        actionSheet.addAction(action1)
+        actionSheet.addAction(action2)
+        actionSheet.addAction(cancel)
+        
+        //アクションシートを表示
+        self.present(actionSheet, animated: true, completion: nil)
     }
+    
+    
+    func copyObjectName(indexPath: IndexPath, isAllCopy isAllcopy: Bool) {
+        
+        let pasteboard: UIPasteboard = UIPasteboard.general
+        var copyString: String = ""
+        
+        if isAllcopy == true {
+            if dataType == ListDataType.LIST_DATA_WORKS {
+                for obj in sectionDataList[indexPath.section] {
+                    let title:String = obj[Expression<String>("TITLE")]
+                    let subTitle:String? = obj[Expression<String?>("SUBTITLE")]
+                    copyString = copyString + title
+                    if subTitle != nil {
+                        copyString = copyString + subTitle!
+                    }
+                    copyString = copyString + "\n"
+                }
+            } else {
+                for obj in objectList {
+                    copyString = copyString + obj[Expression<String>("NAME")] + "\n"
+                }
+            }
+            copyString = copyString.substring(to: copyString.index(before: copyString.endIndex))
+        } else {
+            copyString = objectList[convertIndexpathToTatalIndex(indexPath: indexPath)][Expression<String>("NAME")]
+        }
+        
+        pasteboard.setValue(copyString, forPasteboardType: "public.text")
+    }
+    
 }
