@@ -44,7 +44,7 @@
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="設定等" image="images/other.png" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="設定等" image="barIconImgFile/other.png" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -64,7 +64,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bRM-ek-C0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-812" y="0.0"/>
+            <point key="canvasLocation" x="-1100" y="0.0"/>
         </scene>
         <!--ホーム-->
         <scene sceneID="KHf-b0-vCD">
@@ -134,16 +134,18 @@ Copyright © 2004 – 2017 by 黄昏フロンティア</string>
                             <constraint firstItem="7al-Yp-QAM" firstAttribute="top" secondItem="uIz-h3-C0H" secondAttribute="bottom" id="UGI-Am-ehV"/>
                             <constraint firstItem="uIz-h3-C0H" firstAttribute="leading" secondItem="27b-Q7-cQN" secondAttribute="leading" constant="16" id="Ud5-j7-KCQ"/>
                             <constraint firstItem="ROB-qA-hni" firstAttribute="top" secondItem="7al-Yp-QAM" secondAttribute="bottom" id="VKS-Ey-KT4"/>
+                            <constraint firstItem="uIz-h3-C0H" firstAttribute="top" secondItem="xLw-je-TIn" secondAttribute="bottom" id="cPV-ye-dK3"/>
                             <constraint firstItem="ROB-qA-hni" firstAttribute="top" secondItem="uIz-h3-C0H" secondAttribute="bottom" constant="53" id="pCk-Y5-NgW"/>
                             <constraint firstAttribute="trailing" secondItem="7al-Yp-QAM" secondAttribute="trailing" id="sX2-ca-hPn"/>
                             <constraint firstAttribute="trailing" secondItem="uIz-h3-C0H" secondAttribute="trailing" constant="16" id="tUb-wa-hlI"/>
                             <constraint firstItem="7al-Yp-QAM" firstAttribute="leading" secondItem="27b-Q7-cQN" secondAttribute="leading" id="ykE-sk-LxY"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="ホーム" image="images/home.png" id="Q9q-wF-rEa"/>
+                    <tabBarItem key="tabBarItem" title="ホーム" image="barIconImgFile/home.png" id="Q9q-wF-rEa"/>
                     <connections>
                         <outlet property="collectionView" destination="uIz-h3-C0H" id="qDm-3u-6VE"/>
-                        <segue destination="BCg-2k-Xob" kind="show" identifier="SegueForTableView" id="vlb-Xn-d10"/>
+                        <segue destination="BCg-2k-Xob" kind="show" identifier="SegueForTableViewFromHome" id="vlb-Xn-d10"/>
+                        <segue destination="U7g-Cc-TnC" kind="show" identifier="SegueForSpellsTabController" id="P6N-3J-g1g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tyM-hD-BVr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -183,7 +185,7 @@ Copyright © 2004 – 2017 by 黄昏フロンティア</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vsw-Je-3oT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1524" y="-1157"/>
+            <point key="canvasLocation" x="750" y="-1174"/>
         </scene>
         <!--List Table View Controller-->
         <scene sceneID="PdX-uz-lb2">
@@ -277,7 +279,143 @@ Copyright © 2004 – 2017 by 黄昏フロンティア</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TDs-el-cBj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1524" y="-451"/>
+            <point key="canvasLocation" x="1634" y="-818"/>
+        </scene>
+        <!--タイトル別-->
+        <scene sceneID="QLx-Pc-1w7">
+            <objects>
+                <collectionViewController id="PmM-gI-x5w" customClass="CollectionViewController" customModule="TouhouEncyclopedia" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" id="Mry-JD-Q0X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="WUM-bL-5KO">
+                            <size key="itemSize" width="70" height="95"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="cQ5-uQ-Nfg">
+                                <rect key="frame" x="10" y="10" width="70" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="70" height="95"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LBG-fI-dmp">
+                                            <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWC-sd-HkQ">
+                                            <rect key="frame" x="0.0" y="70" width="70" height="25"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <size key="customSize" width="70" height="95"/>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="PmM-gI-x5w" id="uIC-8I-DcB"/>
+                            <outlet property="delegate" destination="PmM-gI-x5w" id="idL-Lq-XaL"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="タイトル別" image="barIconImgFile/disk.png" id="eiX-fM-gUr"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f0v-XE-pJN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2566" y="-818"/>
+        </scene>
+        <!--検索-->
+        <scene sceneID="LsZ-O0-XQ4">
+            <objects>
+                <viewController id="6bd-Zw-Uw5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DX1-qN-qwi"/>
+                        <viewControllerLayoutGuide type="bottom" id="pJy-lG-HoC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="COg-xm-C6K">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="検索" image="barIconImgFile/search.png" id="CHM-sG-0R4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M1I-ww-i3i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2566" y="-1551"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="a9K-Ae-S3f">
+            <objects>
+                <tabBarController hidesBottomBarWhenPushed="YES" id="U7g-Cc-TnC" customClass="TabBarController" customModule="TouhouEncyclopedia" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" opaque="NO" contentMode="scaleToFill" id="lc6-n0-NdV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="6bd-Zw-Uw5" kind="relationship" relationship="viewControllers" id="0vJ-ow-fD1"/>
+                        <segue destination="PmM-gI-x5w" kind="relationship" relationship="viewControllers" id="CYp-mF-squ"/>
+                        <segue destination="Nmp-gG-3ke" kind="relationship" relationship="viewControllers" id="U9c-w2-WL9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DVa-hR-DA9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1634" y="-66"/>
+        </scene>
+        <!--キャラクター別-->
+        <scene sceneID="UI3-hr-J7x">
+            <objects>
+                <collectionViewController id="Nmp-gG-3ke" customClass="CollectionViewController" customModule="TouhouEncyclopedia" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" id="RIv-Ce-2Yp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jsr-gE-UwK">
+                            <size key="itemSize" width="70" height="95"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="jXW-Zx-dyC">
+                                <rect key="frame" x="10" y="10" width="70" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="70" height="95"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bnR-zT-UJh">
+                                            <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAp-av-PEX">
+                                            <rect key="frame" x="0.0" y="70" width="70" height="25"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <size key="customSize" width="70" height="95"/>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="Nmp-gG-3ke" id="o5n-ZZ-d4g"/>
+                            <outlet property="delegate" destination="Nmp-gG-3ke" id="1hF-Jw-hVp"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="キャラクター別" image="barIconImgFile/man.png" id="ovr-Qw-8dH"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ePM-0s-S4W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2565.5999999999999" y="-66.11694152923539"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -285,10 +423,10 @@ Copyright © 2004 – 2017 by 黄昏フロンティア</string>
                 <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="0TU-ui-YXh"/>
                     <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                    <tabBar key="tabBar" opaque="NO" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
                         <segue destination="ydn-W1-Dw6" kind="relationship" relationship="viewControllers" id="NMb-YN-rDq"/>
@@ -297,11 +435,14 @@ Copyright © 2004 – 2017 by 黄昏フロンティア</string>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="-159" y="0.0"/>
         </scene>
     </scenes>
     <resources>
-        <image name="images/home.png" width="16" height="16"/>
-        <image name="images/other.png" width="16" height="16"/>
+        <image name="barIconImgFile/disk.png" width="16" height="16"/>
+        <image name="barIconImgFile/home.png" width="16" height="16"/>
+        <image name="barIconImgFile/man.png" width="16" height="16"/>
+        <image name="barIconImgFile/other.png" width="16" height="16"/>
+        <image name="barIconImgFile/search.png" width="16" height="16"/>
     </resources>
 </document>

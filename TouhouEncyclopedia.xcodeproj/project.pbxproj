@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C25C8DD1F0EB0EF000B7988 /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = 2C25C8DC1F0EB0EF000B7988 /* Icon */; };
-		2C3F79261F013D210030ED3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F79251F013D210030ED3A /* AppDelegate.swift */; };
-		2C3F792A1F013D210030ED3A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F79291F013D210030ED3A /* SecondViewController.swift */; };
 		2C3F792D1F013D210030ED3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3F792B1F013D210030ED3A /* Main.storyboard */; };
 		2C3F792F1F013D210030ED3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3F792E1F013D210030ED3A /* Assets.xcassets */; };
 		2C3F79321F013D210030ED3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3F79301F013D210030ED3A /* LaunchScreen.storyboard */; };
 		2C3F793D1F013D210030ED3A /* TouhouEncyclopediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F793C1F013D210030ED3A /* TouhouEncyclopediaTests.swift */; };
 		2C3F79481F013D210030ED3A /* TouhouEncyclopediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F79471F013D210030ED3A /* TouhouEncyclopediaUITests.swift */; };
-		2C916FE01F10E46B00C81C01 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C916FDF1F10E46B00C81C01 /* TextViewController.swift */; };
-		2C916FE81F10E55800C81C01 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C916FE71F10E55800C81C01 /* MainPageViewController.swift */; };
-		2C916FEA1F10E60A00C81C01 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 2C916FE91F10E60A00C81C01 /* images */; };
-		2C916FED1F11056000C81C01 /* textData in Resources */ = {isa = PBXBuildFile; fileRef = 2C916FEC1F11056000C81C01 /* textData */; };
-		2C916FF61F11528300C81C01 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C916FF51F11528300C81C01 /* ListTableViewController.swift */; };
-		2C93968D1F01442B00F82CD4 /* PlistFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93968C1F01442B00F82CD4 /* PlistFileManager.swift */; };
-		2C93968F1F029B0200F82CD4 /* SqlFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93968E1F029B0200F82CD4 /* SqlFileManager.swift */; };
-		2C9396911F02A81200F82CD4 /* SqlFile in Resources */ = {isa = PBXBuildFile; fileRef = 2C9396901F02A81200F82CD4 /* SqlFile */; };
+		2C74D28F1F48AF490033AA85 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C74D28E1F48AF490033AA85 /* TabBarController.swift */; };
 		2C9396CA1F05A7EE00F82CD4 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9396BC1F05A76400F82CD4 /* SQLite.framework */; };
 		2C9396CC1F05A82100F82CD4 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9396BC1F05A76400F82CD4 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2CB7C09D1F40126D00679936 /* charLogo in Resources */ = {isa = PBXBuildFile; fileRef = 2CB7C09B1F40124000679936 /* charLogo */; };
+		2CA8FA321F48782300652DCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8FA2B1F48782300652DCC /* AppDelegate.swift */; };
+		2CA8FA331F48782300652DCC /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8FA2C1F48782300652DCC /* ListTableViewController.swift */; };
+		2CA8FA341F48782300652DCC /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8FA2D1F48782300652DCC /* MainPageViewController.swift */; };
+		2CA8FA351F48782300652DCC /* PlistFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8FA2E1F48782300652DCC /* PlistFileManager.swift */; };
+		2CA8FA361F48782300652DCC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8FA2F1F48782300652DCC /* SecondViewController.swift */; };
+		2CA8FA371F48782300652DCC /* SqlFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8FA301F48782300652DCC /* SqlFileManager.swift */; };
+		2CA8FA381F48782300652DCC /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8FA311F48782300652DCC /* TextViewController.swift */; };
+		2CDC7A9D1F4878F700D64B50 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC7A9C1F4878F700D64B50 /* CollectionViewController.swift */; };
+		2CDC7AA51F489D3A00D64B50 /* sqlFile in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC7AA41F489D3A00D64B50 /* sqlFile */; };
+		2CDC7AA91F489E6100D64B50 /* barIconImgFile in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC7AA61F489E6100D64B50 /* barIconImgFile */; };
+		2CDC7AAA1F489E6100D64B50 /* mainPageIconImgFile in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC7AA71F489E6100D64B50 /* mainPageIconImgFile */; };
+		2CDC7AAB1F489E6100D64B50 /* otherImgFile in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC7AA81F489E6100D64B50 /* otherImgFile */; };
+		2CDC7AAD1F48A09900D64B50 /* charLogoImgFile in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC7AAC1F48A09900D64B50 /* charLogoImgFile */; };
+		2CDC7AAF1F48A15500D64B50 /* textFile in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC7AAE1F48A15500D64B50 /* textFile */; };
+		2CDC7AB11F48A21500D64B50 /* titleImgFile in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC7AB01F48A21500D64B50 /* titleImgFile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,10 +120,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2C25C8DC1F0EB0EF000B7988 /* Icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icon; sourceTree = "<group>"; };
 		2C3F79221F013D210030ED3A /* TouhouEncyclopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouhouEncyclopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C3F79251F013D210030ED3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C3F79291F013D210030ED3A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2C3F792C1F013D210030ED3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C3F792E1F013D210030ED3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C3F79311F013D210030ED3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -130,17 +131,24 @@
 		2C3F79431F013D210030ED3A /* TouhouEncyclopediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouhouEncyclopediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3F79471F013D210030ED3A /* TouhouEncyclopediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouhouEncyclopediaUITests.swift; sourceTree = "<group>"; };
 		2C3F79491F013D210030ED3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C916FDF1F10E46B00C81C01 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
-		2C916FE71F10E55800C81C01 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
-		2C916FE91F10E60A00C81C01 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
-		2C916FEC1F11056000C81C01 /* textData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = textData; sourceTree = "<group>"; };
-		2C916FF51F11528300C81C01 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
-		2C93968C1F01442B00F82CD4 /* PlistFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistFileManager.swift; sourceTree = "<group>"; };
-		2C93968E1F029B0200F82CD4 /* SqlFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SqlFileManager.swift; sourceTree = "<group>"; };
-		2C9396901F02A81200F82CD4 /* SqlFile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SqlFile; sourceTree = "<group>"; };
+		2C74D28E1F48AF490033AA85 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = source/TabBarController.swift; sourceTree = "<group>"; };
 		2C9396931F05A57E00F82CD4 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = Carthage/Build/iOS/SQLite.framework; sourceTree = "<group>"; };
 		2C9396B11F05A76400F82CD4 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = Carthage/Checkouts/SQLite.swift/SQLite.xcodeproj; sourceTree = "<group>"; };
-		2CB7C09B1F40124000679936 /* charLogo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = charLogo; sourceTree = "<group>"; };
+		2CA8FA2B1F48782300652DCC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = source/AppDelegate.swift; sourceTree = "<group>"; };
+		2CA8FA2C1F48782300652DCC /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListTableViewController.swift; path = source/ListTableViewController.swift; sourceTree = "<group>"; };
+		2CA8FA2D1F48782300652DCC /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainPageViewController.swift; path = source/MainPageViewController.swift; sourceTree = "<group>"; };
+		2CA8FA2E1F48782300652DCC /* PlistFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlistFileManager.swift; path = source/PlistFileManager.swift; sourceTree = "<group>"; };
+		2CA8FA2F1F48782300652DCC /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = source/SecondViewController.swift; sourceTree = "<group>"; };
+		2CA8FA301F48782300652DCC /* SqlFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SqlFileManager.swift; path = source/SqlFileManager.swift; sourceTree = "<group>"; };
+		2CA8FA311F48782300652DCC /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextViewController.swift; path = source/TextViewController.swift; sourceTree = "<group>"; };
+		2CDC7A9C1F4878F700D64B50 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewController.swift; path = source/CollectionViewController.swift; sourceTree = "<group>"; };
+		2CDC7AA41F489D3A00D64B50 /* sqlFile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sqlFile; sourceTree = "<group>"; };
+		2CDC7AA61F489E6100D64B50 /* barIconImgFile */ = {isa = PBXFileReference; lastKnownFileType = folder; name = barIconImgFile; path = systemImgFile/barIconImgFile; sourceTree = "<group>"; };
+		2CDC7AA71F489E6100D64B50 /* mainPageIconImgFile */ = {isa = PBXFileReference; lastKnownFileType = folder; name = mainPageIconImgFile; path = systemImgFile/mainPageIconImgFile; sourceTree = "<group>"; };
+		2CDC7AA81F489E6100D64B50 /* otherImgFile */ = {isa = PBXFileReference; lastKnownFileType = folder; name = otherImgFile; path = systemImgFile/otherImgFile; sourceTree = "<group>"; };
+		2CDC7AAC1F48A09900D64B50 /* charLogoImgFile */ = {isa = PBXFileReference; lastKnownFileType = folder; name = charLogoImgFile; path = systemImgFile/charLogoImgFile; sourceTree = "<group>"; };
+		2CDC7AAE1F48A15500D64B50 /* textFile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = textFile; sourceTree = "<group>"; };
+		2CDC7AB01F48A21500D64B50 /* titleImgFile */ = {isa = PBXFileReference; lastKnownFileType = folder; name = titleImgFile; path = gameDataImgFile/titleImgFile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,21 +203,25 @@
 		2C3F79241F013D210030ED3A /* TouhouEncyclopedia */ = {
 			isa = PBXGroup;
 			children = (
-				2C3F79251F013D210030ED3A /* AppDelegate.swift */,
-				2C93968C1F01442B00F82CD4 /* PlistFileManager.swift */,
-				2C93968E1F029B0200F82CD4 /* SqlFileManager.swift */,
-				2C916FE71F10E55800C81C01 /* MainPageViewController.swift */,
-				2C916FF51F11528300C81C01 /* ListTableViewController.swift */,
-				2C916FDF1F10E46B00C81C01 /* TextViewController.swift */,
-				2C3F79291F013D210030ED3A /* SecondViewController.swift */,
-				2C3F792B1F013D210030ED3A /* Main.storyboard */,
+				2CA8FA2B1F48782300652DCC /* AppDelegate.swift */,
+				2CDC7A9C1F4878F700D64B50 /* CollectionViewController.swift */,
+				2CA8FA2C1F48782300652DCC /* ListTableViewController.swift */,
+				2CA8FA2D1F48782300652DCC /* MainPageViewController.swift */,
+				2CA8FA2E1F48782300652DCC /* PlistFileManager.swift */,
+				2CA8FA2F1F48782300652DCC /* SecondViewController.swift */,
+				2CA8FA301F48782300652DCC /* SqlFileManager.swift */,
+				2C74D28E1F48AF490033AA85 /* TabBarController.swift */,
+				2CA8FA311F48782300652DCC /* TextViewController.swift */,
 				2C3F792E1F013D210030ED3A /* Assets.xcassets */,
+				2C3F792B1F013D210030ED3A /* Main.storyboard */,
 				2C3F79301F013D210030ED3A /* LaunchScreen.storyboard */,
-				2CB7C09B1F40124000679936 /* charLogo */,
-				2C916FEC1F11056000C81C01 /* textData */,
-				2C916FE91F10E60A00C81C01 /* images */,
-				2C9396901F02A81200F82CD4 /* SqlFile */,
-				2C25C8DC1F0EB0EF000B7988 /* Icon */,
+				2CDC7AB01F48A21500D64B50 /* titleImgFile */,
+				2CDC7AAE1F48A15500D64B50 /* textFile */,
+				2CDC7AAC1F48A09900D64B50 /* charLogoImgFile */,
+				2CDC7AA61F489E6100D64B50 /* barIconImgFile */,
+				2CDC7AA71F489E6100D64B50 /* mainPageIconImgFile */,
+				2CDC7AA81F489E6100D64B50 /* otherImgFile */,
+				2CDC7AA41F489D3A00D64B50 /* sqlFile */,
 			);
 			path = TouhouEncyclopedia;
 			sourceTree = "<group>";
@@ -424,14 +436,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CB7C09D1F40126D00679936 /* charLogo in Resources */,
-				2C916FEA1F10E60A00C81C01 /* images in Resources */,
-				2C916FED1F11056000C81C01 /* textData in Resources */,
+				2CDC7AAF1F48A15500D64B50 /* textFile in Resources */,
+				2CDC7AA91F489E6100D64B50 /* barIconImgFile in Resources */,
+				2CDC7AAA1F489E6100D64B50 /* mainPageIconImgFile in Resources */,
 				2C3F79321F013D210030ED3A /* LaunchScreen.storyboard in Resources */,
 				2C3F792F1F013D210030ED3A /* Assets.xcassets in Resources */,
+				2CDC7AB11F48A21500D64B50 /* titleImgFile in Resources */,
 				2C3F792D1F013D210030ED3A /* Main.storyboard in Resources */,
-				2C9396911F02A81200F82CD4 /* SqlFile in Resources */,
-				2C25C8DD1F0EB0EF000B7988 /* Icon in Resources */,
+				2CDC7AA51F489D3A00D64B50 /* sqlFile in Resources */,
+				2CDC7AAD1F48A09900D64B50 /* charLogoImgFile in Resources */,
+				2CDC7AAB1F489E6100D64B50 /* otherImgFile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,13 +470,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C93968D1F01442B00F82CD4 /* PlistFileManager.swift in Sources */,
-				2C93968F1F029B0200F82CD4 /* SqlFileManager.swift in Sources */,
-				2C3F792A1F013D210030ED3A /* SecondViewController.swift in Sources */,
-				2C3F79261F013D210030ED3A /* AppDelegate.swift in Sources */,
-				2C916FE81F10E55800C81C01 /* MainPageViewController.swift in Sources */,
-				2C916FE01F10E46B00C81C01 /* TextViewController.swift in Sources */,
-				2C916FF61F11528300C81C01 /* ListTableViewController.swift in Sources */,
+				2CA8FA371F48782300652DCC /* SqlFileManager.swift in Sources */,
+				2CA8FA361F48782300652DCC /* SecondViewController.swift in Sources */,
+				2CA8FA341F48782300652DCC /* MainPageViewController.swift in Sources */,
+				2C74D28F1F48AF490033AA85 /* TabBarController.swift in Sources */,
+				2CA8FA321F48782300652DCC /* AppDelegate.swift in Sources */,
+				2CDC7A9D1F4878F700D64B50 /* CollectionViewController.swift in Sources */,
+				2CA8FA381F48782300652DCC /* TextViewController.swift in Sources */,
+				2CA8FA331F48782300652DCC /* ListTableViewController.swift in Sources */,
+				2CA8FA351F48782300652DCC /* PlistFileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

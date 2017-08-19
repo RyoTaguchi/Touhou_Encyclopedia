@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		bzT8XYYztAnuLgCI3a55BkO49NI=
+		fCoLaS8qx5ugOCUV47juNDzUPnA=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		SeBSHmixs6W99KTAbY0unVz+sfM=
+		9TzX+MI25/VrxN+woHfz7B+uBgo=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -18,43 +18,59 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		Lvr6zQrtDRNRkRJNqR7BRbK9Yxw=
+		mCkz+kEZpUz6FxVMjiXmxIJ/KOw=
+		</data>
+		<key>Base.lproj/Main.storyboardc/6bd-Zw-Uw5-view-COg-xm-C6K.nib</key>
+		<data>
+		+ZI3BkKX0D6QmKQH7wfQUxxyV+s=
 		</data>
 		<key>Base.lproj/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib</key>
 		<data>
-		o3nIG6bydU6JT4m/MFhpAlA0MaQ=
+		rorfoOyc1XXZuAihzB3D7bWG3Tk=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BCg-2k-Xob-view-FaJ-0Q-FG5.nib</key>
 		<data>
-		T800R6gRP4+2ZPTMBVCQj9UiyBU=
+		pjTqte+MtrQ6mUfCYVmy9HR+ZHo=
 		</data>
 		<key>Base.lproj/Main.storyboardc/HAw-HA-7bO-view-hqn-rU-Dra.nib</key>
 		<data>
-		7Bv9JkkPNKEKi1npbN7annU5Tng=
+		61LYXTTQ3gGQY6ILFcsqyixg8gs=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		mlhGLYuS5ks/1fdRT/jB938v4YY=
+		i6Alz0EGC/X8xMCtu/Ho8Czvz3w=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ListView.nib</key>
 		<data>
-		UdGNy952I1Kt5KdT3NPIAFagPG0=
+		rqIDX6RS2nBkkW1pZwn8s9thWoY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/MainPageView.nib</key>
 		<data>
-		4DAjOWksT5IKC7ET7ZnxH7Z/9o4=
+		KsVRMk9jsXdg4rzNDlEIuydMKb4=
+		</data>
+		<key>Base.lproj/Main.storyboardc/Nmp-gG-3ke-view-RIv-Ce-2Yp.nib</key>
+		<data>
+		jTH5ez+C2xBtb43ammzp5LI3xsA=
+		</data>
+		<key>Base.lproj/Main.storyboardc/PmM-gI-x5w-view-Mry-JD-Q0X.nib</key>
+		<data>
+		B7xOTjAKHTA5I7nA4TsKlUd3baw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/TextView.nib</key>
 		<data>
-		oKG5y5pYtPtzV902cU5cbVC98bM=
+		+KUqoa3xDeErr3SFvdwGu7ka38I=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-t0G-ob-EDd.nib</key>
 		<data>
-		E4n7XtUYnxVNM7Rr6cb2TmqgIDs=
+		I1thv2muT2Fc8vLislArABFrCrs=
+		</data>
+		<key>Base.lproj/Main.storyboardc/UITabBarController-U7g-Cc-TnC.nib</key>
+		<data>
+		RNnQJVduvw1WfTblDyscoPzoo+A=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ydn-W1-Dw6-view-27b-Q7-cQN.nib</key>
 		<data>
-		PdKP0IgJz6E6lzmA+puwh1/mpso=
+		2pjimQ2T0hkBUI5Tg4yDY4Xrfe8=
 		</data>
 		<key>Frameworks/SQLite.framework/Info.plist</key>
 		<data>
@@ -62,7 +78,7 @@
 		</data>
 		<key>Frameworks/SQLite.framework/SQLite</key>
 		<data>
-		7ggKs7vTzJKNGg4oE2R4cu6x0Vg=
+		z7Fe5EcRP8xFBG9hbDfHdWTxZuA=
 		</data>
 		<key>Frameworks/SQLite.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -70,79 +86,43 @@
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
-		dJymHxzrbaQ7NNBwsqX4xUMn9Lc=
+		kaX8dnI5QmBKbK9Z2XLwFmarawk=
 		</data>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		1us7fqjI7Aun4nyqgwzlZO4t+Wg=
+		d+PEskxuwKWTWBu3rVHvcbh0fyw=
 		</data>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
-		Of7Kr75vXHIOBqfpyxbJyvGxvPQ=
+		h3otS27CFIbsnveQYyzCvoVZIUY=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		8AvWrM0ApzhVprnyJvAb0kRn+d4=
+		3SFaB/pWxwNAJiGdwK7eNseaqZ0=
 		</data>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		ssfMi1iKH4geR2cnSTWDdIYaljk=
+		qsOTFdnuKLf/TDw1AD43aFxk0dY=
 		</data>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		cWHSj4Gdhl6VuIjDigLliBveDns=
+		PhKvIEnyr5ILCQnq6OcnnV0pRBo=
 		</data>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		GvQ5hxf9e2skp6O9NCB08dw9Jr8=
+		ReA4RsspZFWPMjqG6dAp1Q+4QEQ=
 		</data>
 		<key>Frameworks/libswiftQuartzCore.dylib</key>
 		<data>
-		sLZGkkMM85xuxzoeqT4dtrUJ5z8=
+		ylbHTaQDKSvOFT05XS5k65+Ti4U=
 		</data>
 		<key>Frameworks/libswiftSwiftOnoneSupport.dylib</key>
 		<data>
-		App7zR29DBNEmFb93kxRWKvpgio=
+		rdq6v9LQVWuAPXz8Ei9hDVfGt0s=
 		</data>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		Ql7U+guHnixv055kBEuR8lqopiw=
-		</data>
-		<key>Icon/charOldIcon.jpg</key>
-		<data>
-		sYML+lJZcDDX9tmtuRMBVo2DbTo=
-		</data>
-		<key>Icon/charWinIcon.jpg</key>
-		<data>
-		H1T4eE0JArCaceRE5Q9g5Eu4ejM=
-		</data>
-		<key>Icon/locationIcon.jpg</key>
-		<data>
-		Iva8nLWTrL3VC6LtL2JQ8UB5sIs=
-		</data>
-		<key>Icon/musicIcon.jpg</key>
-		<data>
-		Mz42Z3chNncFx6X8kMWPymx1HY0=
-		</data>
-		<key>Icon/shotIcon.jpg</key>
-		<data>
-		vZWDxAYqcfOtcr91uW/7jw60VO0=
-		</data>
-		<key>Icon/skillIcon.jpg</key>
-		<data>
-		TN0tbFOi20/IHfY3XZZMYrJlsfU=
-		</data>
-		<key>Icon/spellIcon.jpg</key>
-		<data>
-		lFdon8tUkA5/s6X1hcUe701ySJw=
-		</data>
-		<key>Icon/talkIcon.jpg</key>
-		<data>
-		XMBOISUHGu39Utsfxb/9QiS/gi0=
-		</data>
-		<key>Icon/worksIcon.jpg</key>
-		<data>
-		wWoF/xIpFRnRhqGJm7hhlJm6Yqg=
+		RZnRBiWC+g6U2pOdbiYulnLaywc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -152,479 +132,491 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
-		<key>SqlFile/charDetailData.sqlite</key>
+		<key>barIconImgFile/comment.png</key>
 		<data>
-		cjzqinwNpBCzvm+x7xWW9swLc/s=
+		MnCvl04UmQr+xFzc6iL2BUh7f60=
 		</data>
-		<key>SqlFile/landData.sqlite</key>
+		<key>barIconImgFile/comment@2x.png</key>
 		<data>
-		AZ6QNVWG0n+pGFfT4bPEfXzbFhU=
+		PhKLNYBgoA6tBIGNl3zaYZeWzTo=
 		</data>
-		<key>SqlFile/musicData.sqlite</key>
+		<key>barIconImgFile/disk.png</key>
 		<data>
-		quvMl+QV0anTgy03OI534gg5ju8=
+		w0sP5BKhlsxZCt5ubD0xyoOwuTI=
 		</data>
-		<key>SqlFile/musicData2.sqlite</key>
+		<key>barIconImgFile/disk@2x.png</key>
 		<data>
-		W7jBS4CzNYInruAeJkJMjBbMGWE=
+		kiNbmO6pC8wiGcyrCZqgi1jz7HU=
 		</data>
-		<key>SqlFile/shotDetailData.sqlite</key>
+		<key>barIconImgFile/home.png</key>
 		<data>
-		bqN+iDsCK4lpksZW9nB1w7q/RTQ=
+		TpWa4sSXkHC8imA4n1PWHlOe6jA=
 		</data>
-		<key>SqlFile/skillDetailData.sqlite</key>
+		<key>barIconImgFile/home@2x.png</key>
 		<data>
-		1RFCn4iJ0kjEPCIX5Grhp5UpMdI=
+		9czNTV1I0I8R/hVxdeZOMzQtwUA=
 		</data>
-		<key>SqlFile/spellDetailData.sqlite</key>
+		<key>barIconImgFile/man.png</key>
 		<data>
-		iQwv0qQ2IIH353RYTurPCFK4CEM=
+		1dzh6/c3zT59XVT5oc9pPr4hddw=
 		</data>
-		<key>SqlFile/stageDetailData.sqlite</key>
+		<key>barIconImgFile/man@2x.png</key>
 		<data>
-		qaQf9SogUPMquQN9nqrL96iyk84=
+		IOKSlkEOq5iA65j7yvqFX3YC47c=
 		</data>
-		<key>SqlFile/talkData.sqlite</key>
+		<key>barIconImgFile/other.png</key>
 		<data>
-		MFX13BEjIVsVpjDA7XrsgnmBddA=
+		10o/P8PMKMGo1+Gy5KuEd2/zbG8=
 		</data>
-		<key>SqlFile/titleDetailData.sqlite</key>
+		<key>barIconImgFile/other@2x.png</key>
 		<data>
-		cffxiNuK9TvDB6lTQ+g4q97G8g0=
+		fJ6GsrW2VC+cpuIs6MGR7O9bM4o=
 		</data>
-		<key>SqlFile/titleDetailData.sqlite-journal</key>
+		<key>barIconImgFile/question.png</key>
 		<data>
-		ShyvKi1kpwk1eBQkny4dddzSygk=
+		DnysrBhg6xTM+m3Cu+OrzJ1EwDg=
 		</data>
-		<key>charLogo/Akyu.png</key>
+		<key>barIconImgFile/question@2x.png</key>
+		<data>
+		3LkxCsi/Z8BPYTi3/JStMW5o6C8=
+		</data>
+		<key>barIconImgFile/search.png</key>
+		<data>
+		DDBljSGK8lKd9qu+zvpp0dAMONw=
+		</data>
+		<key>barIconImgFile/search@2x.png</key>
+		<data>
+		xZjlL0ZNyFzy1p+xEUSlzrVhYOs=
+		</data>
+		<key>charLogoImgFile/Akyu.png</key>
 		<data>
 		fWF3FY4ELuwrYAdXLUfjt9t4GQY=
 		</data>
-		<key>charLogo/Alice.png</key>
+		<key>charLogoImgFile/Alice.png</key>
 		<data>
 		lUvcd7Y9HpO2MInu1BXm1dY9Gz0=
 		</data>
-		<key>charLogo/Aun.png</key>
+		<key>charLogoImgFile/Aun.png</key>
 		<data>
 		eJvWSqPAqiMtwFGrJSorpmqWJyQ=
 		</data>
-		<key>charLogo/Aya.png</key>
+		<key>charLogoImgFile/Aya.png</key>
 		<data>
 		d9v9zz8BzCc96FxCFNuPrg6F0kE=
 		</data>
-		<key>charLogo/Benben.png</key>
+		<key>charLogoImgFile/Benben.png</key>
 		<data>
 		F4ixpapCf4lE+PY8jFHX/NNgoBU=
 		</data>
-		<key>charLogo/Byakuren.png</key>
+		<key>charLogoImgFile/Byakuren.png</key>
 		<data>
 		etNBIRPAn/gyo8RbRAXRNZbgNes=
 		</data>
-		<key>charLogo/Chen.png</key>
+		<key>charLogoImgFile/Chen.png</key>
 		<data>
 		2oCBMflk0CEioPsXRflRCNAEbZo=
 		</data>
-		<key>charLogo/Cirno.png</key>
+		<key>charLogoImgFile/Cirno.png</key>
 		<data>
 		xEcAxY9hYh685ibT4yeV20wSKnE=
 		</data>
-		<key>charLogo/Clownpiece.bak.png</key>
+		<key>charLogoImgFile/Clownpiece.bak.png</key>
 		<data>
 		uLz1IpVoLeDogoco4o5nQyiggYo=
 		</data>
-		<key>charLogo/Clownpiece.png</key>
+		<key>charLogoImgFile/Clownpiece.png</key>
 		<data>
 		vPgIxVg6iGDrWcE4C7CWlk7anuA=
 		</data>
-		<key>charLogo/Daiyousei.png</key>
+		<key>charLogoImgFile/Daiyousei.png</key>
 		<data>
 		26INUBJB/a7Nks2reSQ9iWKkE+A=
 		</data>
-		<key>charLogo/Doremy.png</key>
+		<key>charLogoImgFile/Doremy.png</key>
 		<data>
 		lLTtL8bYm8hb9AIMExtCB9as4so=
 		</data>
-		<key>charLogo/Eiki.png</key>
+		<key>charLogoImgFile/Eiki.png</key>
 		<data>
 		4tFt5SwUOBojG5UjCksVQ2Z+rvk=
 		</data>
-		<key>charLogo/Eirin.png</key>
+		<key>charLogoImgFile/Eirin.png</key>
 		<data>
 		A/smw5VH8LuxtFdNXvGJra90Dt4=
 		</data>
-		<key>charLogo/EtanityLarva.png</key>
+		<key>charLogoImgFile/EtanityLarva.png</key>
 		<data>
 		lIL73m3tTVvwKXhilarrj68ylOA=
 		</data>
-		<key>charLogo/Frandre.png</key>
+		<key>charLogoImgFile/Frandre.png</key>
 		<data>
 		+GGbDcoBIujCsL5mKvjekq+KZA8=
 		</data>
-		<key>charLogo/Futo.png</key>
+		<key>charLogoImgFile/Futo.png</key>
 		<data>
 		rwQBha1AeFgaLVqdKmYEb32HN3w=
 		</data>
-		<key>charLogo/Hatate.png</key>
+		<key>charLogoImgFile/Hatate.png</key>
 		<data>
 		O2E/gWrcoCL35aBaY9EgQhjWD2k=
 		</data>
-		<key>charLogo/Hecatia.png</key>
+		<key>charLogoImgFile/Hecatia.png</key>
 		<data>
 		fbX91phcK86/0wM4eVgh3kHufZ0=
 		</data>
-		<key>charLogo/Hina.png</key>
+		<key>charLogoImgFile/Hina.png</key>
 		<data>
 		d4/jyBC3bRf2ssBoZS+m2PV18iY=
 		</data>
-		<key>charLogo/Ichirin.png</key>
+		<key>charLogoImgFile/Ichirin.png</key>
 		<data>
 		Lspq90vgadJh0/HQAzTj3u/AoJA=
 		</data>
-		<key>charLogo/Iku.png</key>
+		<key>charLogoImgFile/Iku.png</key>
 		<data>
 		IACbs3ODQcNEynY8a+qwgOt/GN8=
 		</data>
-		<key>charLogo/Junko.png</key>
+		<key>charLogoImgFile/Junko.png</key>
 		<data>
 		9ycoDUde9TSIqdWU16TLUGTNBBs=
 		</data>
-		<key>charLogo/Kagerou.png</key>
+		<key>charLogoImgFile/Kagerou.png</key>
 		<data>
 		sfx+zLkpc/4niYSKmfiZvr9BosI=
 		</data>
-		<key>charLogo/Kaguya.png</key>
+		<key>charLogoImgFile/Kaguya.png</key>
 		<data>
 		ddExY6kXznNWc60pwvKwyxwIMwE=
 		</data>
-		<key>charLogo/Kanako.png</key>
+		<key>charLogoImgFile/Kanako.png</key>
 		<data>
 		iirfYhNrJcgKxGXrex9my5hhCoE=
 		</data>
-		<key>charLogo/Kasen.png</key>
+		<key>charLogoImgFile/Kasen.png</key>
 		<data>
 		Jtnlr58iwLXZ9XFQsk1YXCJj+eo=
 		</data>
-		<key>charLogo/Keine.png</key>
+		<key>charLogoImgFile/Keine.png</key>
 		<data>
 		RIrpvkF1p0Y5JMIcJ7a8nYdnq30=
 		</data>
-		<key>charLogo/Kisume.png</key>
+		<key>charLogoImgFile/Kisume.png</key>
 		<data>
 		hnH8zVcBB8Vnt9oAsE42g4FTxac=
 		</data>
-		<key>charLogo/Koakuma.png</key>
+		<key>charLogoImgFile/Koakuma.png</key>
 		<data>
 		01d1MvjLrQzYi6JhdTH4V2L/87k=
 		</data>
-		<key>charLogo/Kogasa.png</key>
+		<key>charLogoImgFile/Kogasa.png</key>
 		<data>
 		JGBt8u+dlno/2dOtwJY0ABRMKQ4=
 		</data>
-		<key>charLogo/Koishi.png</key>
+		<key>charLogoImgFile/Koishi.png</key>
 		<data>
 		9NVYXMemYpRtjk7VeJHZwao1meY=
 		</data>
-		<key>charLogo/Kokoro.png</key>
+		<key>charLogoImgFile/Kokoro.png</key>
 		<data>
 		vZ+YU3wuOBWJP6qjy85/jj9yKyg=
 		</data>
-		<key>charLogo/Komachi.png</key>
+		<key>charLogoImgFile/Komachi.png</key>
 		<data>
 		IZCKN1CeGAO8T1DAsvFp/BDxQKw=
 		</data>
-		<key>charLogo/Kosuzu.png</key>
+		<key>charLogoImgFile/Kosuzu.png</key>
 		<data>
 		rQlMubfEAsz00xuKGHj0v+EaCRc=
 		</data>
-		<key>charLogo/Kyoko.png</key>
+		<key>charLogoImgFile/Kyoko.png</key>
 		<data>
 		bxfbJmwSsBhG+d5I0jpHKdkvN/4=
 		</data>
-		<key>charLogo/Letty.png</key>
+		<key>charLogoImgFile/Letty.png</key>
 		<data>
 		7QGFYeszyLew0xNWSdM1GvrsXHc=
 		</data>
-		<key>charLogo/Lily.png</key>
+		<key>charLogoImgFile/Lily.png</key>
 		<data>
 		PSR0Ul92qam2nXSFuMsiFhE719Y=
 		</data>
-		<key>charLogo/Lunar.png</key>
+		<key>charLogoImgFile/Lunar.png</key>
 		<data>
 		lXvF4xgAhAH+CnNRYl7+nSxTxdc=
 		</data>
-		<key>charLogo/Lunasa.png</key>
+		<key>charLogoImgFile/Lunasa.png</key>
 		<data>
 		H8qtMLpUExHbuv7efV5cLaxgtaE=
 		</data>
-		<key>charLogo/Lyrica.png</key>
+		<key>charLogoImgFile/Lyrica.png</key>
 		<data>
 		lDZggX25l6oBcd238vc/xsQiRvo=
 		</data>
-		<key>charLogo/Mamizou.png</key>
+		<key>charLogoImgFile/Mamizou.png</key>
 		<data>
 		QJz/ZcMIRNfn8NyT2Wvl6IVs1r4=
 		</data>
-		<key>charLogo/Marisa.png</key>
+		<key>charLogoImgFile/Marisa.png</key>
 		<data>
 		dVgLZBlig7Na69ZS9F5pRAdXQUI=
 		</data>
-		<key>charLogo/Medicine.png</key>
+		<key>charLogoImgFile/Medicine.png</key>
 		<data>
 		1bLtIWm+n/U3sLfmQRenIo0H4sw=
 		</data>
-		<key>charLogo/Meirin.png</key>
+		<key>charLogoImgFile/Meirin.png</key>
 		<data>
 		QuYRO48398iFSGc3ZMTe7zNWlF8=
 		</data>
-		<key>charLogo/Merlin.png</key>
+		<key>charLogoImgFile/Merlin.png</key>
 		<data>
 		yhJ5PDuwqZ9K0KC4xIePpst6/Oo=
 		</data>
-		<key>charLogo/Merry.png</key>
+		<key>charLogoImgFile/Merry.png</key>
 		<data>
 		OjKdOcGv0n7amndXMq0ULxz87qg=
 		</data>
-		<key>charLogo/Miko.png</key>
+		<key>charLogoImgFile/Miko.png</key>
 		<data>
 		X3VTOdjXEiOi3jSloy50kZ7GwQc=
 		</data>
-		<key>charLogo/Minamitsu.png</key>
+		<key>charLogoImgFile/Minamitsu.png</key>
 		<data>
 		P+VTrbU/nxjyqN40DkejbqjR4jI=
 		</data>
-		<key>charLogo/Minoriko.png</key>
+		<key>charLogoImgFile/Minoriko.png</key>
 		<data>
 		HEMclHmEZsMCpt1JWUMCq5p2sJQ=
 		</data>
-		<key>charLogo/Mokou.png</key>
+		<key>charLogoImgFile/Mokou.png</key>
 		<data>
 		eHjS01kN9P79SqQyClhD0gfpagE=
 		</data>
-		<key>charLogo/Momizi.png</key>
+		<key>charLogoImgFile/Momizi.png</key>
 		<data>
 		7+so02FgjpURlOvJX1tW0vCk6Y8=
 		</data>
-		<key>charLogo/Mystia.png</key>
+		<key>charLogoImgFile/Mystia.png</key>
 		<data>
 		HKVR3mNCEkfjGxQOOzYBLMPN3mE=
 		</data>
-		<key>charLogo/Namazu.png</key>
+		<key>charLogoImgFile/Namazu.png</key>
 		<data>
 		bJrpcRhqdXt8rosJba6+/MyDxsc=
 		</data>
-		<key>charLogo/Nazrin.png</key>
+		<key>charLogoImgFile/Nazrin.png</key>
 		<data>
 		pdhJH5f2AcFJ3Y0ijUbtbYNkYxE=
 		</data>
-		<key>charLogo/Nemuno.png</key>
+		<key>charLogoImgFile/Nemuno.png</key>
 		<data>
 		x+0FOtwABvGlFltQiQIiQYhFQh4=
 		</data>
-		<key>charLogo/Nitori.png</key>
+		<key>charLogoImgFile/Nitori.png</key>
 		<data>
 		6A9DDqMh4vE+AKQc1VYVwfA4z0c=
 		</data>
-		<key>charLogo/Nue.png</key>
+		<key>charLogoImgFile/Nue.png</key>
 		<data>
 		abAkk/lwrJETIABofDPwo/vnrS8=
 		</data>
-		<key>charLogo/Oku.png</key>
+		<key>charLogoImgFile/Oku.png</key>
 		<data>
 		sKh1bqnzfQyXrZejCRcOS8vuSac=
 		</data>
-		<key>charLogo/Orin.png</key>
+		<key>charLogoImgFile/Orin.png</key>
 		<data>
 		BS7no1LpaLYVvCxf/e0Yz2ZkzZI=
 		</data>
-		<key>charLogo/Parsee.png</key>
+		<key>charLogoImgFile/Parsee.png</key>
 		<data>
 		dPWhcSx6EWTc9m4F78faHH2+EDA=
 		</data>
-		<key>charLogo/Patchouli.png</key>
+		<key>charLogoImgFile/Patchouli.png</key>
 		<data>
 		1vWrzLU4SupkXyFEbcQebeuIuFQ=
 		</data>
-		<key>charLogo/PrismRiver.png</key>
+		<key>charLogoImgFile/PrismRiver.png</key>
 		<data>
 		t8nKBtlNkqiwh2fqnFKWcSONoeQ=
 		</data>
-		<key>charLogo/Raiko.png</key>
+		<key>charLogoImgFile/Raiko.png</key>
 		<data>
 		47tQXUbjiqfcGlcrJnnYSKk7JTE=
 		</data>
-		<key>charLogo/Ran.png</key>
+		<key>charLogoImgFile/Ran.png</key>
 		<data>
 		k4dExJSuxUHZx8RHyt/s3WqOA50=
 		</data>
-		<key>charLogo/Reimu.png</key>
+		<key>charLogoImgFile/Reimu.png</key>
 		<data>
 		e3FhzaWHTPUHbEn7Pis86D4mee4=
 		</data>
-		<key>charLogo/Reisen.png</key>
+		<key>charLogoImgFile/Reisen.png</key>
 		<data>
 		alXinyPQx3nDf2neP/mPaJLkh9o=
 		</data>
-		<key>charLogo/Remilia.png</key>
+		<key>charLogoImgFile/Remilia.png</key>
 		<data>
 		11yx19EU9Ssi1P0wixhAoOWaJ3Y=
 		</data>
-		<key>charLogo/Renko.png</key>
+		<key>charLogoImgFile/Renko.png</key>
 		<data>
 		WWqKRGcmf0mYROgZpV0fRDyWWeg=
 		</data>
-		<key>charLogo/Ringo.png</key>
+		<key>charLogoImgFile/Ringo.png</key>
 		<data>
 		TRT2rwTyI88mm4wmxYXY0V75gUU=
 		</data>
-		<key>charLogo/Rinnosuke.png</key>
+		<key>charLogoImgFile/Rinnosuke.png</key>
 		<data>
 		xS3zpA8GoOfQMojlhus60elLoBM=
 		</data>
-		<key>charLogo/Rumia.png</key>
+		<key>charLogoImgFile/Rumia.png</key>
 		<data>
 		Nw05/xcj4yob36RIiarmDcGAPIs=
 		</data>
-		<key>charLogo/Sagume.png</key>
+		<key>charLogoImgFile/Sagume.png</key>
 		<data>
 		Qh/F2nFHGVNrDm1Fm9y18/EXBW8=
 		</data>
-		<key>charLogo/Sakuya.png</key>
+		<key>charLogoImgFile/Sakuya.png</key>
 		<data>
 		EPT2x6uVW0RhQMx76IHd+4jb3i4=
 		</data>
-		<key>charLogo/Sanae.png</key>
+		<key>charLogoImgFile/Sanae.png</key>
 		<data>
 		s+BrD0V12XTlJutqsrLNh108CQc=
 		</data>
-		<key>charLogo/Satori.png</key>
+		<key>charLogoImgFile/Satori.png</key>
 		<data>
 		shzx38vZ21u6IgeyzS8PnYUwVbE=
 		</data>
-		<key>charLogo/Seiga.png</key>
+		<key>charLogoImgFile/Seiga.png</key>
 		<data>
 		9lXrd2fBCY1XfYXhWF41YBa0f/0=
 		</data>
-		<key>charLogo/Seija.png</key>
+		<key>charLogoImgFile/Seija.png</key>
 		<data>
 		8d/ShqmliHGdgvQb8sQQ4NSoaxs=
 		</data>
-		<key>charLogo/Seiran.png</key>
+		<key>charLogoImgFile/Seiran.png</key>
 		<data>
 		hOM+ViWAJr9cDBB4P+8Bkc0tkq0=
 		</data>
-		<key>charLogo/Sekibanki.png</key>
+		<key>charLogoImgFile/Sekibanki.png</key>
 		<data>
 		870UHqBqKQwc1qaAPDGOgingRio=
 		</data>
-		<key>charLogo/Shinmyoumaru.png</key>
+		<key>charLogoImgFile/Shinmyoumaru.png</key>
 		<data>
 		WO2ER3NRsyNLaZpKBVj3BfPXMYs=
 		</data>
-		<key>charLogo/Shizuha.png</key>
+		<key>charLogoImgFile/Shizuha.png</key>
 		<data>
 		7m+okgzn0dSj4Sqj/6n1+5xyR9Q=
 		</data>
-		<key>charLogo/Star.png</key>
+		<key>charLogoImgFile/Star.png</key>
 		<data>
 		9ASU19J1theyoDwi1f/JzVJ4Xb4=
 		</data>
-		<key>charLogo/Suika.png</key>
+		<key>charLogoImgFile/Suika.png</key>
 		<data>
 		oXVF/OEdwtPkNFaV1L89EwrHnuw=
 		</data>
-		<key>charLogo/Sumireko.png</key>
+		<key>charLogoImgFile/Sumireko.png</key>
 		<data>
 		F6wCvErNb9QDFzPXZn5Z89Nx3Lk=
 		</data>
-		<key>charLogo/Sunny.png</key>
+		<key>charLogoImgFile/Sunny.png</key>
 		<data>
 		wKxsb0VAmXmRCbOqS483Q53vq8U=
 		</data>
-		<key>charLogo/Suwako.png</key>
+		<key>charLogoImgFile/Suwako.png</key>
 		<data>
 		q/Xl1QA09s77gwJvtRfdpsEsjIQ=
 		</data>
-		<key>charLogo/Syou.png</key>
+		<key>charLogoImgFile/Syou.png</key>
 		<data>
 		xJ22y7Gx58u8K9Fgzk34qf7sFCg=
 		</data>
-		<key>charLogo/Tenshi.png</key>
+		<key>charLogoImgFile/Tenshi.png</key>
 		<data>
 		Ayt7XGkaLTCcKgpn21k13GRwY3k=
 		</data>
-		<key>charLogo/Tewi.png</key>
+		<key>charLogoImgFile/Tewi.png</key>
 		<data>
 		IDnPoP1qhRI/8D/kCfpoNxKRZeg=
 		</data>
-		<key>charLogo/ThreeFairys.png</key>
+		<key>charLogoImgFile/ThreeFairys.png</key>
 		<data>
 		l5NHIV0hHFOncOcnb+/kMMw6vcc=
 		</data>
-		<key>charLogo/Toyohime.png</key>
+		<key>charLogoImgFile/Toyohime.png</key>
 		<data>
 		2DvPZYWvOgDQpkfRZjq1sICtzLA=
 		</data>
-		<key>charLogo/Toziko.png</key>
+		<key>charLogoImgFile/Toziko.png</key>
 		<data>
 		WmoytJyDjBH5IqdVj7E307tupv4=
 		</data>
-		<key>charLogo/TsukumoSister.png</key>
+		<key>charLogoImgFile/TsukumoSister.png</key>
 		<data>
 		oQMVIWDqlzIEiqDjvkQcVNbVW8Q=
 		</data>
-		<key>charLogo/Udonge.png</key>
+		<key>charLogoImgFile/Udonge.png</key>
 		<data>
 		+VDkS7yIWjogdvDl///XyAyK0Wo=
 		</data>
-		<key>charLogo/Unzan.png</key>
+		<key>charLogoImgFile/Unzan.png</key>
 		<data>
 		Lspq90vgadJh0/HQAzTj3u/AoJA=
 		</data>
-		<key>charLogo/Wakasagihime.png</key>
+		<key>charLogoImgFile/Wakasagihime.png</key>
 		<data>
 		SjK0jx6OFZ4XZ5C4rsTOMFI/BIk=
 		</data>
-		<key>charLogo/Wriggle.png</key>
+		<key>charLogoImgFile/Wriggle.png</key>
 		<data>
 		YMURQ8mCBi2fIhwDxBe90aEEHLQ=
 		</data>
-		<key>charLogo/Yamame.png</key>
+		<key>charLogoImgFile/Yamame.png</key>
 		<data>
 		m2ndKXkjhNiBj8YxrzKorqb7CS8=
 		</data>
-		<key>charLogo/Yatsuhashi.png</key>
+		<key>charLogoImgFile/Yatsuhashi.png</key>
 		<data>
 		WNQxXp8RwEaUs375CYm8G7a3idk=
 		</data>
-		<key>charLogo/Yorihime.png</key>
+		<key>charLogoImgFile/Yorihime.png</key>
 		<data>
 		sZMehxosVIe8vxDfHrE/6jGH+PE=
 		</data>
-		<key>charLogo/Yoshika.png</key>
+		<key>charLogoImgFile/Yoshika.png</key>
 		<data>
 		dwAd1sgY19COES+HyMv1glRltKA=
 		</data>
-		<key>charLogo/Youmu.png</key>
+		<key>charLogoImgFile/Youmu.png</key>
 		<data>
 		P4dWWZci7EwN/NnVFQ9sB6JdZSU=
 		</data>
-		<key>charLogo/Yukari.png</key>
+		<key>charLogoImgFile/Yukari.png</key>
 		<data>
 		80gBhgIzJC+c4aj/CW15eR5vIkA=
 		</data>
-		<key>charLogo/Yuugi.png</key>
+		<key>charLogoImgFile/Yuugi.png</key>
 		<data>
 		8bA+Z6cGPn86LnW1jfVwysamSlw=
 		</data>
-		<key>charLogo/Yuuka.png</key>
+		<key>charLogoImgFile/Yuuka.png</key>
 		<data>
 		BCm+uoPymdIGL3Dn1tb6LaqZfo4=
 		</data>
-		<key>charLogo/Yuyuko.png</key>
+		<key>charLogoImgFile/Yuyuko.png</key>
 		<data>
 		8XetmgyCa+9OAWRGcAI3+Fxk+2k=
 		</data>
-		<key>charLogo/forOldChar.png</key>
+		<key>charLogoImgFile/forOldChar.png</key>
 		<data>
 		IVnuGmGz9ysCvE90rF4qrdCvqcY=
 		</data>
@@ -632,133 +624,277 @@
 		<data>
 		Ztl+cBWYt+Xclh2R7v1dOR9r/vs=
 		</data>
-		<key>images/check.png</key>
-		<data>
-		ke28SjTiOLYdvnkD2i1CcFVvaYI=
-		</data>
-		<key>images/comment.png</key>
-		<data>
-		MnCvl04UmQr+xFzc6iL2BUh7f60=
-		</data>
-		<key>images/comment@2x.png</key>
-		<data>
-		PhKLNYBgoA6tBIGNl3zaYZeWzTo=
-		</data>
-		<key>images/disable_check.png</key>
-		<data>
-		zdtuHWezUbVuq0QV42WGOXQYmC8=
-		</data>
-		<key>images/disk.png</key>
-		<data>
-		w0sP5BKhlsxZCt5ubD0xyoOwuTI=
-		</data>
-		<key>images/disk@2x.png</key>
-		<data>
-		kiNbmO6pC8wiGcyrCZqgi1jz7HU=
-		</data>
-		<key>images/home.png</key>
-		<data>
-		TpWa4sSXkHC8imA4n1PWHlOe6jA=
-		</data>
-		<key>images/home@2x.png</key>
-		<data>
-		9czNTV1I0I8R/hVxdeZOMzQtwUA=
-		</data>
-		<key>images/line.png</key>
-		<data>
-		/A503RywMhFGXU6gpqnBnFUW880=
-		</data>
-		<key>images/man.png</key>
-		<data>
-		1dzh6/c3zT59XVT5oc9pPr4hddw=
-		</data>
-		<key>images/man@2x.png</key>
-		<data>
-		IOKSlkEOq5iA65j7yvqFX3YC47c=
-		</data>
-		<key>images/noImage.jpg</key>
-		<data>
-		Fnh9yuDX20ZbUEKF2kChPBIly54=
-		</data>
-		<key>images/nocheck.png</key>
-		<data>
-		Lv1l5WMHzLtRyunsw7x9rbTb538=
-		</data>
-		<key>images/other.png</key>
-		<data>
-		10o/P8PMKMGo1+Gy5KuEd2/zbG8=
-		</data>
-		<key>images/other@2x.png</key>
-		<data>
-		fJ6GsrW2VC+cpuIs6MGR7O9bM4o=
-		</data>
-		<key>images/question.png</key>
-		<data>
-		DnysrBhg6xTM+m3Cu+OrzJ1EwDg=
-		</data>
-		<key>images/question@2x.png</key>
-		<data>
-		3LkxCsi/Z8BPYTi3/JStMW5o6C8=
-		</data>
-		<key>images/search.png</key>
-		<data>
-		DDBljSGK8lKd9qu+zvpp0dAMONw=
-		</data>
-		<key>images/search@2x.png</key>
-		<data>
-		xZjlL0ZNyFzy1p+xEUSlzrVhYOs=
-		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
 		ZNrJH7Z9WliUAmD7L+fRQDHOVBM=
 		</data>
-		<key>textData/QandA.txt</key>
+		<key>mainPageIconImgFile/charOldIcon.jpg</key>
+		<data>
+		sYML+lJZcDDX9tmtuRMBVo2DbTo=
+		</data>
+		<key>mainPageIconImgFile/charWinIcon.jpg</key>
+		<data>
+		H1T4eE0JArCaceRE5Q9g5Eu4ejM=
+		</data>
+		<key>mainPageIconImgFile/locationIcon.jpg</key>
+		<data>
+		Iva8nLWTrL3VC6LtL2JQ8UB5sIs=
+		</data>
+		<key>mainPageIconImgFile/musicIcon.jpg</key>
+		<data>
+		Mz42Z3chNncFx6X8kMWPymx1HY0=
+		</data>
+		<key>mainPageIconImgFile/shotIcon.jpg</key>
+		<data>
+		vZWDxAYqcfOtcr91uW/7jw60VO0=
+		</data>
+		<key>mainPageIconImgFile/skillIcon.jpg</key>
+		<data>
+		TN0tbFOi20/IHfY3XZZMYrJlsfU=
+		</data>
+		<key>mainPageIconImgFile/spellIcon.jpg</key>
+		<data>
+		lFdon8tUkA5/s6X1hcUe701ySJw=
+		</data>
+		<key>mainPageIconImgFile/talkIcon.jpg</key>
+		<data>
+		XMBOISUHGu39Utsfxb/9QiS/gi0=
+		</data>
+		<key>mainPageIconImgFile/worksIcon.jpg</key>
+		<data>
+		wWoF/xIpFRnRhqGJm7hhlJm6Yqg=
+		</data>
+		<key>otherImgFile/check.png</key>
+		<data>
+		ke28SjTiOLYdvnkD2i1CcFVvaYI=
+		</data>
+		<key>otherImgFile/disable_check.png</key>
+		<data>
+		zdtuHWezUbVuq0QV42WGOXQYmC8=
+		</data>
+		<key>otherImgFile/line.png</key>
+		<data>
+		/A503RywMhFGXU6gpqnBnFUW880=
+		</data>
+		<key>otherImgFile/noImage.jpg</key>
+		<data>
+		Fnh9yuDX20ZbUEKF2kChPBIly54=
+		</data>
+		<key>otherImgFile/nocheck.png</key>
+		<data>
+		Lv1l5WMHzLtRyunsw7x9rbTb538=
+		</data>
+		<key>sqlFile/charDetailData.sqlite</key>
+		<data>
+		LzmB7g94rI2oVrk8cL1LENaRbQU=
+		</data>
+		<key>sqlFile/landData.sqlite</key>
+		<data>
+		AZ6QNVWG0n+pGFfT4bPEfXzbFhU=
+		</data>
+		<key>sqlFile/musicData.sqlite</key>
+		<data>
+		quvMl+QV0anTgy03OI534gg5ju8=
+		</data>
+		<key>sqlFile/musicData2.sqlite</key>
+		<data>
+		W7jBS4CzNYInruAeJkJMjBbMGWE=
+		</data>
+		<key>sqlFile/shotDetailData.sqlite</key>
+		<data>
+		bqN+iDsCK4lpksZW9nB1w7q/RTQ=
+		</data>
+		<key>sqlFile/skillDetailData.sqlite</key>
+		<data>
+		1RFCn4iJ0kjEPCIX5Grhp5UpMdI=
+		</data>
+		<key>sqlFile/spellDetailData.sqlite</key>
+		<data>
+		iQwv0qQ2IIH353RYTurPCFK4CEM=
+		</data>
+		<key>sqlFile/stageDetailData.sqlite</key>
+		<data>
+		qaQf9SogUPMquQN9nqrL96iyk84=
+		</data>
+		<key>sqlFile/talkData.sqlite</key>
+		<data>
+		MFX13BEjIVsVpjDA7XrsgnmBddA=
+		</data>
+		<key>sqlFile/titleDetailData.sqlite</key>
+		<data>
+		Poe+TkDY4isY2DkGKqVezbXRFsI=
+		</data>
+		<key>textFile/QandA.txt</key>
 		<data>
 		03/uKVhoBxzAgYIHfmfZQP9zL2I=
 		</data>
-		<key>textData/abbreviation.txt</key>
+		<key>textFile/abbreviation.txt</key>
 		<data>
 		NbGaZlFcLpP2N788sgKMCL8WWi0=
 		</data>
-		<key>textData/aboutSkillList.txt</key>
+		<key>textFile/aboutSkillList.txt</key>
 		<data>
 		UN2jScj7cX4gRIQr0/VICNrGNJg=
 		</data>
-		<key>textData/aboutTalk.txt</key>
+		<key>textFile/aboutTalk.txt</key>
 		<data>
 		k7RNqiSjpWhcG97W9Wn0z7Di2IM=
 		</data>
-		<key>textData/howToUseSearch.txt</key>
+		<key>textFile/howToUseSearch.txt</key>
 		<data>
 		72y5sLPDB63vwjKOXioOhNyp7mk=
 		</data>
-		<key>textData/searchMusicIndex.txt</key>
+		<key>textFile/searchMusicIndex.txt</key>
 		<data>
 		Pz0yokFTKAVtWHIjvQBRJ+3e6m0=
 		</data>
-		<key>textData/searchMusicIndex2.txt</key>
+		<key>textFile/searchMusicIndex2.txt</key>
 		<data>
 		FXNRjmUCaLkeMSDu2oL9RznTNkk=
 		</data>
-		<key>textData/sortExplation.txt</key>
+		<key>textFile/sortExplation.txt</key>
 		<data>
 		B2QEVKWc7Xfx5fCF4HzueEOTf64=
 		</data>
-		<key>textData/specialThanks.txt</key>
+		<key>textFile/specialThanks.txt</key>
 		<data>
 		m7KVE9EF0w/aP29t9Ont2+62HVk=
 		</data>
-		<key>textData/spellReading.txt</key>
+		<key>textFile/spellReading.txt</key>
 		<data>
 		FUNZOqXpcAbC8oc+yiPu7N5bRy8=
 		</data>
-		<key>textData/support.txt</key>
+		<key>textFile/support.txt</key>
 		<data>
 		o5FTYzTdEvN7A4dexvFDMRm7G7g=
 		</data>
-		<key>textData/updatePlan.txt</key>
+		<key>textFile/updatePlan.txt</key>
 		<data>
 		j6OSYUDM9ZetsE5CHxRUr06IdwQ=
+		</data>
+		<key>titleImgFile/titleImgFile_1.jpg</key>
+		<data>
+		K7rMRG5qpiCa2/9LXwn7Yoe2a94=
+		</data>
+		<key>titleImgFile/titleImgFile_10.jpg</key>
+		<data>
+		U8WLoA/5v0PCQawsTTfMoKImIRU=
+		</data>
+		<key>titleImgFile/titleImgFile_101.jpg</key>
+		<data>
+		nG1Ut+rFUr83pgmHv10D/E1U0zA=
+		</data>
+		<key>titleImgFile/titleImgFile_102.jpg</key>
+		<data>
+		nG1Ut+rFUr83pgmHv10D/E1U0zA=
+		</data>
+		<key>titleImgFile/titleImgFile_103.jpg</key>
+		<data>
+		nG1Ut+rFUr83pgmHv10D/E1U0zA=
+		</data>
+		<key>titleImgFile/titleImgFile_104.jpg</key>
+		<data>
+		nG1Ut+rFUr83pgmHv10D/E1U0zA=
+		</data>
+		<key>titleImgFile/titleImgFile_105.jpg</key>
+		<data>
+		nG1Ut+rFUr83pgmHv10D/E1U0zA=
+		</data>
+		<key>titleImgFile/titleImgFile_11.jpg</key>
+		<data>
+		7Jc9rVueqyX3hwag8El03pL8Ey0=
+		</data>
+		<key>titleImgFile/titleImgFile_12.jpg</key>
+		<data>
+		LxGOHo0X7Vi50UgeAD8DqDd5aRk=
+		</data>
+		<key>titleImgFile/titleImgFile_13.jpg</key>
+		<data>
+		dZIawCS8AsJaT34kX/yhAG1NANo=
+		</data>
+		<key>titleImgFile/titleImgFile_14.jpg</key>
+		<data>
+		azfXo0ARRmLfyWfd2Q2gIp32OoU=
+		</data>
+		<key>titleImgFile/titleImgFile_15.jpg</key>
+		<data>
+		XU27yscohAdJEj0KJoRsH0vzMa0=
+		</data>
+		<key>titleImgFile/titleImgFile_16.jpg</key>
+		<data>
+		24xIieM6AZ4DyAolYDe4gkQpbY0=
+		</data>
+		<key>titleImgFile/titleImgFile_17.jpg</key>
+		<data>
+		mLJH6tDOGYG76un6umpxuyvaDco=
+		</data>
+		<key>titleImgFile/titleImgFile_18.jpg</key>
+		<data>
+		D0tkFG0pdzsez98jZVBxOVVMgFQ=
+		</data>
+		<key>titleImgFile/titleImgFile_19.jpg</key>
+		<data>
+		6DZk54XzUW65w6AK7Nin45tCo7o=
+		</data>
+		<key>titleImgFile/titleImgFile_2.jpg</key>
+		<data>
+		4csHtXAExrI1MdLFRk0+pt4Ex2U=
+		</data>
+		<key>titleImgFile/titleImgFile_20.jpg</key>
+		<data>
+		9FIGNBmnupoF6pkiCBJqj/tDb2s=
+		</data>
+		<key>titleImgFile/titleImgFile_21.jpg</key>
+		<data>
+		a6hBZWK2YYmvFsisUeCu3XO+log=
+		</data>
+		<key>titleImgFile/titleImgFile_22.jpg</key>
+		<data>
+		Sp+RgKgdkgYnutdPdb0VRzBmsfM=
+		</data>
+		<key>titleImgFile/titleImgFile_23.jpg</key>
+		<data>
+		7w4p/upW1d39H8GcJFELjKqnElg=
+		</data>
+		<key>titleImgFile/titleImgFile_24.jpg</key>
+		<data>
+		1Ze8itnH2vlXBbpgXW2jjHFmweE=
+		</data>
+		<key>titleImgFile/titleImgFile_25.jpg</key>
+		<data>
+		Fnh9yuDX20ZbUEKF2kChPBIly54=
+		</data>
+		<key>titleImgFile/titleImgFile_26.jpg</key>
+		<data>
+		Fnh9yuDX20ZbUEKF2kChPBIly54=
+		</data>
+		<key>titleImgFile/titleImgFile_3.jpg</key>
+		<data>
+		4CKAly1KnDNh1K2sKfStRIZpOxk=
+		</data>
+		<key>titleImgFile/titleImgFile_4.jpg</key>
+		<data>
+		N5nxq4eo8W3xt6vD+1GmVCmRfyA=
+		</data>
+		<key>titleImgFile/titleImgFile_5.jpg</key>
+		<data>
+		NumgtZpX7xCuKcXV54ZzjN3YTvo=
+		</data>
+		<key>titleImgFile/titleImgFile_6.jpg</key>
+		<data>
+		sSwfdf77s8CjusLotxKb0IWOljY=
+		</data>
+		<key>titleImgFile/titleImgFile_7.jpg</key>
+		<data>
+		WPEcsVlt4CCtOFRYCXczBcHscD8=
+		</data>
+		<key>titleImgFile/titleImgFile_8.jpg</key>
+		<data>
+		erWknI3kFtEv2d5kWpyYOC/OK4Q=
+		</data>
+		<key>titleImgFile/titleImgFile_9.jpg</key>
+		<data>
+		804Zmd/SgkgH5xdyiehZV+ko7zE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -767,22 +903,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bzT8XYYztAnuLgCI3a55BkO49NI=
+			fCoLaS8qx5ugOCUV47juNDzUPnA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ugi4Zlkw3PBoa6GyIHC/2PeMqc0X6FSRKIiPbdQUmUc=
+			JyNBsk9001MUy04WyIU225PvZkIqAogl9ON4poMpLFo=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SeBSHmixs6W99KTAbY0unVz+sfM=
+			9TzX+MI25/VrxN+woHfz7B+uBgo=
 			</data>
 			<key>hash2</key>
 			<data>
-			kyariokapJbrnWiNT/d71pNCfAe5auRoe5qK0thGZ5s=
+			SPH2XJjvVxt3Akqbiang2DYaZZZ8C2FN4MUARPN5LZo=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -800,110 +936,154 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Lvr6zQrtDRNRkRJNqR7BRbK9Yxw=
+			mCkz+kEZpUz6FxVMjiXmxIJ/KOw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Oz/S+ZsLdAhP0q6iRtkbSDCn08dknvnfCTanlblubTw=
+			xWnpXT5HMc/QdUP/KdfJzzCoiMziXw0hOhd6MKTnaB0=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/6bd-Zw-Uw5-view-COg-xm-C6K.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+ZI3BkKX0D6QmKQH7wfQUxxyV+s=
+			</data>
+			<key>hash2</key>
+			<data>
+			yl4Xyx57lcwpq9p/pgFVFkAzwcduZzdMl6dl1Jf/fbI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			o3nIG6bydU6JT4m/MFhpAlA0MaQ=
+			rorfoOyc1XXZuAihzB3D7bWG3Tk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ocvS0aPiitjfS/v1EYgADfrCtfy2QaYb5eUpCftQv5k=
+			YY6bHnzuHGp6IHt+gtZsSM+bOI48+h6/MSr5CUMWKjI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BCg-2k-Xob-view-FaJ-0Q-FG5.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T800R6gRP4+2ZPTMBVCQj9UiyBU=
+			pjTqte+MtrQ6mUfCYVmy9HR+ZHo=
 			</data>
 			<key>hash2</key>
 			<data>
-			B2r/IH8D/RMCjR+6Kq6JY2lTX1WywlOsck4V3CgUotQ=
+			cM5L49HOnCEZdegcx3fmirW8/u3iVBvLRwgQYLYad/Q=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/HAw-HA-7bO-view-hqn-rU-Dra.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7Bv9JkkPNKEKi1npbN7annU5Tng=
+			61LYXTTQ3gGQY6ILFcsqyixg8gs=
 			</data>
 			<key>hash2</key>
 			<data>
-			MuotXtPaFSemv8HrTMBJrWNlly6CB5j0+Qr64H3JFPs=
+			LBHI7TqV+aFtRIvMh26z5VtCANJ3ia+WKZ30p3I8pdM=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mlhGLYuS5ks/1fdRT/jB938v4YY=
+			i6Alz0EGC/X8xMCtu/Ho8Czvz3w=
 			</data>
 			<key>hash2</key>
 			<data>
-			duqg6g+iyBvUGGBmu4rVhX4wOQmMMCfjEkXTbo4zTyA=
+			CXBexrou3KWf+icaLQUi4b534O96IQYbXq/46TjVIYk=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/ListView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UdGNy952I1Kt5KdT3NPIAFagPG0=
+			rqIDX6RS2nBkkW1pZwn8s9thWoY=
 			</data>
 			<key>hash2</key>
 			<data>
-			sjU8IVfzpQsAvGQvAv1qW13RdTTqYrEDyGt2nmwfmPo=
+			/SG1kaUvEblXRtLc8SLYp9wbS6fJx1GUMN5vASRum1w=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/MainPageView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4DAjOWksT5IKC7ET7ZnxH7Z/9o4=
+			KsVRMk9jsXdg4rzNDlEIuydMKb4=
 			</data>
 			<key>hash2</key>
 			<data>
-			etfK4SIbh7lohBuC2tUFKaArF+aXipz3NSi8B4BUNAE=
+			m/0Mn8MgALPOrrtbn4tmR1qqtTaBLPcagxYbbld07xM=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Nmp-gG-3ke-view-RIv-Ce-2Yp.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jTH5ez+C2xBtb43ammzp5LI3xsA=
+			</data>
+			<key>hash2</key>
+			<data>
+			ey4QTzOaR7WiRi0ZlgJOT+UpAW8xb53qWWXNu74wzFs=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/PmM-gI-x5w-view-Mry-JD-Q0X.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			B7xOTjAKHTA5I7nA4TsKlUd3baw=
+			</data>
+			<key>hash2</key>
+			<data>
+			sz1ZIdg8AvXq3TbQwe19ku9+aP3hgZ8n9WjFNwZmbew=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/TextView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oKG5y5pYtPtzV902cU5cbVC98bM=
+			+KUqoa3xDeErr3SFvdwGu7ka38I=
 			</data>
 			<key>hash2</key>
 			<data>
-			pyNod3PWOId1o4iDuvXGugldpGWq9fr2jiwCI8WgFeI=
+			caOf7PQFuFi0nOj6x0rNTg9VtGdRduLdLDZkC8DiJDU=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-t0G-ob-EDd.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E4n7XtUYnxVNM7Rr6cb2TmqgIDs=
+			I1thv2muT2Fc8vLislArABFrCrs=
 			</data>
 			<key>hash2</key>
 			<data>
-			gAuZt6G1OpzwvojwdGaB52CK6jexmUMDpPVzHJ1vSNY=
+			4m3JwuINPLUZTWGHSyankDMfiWxSglDdAy1Gbdx9h5k=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UITabBarController-U7g-Cc-TnC.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RNnQJVduvw1WfTblDyscoPzoo+A=
+			</data>
+			<key>hash2</key>
+			<data>
+			1l1kvOP2sC4t3f0Q1b4WDeHpTX+oHsOSwO3X9o21brI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/ydn-W1-Dw6-view-27b-Q7-cQN.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PdKP0IgJz6E6lzmA+puwh1/mpso=
+			2pjimQ2T0hkBUI5Tg4yDY4Xrfe8=
 			</data>
 			<key>hash2</key>
 			<data>
-			CSCTiNgm1H0oDmaeyVKC2ma1Rgf8A/UofW34KcmZ73A=
+			0kH/TAU7c+7hXxOARttl0b3Z9TYGa7dkgJHDPEtYF9k=
 			</data>
 		</dict>
 		<key>Frameworks/SQLite.framework/Info.plist</key>
@@ -921,11 +1101,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7ggKs7vTzJKNGg4oE2R4cu6x0Vg=
+			z7Fe5EcRP8xFBG9hbDfHdWTxZuA=
 			</data>
 			<key>hash2</key>
 			<data>
-			05vIXwToE3IysbBuMAwcscwS0pdPQGJSs/imLJJh03Q=
+			5dIMTZCfks8KRgZ2PtwsiETkoGpbjombZAC5LwCwW+4=
 			</data>
 		</dict>
 		<key>Frameworks/SQLite.framework/_CodeSignature/CodeResources</key>
@@ -943,333 +1123,267 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dJymHxzrbaQ7NNBwsqX4xUMn9Lc=
+			kaX8dnI5QmBKbK9Z2XLwFmarawk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z/7Do4IJ/OeeWlixK1r7vnSMHkaq2hTHTQRYVPULihk=
+			U6hc/G4dyeswtzZPQAIR7VDMB3b0Pn7FO+Efz9419Lk=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1us7fqjI7Aun4nyqgwzlZO4t+Wg=
+			d+PEskxuwKWTWBu3rVHvcbh0fyw=
 			</data>
 			<key>hash2</key>
 			<data>
-			V3OPUtJihxpeRdyo35f7Ao8rnYiFSgjm+XyOMT9TMoI=
+			B0Nx8YfIrpdbTJaEfQKjkCzBsvokZugMPqVlNATcHVo=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Of7Kr75vXHIOBqfpyxbJyvGxvPQ=
+			h3otS27CFIbsnveQYyzCvoVZIUY=
 			</data>
 			<key>hash2</key>
 			<data>
-			b41aMIF5xeeiDGF4npXJvBQZsLNZ4pAScy0xYW+vhnY=
+			tON93ovTt63T94OXvPFYm+8deByDnOPYLFZZBUNbi7M=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8AvWrM0ApzhVprnyJvAb0kRn+d4=
+			3SFaB/pWxwNAJiGdwK7eNseaqZ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			RgJZTMcoB62G4hsz5SkebWgDmX6oIAmPVXK0MD6o9gU=
+			A0qUOjV6H08BzTUPtW/TyowzbQijq81lPWhI8Tjndv8=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ssfMi1iKH4geR2cnSTWDdIYaljk=
+			qsOTFdnuKLf/TDw1AD43aFxk0dY=
 			</data>
 			<key>hash2</key>
 			<data>
-			pU0F8Gzouy0TtIU4UElOMXHhduNfmpj+ASesVmTJigk=
+			kW3sUWWFVogaxn5sOnn6VgsFDOssLqL2tqmYI0dOUFw=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cWHSj4Gdhl6VuIjDigLliBveDns=
+			PhKvIEnyr5ILCQnq6OcnnV0pRBo=
 			</data>
 			<key>hash2</key>
 			<data>
-			H3NDN8DbiEPJcZfEBJP8a6IM0ZEkGX0mwqmTd+vbLw0=
+			SV+bib27OJZns0cT0sgtWUcBfJSotMc0vSlghPl+yy4=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GvQ5hxf9e2skp6O9NCB08dw9Jr8=
+			ReA4RsspZFWPMjqG6dAp1Q+4QEQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			G1IgsrpfH+3m8fiDrHzfSl6zY0tQebA5SgTJCpJ5ivU=
+			8LDa8b8vMJFT4QsAOfw3zFKzRZtjrDwUjKUuBkp7dB4=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftQuartzCore.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sLZGkkMM85xuxzoeqT4dtrUJ5z8=
+			ylbHTaQDKSvOFT05XS5k65+Ti4U=
 			</data>
 			<key>hash2</key>
 			<data>
-			xO3KEw4XrceYEhsIuVqdYoyOIoS4zTsfda3lyvf2bVQ=
+			MuzQxUrbG5NcoyWuGIeBksIetFtwJevMS8zxCmwAlFk=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftSwiftOnoneSupport.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			App7zR29DBNEmFb93kxRWKvpgio=
+			rdq6v9LQVWuAPXz8Ei9hDVfGt0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			wVi61L60ZeQOqp0oZQV9d52zhzhFvQ3BdCllDq1wy8E=
+			TSak0dJH4vf9i54a1B9uBxBIjBHcYbuaG1XTFpIyaLA=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ql7U+guHnixv055kBEuR8lqopiw=
+			RZnRBiWC+g6U2pOdbiYulnLaywc=
 			</data>
 			<key>hash2</key>
 			<data>
-			3YJSEE2F0VAcpqnAPwgom/n96zHI+UhrfDKZE0nKs8Q=
+			A8FdE/NR2oaBXbOe+zzOkMsYVvtkVw4321UL4IgEvVo=
 			</data>
 		</dict>
-		<key>Icon/charOldIcon.jpg</key>
+		<key>barIconImgFile/comment.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sYML+lJZcDDX9tmtuRMBVo2DbTo=
+			MnCvl04UmQr+xFzc6iL2BUh7f60=
 			</data>
 			<key>hash2</key>
 			<data>
-			TF5bbXIS1Jrs8aBCbTnpm2YMGpmwS23IvIFKdWkkdWg=
+			R2/dh5/4KQ3qZo7ZItAWhi7Qe5JqZprOuPFDbQstlnM=
 			</data>
 		</dict>
-		<key>Icon/charWinIcon.jpg</key>
+		<key>barIconImgFile/comment@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H1T4eE0JArCaceRE5Q9g5Eu4ejM=
+			PhKLNYBgoA6tBIGNl3zaYZeWzTo=
 			</data>
 			<key>hash2</key>
 			<data>
-			NlZOqS5b/h0nQgPvAkI2tFQcmH6sOPXU+uCXrYRR6Bc=
+			C/TZ1RjNpB4pjVcZqjWdr5oXURwsU9DWQbf3B7I1TV0=
 			</data>
 		</dict>
-		<key>Icon/locationIcon.jpg</key>
+		<key>barIconImgFile/disk.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Iva8nLWTrL3VC6LtL2JQ8UB5sIs=
+			w0sP5BKhlsxZCt5ubD0xyoOwuTI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zf8aASBJ17T/Yy+aa7CWUomhi+PaNF5DuWCQJBIoRWc=
+			LfSCpQ4Cd9MS8UG54evwsstQilKeYLJa31Uwvbb4OVA=
 			</data>
 		</dict>
-		<key>Icon/musicIcon.jpg</key>
+		<key>barIconImgFile/disk@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Mz42Z3chNncFx6X8kMWPymx1HY0=
+			kiNbmO6pC8wiGcyrCZqgi1jz7HU=
 			</data>
 			<key>hash2</key>
 			<data>
-			KtUgbNDfp1y8iqpm4r63Wlo587UhMsWWntUrBwNBrzs=
+			YLw6foMBN7nNN61I4aKKyrf9BjaRN25cjZSgC4b7TIY=
 			</data>
 		</dict>
-		<key>Icon/shotIcon.jpg</key>
+		<key>barIconImgFile/home.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vZWDxAYqcfOtcr91uW/7jw60VO0=
+			TpWa4sSXkHC8imA4n1PWHlOe6jA=
 			</data>
 			<key>hash2</key>
 			<data>
-			2iNZkIDLisMoPGcGKhnZbPHOMuQk8j8x6ySqmMGY20Q=
+			uFkZD18vop2ZxuNxm2NTAQiAwLhL4mEW5HyLggKTiVA=
 			</data>
 		</dict>
-		<key>Icon/skillIcon.jpg</key>
+		<key>barIconImgFile/home@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TN0tbFOi20/IHfY3XZZMYrJlsfU=
+			9czNTV1I0I8R/hVxdeZOMzQtwUA=
 			</data>
 			<key>hash2</key>
 			<data>
-			fVuoWhkZaCm1nvmTO4px+7K9eV91QHc1IKqXz7bX6ps=
+			cMNn/bBeUG5SeDk281qvF3z9SpP0LXtmkENmM6rWzQk=
 			</data>
 		</dict>
-		<key>Icon/spellIcon.jpg</key>
+		<key>barIconImgFile/man.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lFdon8tUkA5/s6X1hcUe701ySJw=
+			1dzh6/c3zT59XVT5oc9pPr4hddw=
 			</data>
 			<key>hash2</key>
 			<data>
-			PvR3G9XFp4em8KZaNz514Di1GRRDiz4jDQzV+RveyFU=
+			qO3SzWT4hbyJapkjdSJ4WQ3xGtSeHYEsoX/9eJ1+rsM=
 			</data>
 		</dict>
-		<key>Icon/talkIcon.jpg</key>
+		<key>barIconImgFile/man@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XMBOISUHGu39Utsfxb/9QiS/gi0=
+			IOKSlkEOq5iA65j7yvqFX3YC47c=
 			</data>
 			<key>hash2</key>
 			<data>
-			dc0CfeH/W1ekyTQzSqJA1zMQ29ZqqJ4nPeyDthGf7bk=
+			ZzR8Kew/f5havvUGJSLv095nm5ta0u9FU9SvFsE4th0=
 			</data>
 		</dict>
-		<key>Icon/worksIcon.jpg</key>
+		<key>barIconImgFile/other.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wWoF/xIpFRnRhqGJm7hhlJm6Yqg=
+			10o/P8PMKMGo1+Gy5KuEd2/zbG8=
 			</data>
 			<key>hash2</key>
 			<data>
-			/oLkjjUfXBwd7CPfwpyaCkpzikhCZhPpGr/bw6TN51Y=
+			B09r0706GeF16I6yxD24ElIBenPl7spDDoPUrLp5bGM=
 			</data>
 		</dict>
-		<key>SqlFile/charDetailData.sqlite</key>
+		<key>barIconImgFile/other@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cjzqinwNpBCzvm+x7xWW9swLc/s=
+			fJ6GsrW2VC+cpuIs6MGR7O9bM4o=
 			</data>
 			<key>hash2</key>
 			<data>
-			4WxxjKsS6YEEvkHIFma0DLH9WoCt04OgNZD7l0HWHyc=
+			wxbknmLPQc+ut+UfZZZixvJWIyUY8Z/Wdb3777dAyaY=
 			</data>
 		</dict>
-		<key>SqlFile/landData.sqlite</key>
+		<key>barIconImgFile/question.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AZ6QNVWG0n+pGFfT4bPEfXzbFhU=
+			DnysrBhg6xTM+m3Cu+OrzJ1EwDg=
 			</data>
 			<key>hash2</key>
 			<data>
-			N8C1mMghwnmtNtvCGYFo5o9P89MgM1JKWlk1H1ebtUI=
+			ZfQy6zA1Ut9CM01PLZADxXNTRIvWnXOZ+c3tPDCGO10=
 			</data>
 		</dict>
-		<key>SqlFile/musicData.sqlite</key>
+		<key>barIconImgFile/question@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			quvMl+QV0anTgy03OI534gg5ju8=
+			3LkxCsi/Z8BPYTi3/JStMW5o6C8=
 			</data>
 			<key>hash2</key>
 			<data>
-			RLnGS25fFrn/sp1HsHxN7qzhRRrZkdZFzUhxF01LSJI=
+			nHCx35GEEsYm1vGuTn3Z0SPm+ghofVtfk9Om/Xfaxno=
 			</data>
 		</dict>
-		<key>SqlFile/musicData2.sqlite</key>
+		<key>barIconImgFile/search.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W7jBS4CzNYInruAeJkJMjBbMGWE=
+			DDBljSGK8lKd9qu+zvpp0dAMONw=
 			</data>
 			<key>hash2</key>
 			<data>
-			tKjCiwL12C7BhqOzf7YZzJ4ZQy+r0MgQ8cEnfUmz9uI=
+			IisO1hawg9sQdwwBYBokn+l8Xvb+1hh5ZaOm0JP6v/s=
 			</data>
 		</dict>
-		<key>SqlFile/shotDetailData.sqlite</key>
+		<key>barIconImgFile/search@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bqN+iDsCK4lpksZW9nB1w7q/RTQ=
+			xZjlL0ZNyFzy1p+xEUSlzrVhYOs=
 			</data>
 			<key>hash2</key>
 			<data>
-			u5uGrqIzOlupAFDsT/3VzUjnskQlep/giPI2EEk1hZU=
+			pRHTjgGf/G5O4ZsIuZzzn8AZJkKtdBsc7PiuKNM8HYs=
 			</data>
 		</dict>
-		<key>SqlFile/skillDetailData.sqlite</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1RFCn4iJ0kjEPCIX5Grhp5UpMdI=
-			</data>
-			<key>hash2</key>
-			<data>
-			7mifUm0JU5tamlescc6n6aLfy/OEh/3ajAAAXa2qGiA=
-			</data>
-		</dict>
-		<key>SqlFile/spellDetailData.sqlite</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			iQwv0qQ2IIH353RYTurPCFK4CEM=
-			</data>
-			<key>hash2</key>
-			<data>
-			SyOuAnfcBRT9t2ahxs9MTEqhXvaBPVYjjOIrdPt6QeY=
-			</data>
-		</dict>
-		<key>SqlFile/stageDetailData.sqlite</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qaQf9SogUPMquQN9nqrL96iyk84=
-			</data>
-			<key>hash2</key>
-			<data>
-			wkZiMgLN66OO6dHGqsZMbq+5JZXhbjiOTuWX4RyPSOQ=
-			</data>
-		</dict>
-		<key>SqlFile/talkData.sqlite</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MFX13BEjIVsVpjDA7XrsgnmBddA=
-			</data>
-			<key>hash2</key>
-			<data>
-			5jh2JetUZcL9teMz/fbWJdY99yILnazcDgjpo3iz5fs=
-			</data>
-		</dict>
-		<key>SqlFile/titleDetailData.sqlite</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cffxiNuK9TvDB6lTQ+g4q97G8g0=
-			</data>
-			<key>hash2</key>
-			<data>
-			/lo6Tp/gDVFWUpofdUzV4DzAmiFm74jYyCgnvHog+9c=
-			</data>
-		</dict>
-		<key>SqlFile/titleDetailData.sqlite-journal</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ShyvKi1kpwk1eBQkny4dddzSygk=
-			</data>
-			<key>hash2</key>
-			<data>
-			kprS47LM7LAxx7KJHng6WbEIKqyjAytl2DRUxG9zwDM=
-			</data>
-		</dict>
-		<key>charLogo/Akyu.png</key>
+		<key>charLogoImgFile/Akyu.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1280,7 +1394,7 @@
 			Rs5iCbgSZsKeb2EFft1htBVh8ip5X93IQ2xqulT95LY=
 			</data>
 		</dict>
-		<key>charLogo/Alice.png</key>
+		<key>charLogoImgFile/Alice.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1291,7 +1405,7 @@
 			PJnxIZWiIAVAKOsyRcTqaruDhPdmS6366mER5p3C40Y=
 			</data>
 		</dict>
-		<key>charLogo/Aun.png</key>
+		<key>charLogoImgFile/Aun.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1302,7 +1416,7 @@
 			poJLcoxuXCiE3asIsj8Mc3L8iO+LKrQYGuQXom8785g=
 			</data>
 		</dict>
-		<key>charLogo/Aya.png</key>
+		<key>charLogoImgFile/Aya.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1313,7 +1427,7 @@
 			JeZvr6x/Rh0O+mT3P26otOup+Vvt+627VQl2KtALgC4=
 			</data>
 		</dict>
-		<key>charLogo/Benben.png</key>
+		<key>charLogoImgFile/Benben.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1324,7 +1438,7 @@
 			6mMNX58b6R4pWL05jb2XwY+0fHb1vdJo2PqUyQLh/jY=
 			</data>
 		</dict>
-		<key>charLogo/Byakuren.png</key>
+		<key>charLogoImgFile/Byakuren.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1335,7 +1449,7 @@
 			3DDREgYhx3nG/CunCYE8z5vefrdyTV9LVRa32Jjh6kQ=
 			</data>
 		</dict>
-		<key>charLogo/Chen.png</key>
+		<key>charLogoImgFile/Chen.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1346,7 +1460,7 @@
 			PMV+W7ehIDLfULqeMDxZz0CbOQt2W9QnhTXguNrvhdY=
 			</data>
 		</dict>
-		<key>charLogo/Cirno.png</key>
+		<key>charLogoImgFile/Cirno.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1357,7 +1471,7 @@
 			3cHrQeQiUay87wdXrmH/ccfy9QrjmYTvuEpQfwI5IQc=
 			</data>
 		</dict>
-		<key>charLogo/Clownpiece.bak.png</key>
+		<key>charLogoImgFile/Clownpiece.bak.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1368,7 +1482,7 @@
 			HDkkTyOyuq7km99OljimISMkTxB2mnF8rnNWJl1tC8Q=
 			</data>
 		</dict>
-		<key>charLogo/Clownpiece.png</key>
+		<key>charLogoImgFile/Clownpiece.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1379,7 +1493,7 @@
 			npw8xCbeBe4Ozo/Lm1L7YKTiiDCfcpLntCd+dkV5Ajg=
 			</data>
 		</dict>
-		<key>charLogo/Daiyousei.png</key>
+		<key>charLogoImgFile/Daiyousei.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1390,7 +1504,7 @@
 			IHdp9rqm1VCnMEWHmcfad2vBtBXWydtQoE0NSk67WWk=
 			</data>
 		</dict>
-		<key>charLogo/Doremy.png</key>
+		<key>charLogoImgFile/Doremy.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1401,7 +1515,7 @@
 			arpVNuN/tvpW/gL13mNgjlHFNp1SlTtt98WbSRmg/fk=
 			</data>
 		</dict>
-		<key>charLogo/Eiki.png</key>
+		<key>charLogoImgFile/Eiki.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1412,7 +1526,7 @@
 			vjTtC2nvlABf8rTD5HuibUl8pGKeW5EAkTmhr9yG6hc=
 			</data>
 		</dict>
-		<key>charLogo/Eirin.png</key>
+		<key>charLogoImgFile/Eirin.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1423,7 +1537,7 @@
 			bduPxahwvpBg2LGAoGJ6vC34C8AUsTtXY8DzS3nID7Q=
 			</data>
 		</dict>
-		<key>charLogo/EtanityLarva.png</key>
+		<key>charLogoImgFile/EtanityLarva.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1434,7 +1548,7 @@
 			Ht1Bc9IrWZ+jMVLpQpzmMsDQ4oEVHLZ82OvMOAsmMes=
 			</data>
 		</dict>
-		<key>charLogo/Frandre.png</key>
+		<key>charLogoImgFile/Frandre.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1445,7 +1559,7 @@
 			NGxmrM9VbxE4uGd+zk7yCjQm7afcKjoddGKgUol9Rwk=
 			</data>
 		</dict>
-		<key>charLogo/Futo.png</key>
+		<key>charLogoImgFile/Futo.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1456,7 +1570,7 @@
 			PEgJI090H3gys7zXv7hAyP3X3u9TwUFgOlBQ9nN4+Fc=
 			</data>
 		</dict>
-		<key>charLogo/Hatate.png</key>
+		<key>charLogoImgFile/Hatate.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1467,7 +1581,7 @@
 			I+GUyrzwn+jtI9KWjG1a0eXSm6aTRtDcRcOzAiDbMns=
 			</data>
 		</dict>
-		<key>charLogo/Hecatia.png</key>
+		<key>charLogoImgFile/Hecatia.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1478,7 +1592,7 @@
 			nFclNcLZd2GsvDovdig+yOd2lkBsXFxcp2gFjsTBryQ=
 			</data>
 		</dict>
-		<key>charLogo/Hina.png</key>
+		<key>charLogoImgFile/Hina.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1489,7 +1603,7 @@
 			6frqp5sU8xkfUxfWmvqpAJardPM8zO+k5XOCrAWSNt0=
 			</data>
 		</dict>
-		<key>charLogo/Ichirin.png</key>
+		<key>charLogoImgFile/Ichirin.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1500,7 +1614,7 @@
 			x7Sj3C2TtXhKWFb53slku8DS94rgEbPxualsxfM99J4=
 			</data>
 		</dict>
-		<key>charLogo/Iku.png</key>
+		<key>charLogoImgFile/Iku.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1511,7 +1625,7 @@
 			cTVFfa7ownlik6A774ivNHwg31xb3fvHWg8+SZphNo4=
 			</data>
 		</dict>
-		<key>charLogo/Junko.png</key>
+		<key>charLogoImgFile/Junko.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1522,7 +1636,7 @@
 			VDUZj6zFgvVEX3x626gAdp0iwELve4g0KTVLSxErimw=
 			</data>
 		</dict>
-		<key>charLogo/Kagerou.png</key>
+		<key>charLogoImgFile/Kagerou.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1533,7 +1647,7 @@
 			p8AULQuZL8FFk46WaRbHg0QYX/Y+dExdmsR2euUz7eo=
 			</data>
 		</dict>
-		<key>charLogo/Kaguya.png</key>
+		<key>charLogoImgFile/Kaguya.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1544,7 +1658,7 @@
 			X3mYgONFGOUEo9MeRiEx/JTYDPMhLCPed7TlHoHUxRI=
 			</data>
 		</dict>
-		<key>charLogo/Kanako.png</key>
+		<key>charLogoImgFile/Kanako.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1555,7 +1669,7 @@
 			2EcQ4vDVSbw5tuNcV9DTG/InCYMhOl0/zUbh6jrSiMo=
 			</data>
 		</dict>
-		<key>charLogo/Kasen.png</key>
+		<key>charLogoImgFile/Kasen.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1566,7 +1680,7 @@
 			x/WRRA9DQPyO5HA2PycP6NENW9b8HQ8aT5PBrlqx7DI=
 			</data>
 		</dict>
-		<key>charLogo/Keine.png</key>
+		<key>charLogoImgFile/Keine.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1577,7 +1691,7 @@
 			ckjw00gS9n3KQThfb19B+w8xgAbgr6UUTV6XEkujGhw=
 			</data>
 		</dict>
-		<key>charLogo/Kisume.png</key>
+		<key>charLogoImgFile/Kisume.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1588,7 +1702,7 @@
 			42DGruSnJVze2mz7RjBJGYwNi1XebNx6C0omMHuNPkk=
 			</data>
 		</dict>
-		<key>charLogo/Koakuma.png</key>
+		<key>charLogoImgFile/Koakuma.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1599,7 +1713,7 @@
 			hsCW3lOeQjwZ4pjxVNfzCKVR1xbdOlfcchSwT7QZrx0=
 			</data>
 		</dict>
-		<key>charLogo/Kogasa.png</key>
+		<key>charLogoImgFile/Kogasa.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1610,7 +1724,7 @@
 			4C6b1YbTsVIC8j+hWrBI0MhP0KDOb4MivJ4Jfqlizzg=
 			</data>
 		</dict>
-		<key>charLogo/Koishi.png</key>
+		<key>charLogoImgFile/Koishi.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1621,7 +1735,7 @@
 			SRaEKT4MCPBAnEWHtaeZwKyC73dUkHeOzu67fV1DD9A=
 			</data>
 		</dict>
-		<key>charLogo/Kokoro.png</key>
+		<key>charLogoImgFile/Kokoro.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1632,7 +1746,7 @@
 			N3oK+ZUXFT3uLkC7MY472BA5wbM+ykIhgRybvarICBI=
 			</data>
 		</dict>
-		<key>charLogo/Komachi.png</key>
+		<key>charLogoImgFile/Komachi.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1643,7 +1757,7 @@
 			e9mI+SlDWWjJr9Qd21KNxqHj4gbn2jhZ8BJq0N5JhFw=
 			</data>
 		</dict>
-		<key>charLogo/Kosuzu.png</key>
+		<key>charLogoImgFile/Kosuzu.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1654,7 +1768,7 @@
 			ht1NFjZsyMoX3rDv8WceTX4x7mFBUYWpHkSkD9DwkE4=
 			</data>
 		</dict>
-		<key>charLogo/Kyoko.png</key>
+		<key>charLogoImgFile/Kyoko.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1665,7 +1779,7 @@
 			obpu4ug3G1sy6FuPIj8RmNTaqKo/Lt5Fa3SOL8b8AEI=
 			</data>
 		</dict>
-		<key>charLogo/Letty.png</key>
+		<key>charLogoImgFile/Letty.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1676,7 +1790,7 @@
 			mg5/VFN8XMbWQOu/bpoqdtbO+w6z4NdkXuDLBwjii1M=
 			</data>
 		</dict>
-		<key>charLogo/Lily.png</key>
+		<key>charLogoImgFile/Lily.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1687,7 +1801,7 @@
 			8YLoiRcYu9yVee8l9vj8r6FpInytvnT9wX13chORNM4=
 			</data>
 		</dict>
-		<key>charLogo/Lunar.png</key>
+		<key>charLogoImgFile/Lunar.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1698,7 +1812,7 @@
 			tKebcDdXKsPxiTL7rX6FYGKjHGz1qdBUIDxVc6Igsw0=
 			</data>
 		</dict>
-		<key>charLogo/Lunasa.png</key>
+		<key>charLogoImgFile/Lunasa.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1709,7 +1823,7 @@
 			iE/SuegKdkGBRpZIIe9W1LTOc8wjID8ROikwt71xNVA=
 			</data>
 		</dict>
-		<key>charLogo/Lyrica.png</key>
+		<key>charLogoImgFile/Lyrica.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1720,7 +1834,7 @@
 			2gAm9EAuGFHwi3gSrr8o/Amzb0tELI3DBkNmJ+1NfHM=
 			</data>
 		</dict>
-		<key>charLogo/Mamizou.png</key>
+		<key>charLogoImgFile/Mamizou.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1731,7 +1845,7 @@
 			8Nvlsc1+FA6iZae2Pma8dZCP6Ek8faLU78tKwD6b7FA=
 			</data>
 		</dict>
-		<key>charLogo/Marisa.png</key>
+		<key>charLogoImgFile/Marisa.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1742,7 +1856,7 @@
 			BWTpzgh8+uoBEH+GmUkzlxuN8/F/XrJqJBQQmFS96Cc=
 			</data>
 		</dict>
-		<key>charLogo/Medicine.png</key>
+		<key>charLogoImgFile/Medicine.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1753,7 +1867,7 @@
 			v2+HOhX3lI5fYfuiWdytQCyrQ9KwHkqeD0od8K0TNTY=
 			</data>
 		</dict>
-		<key>charLogo/Meirin.png</key>
+		<key>charLogoImgFile/Meirin.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1764,7 +1878,7 @@
 			r+WusLJaA8xOLc/3q9zqEOMPwb6opepYjYR7C/ykINE=
 			</data>
 		</dict>
-		<key>charLogo/Merlin.png</key>
+		<key>charLogoImgFile/Merlin.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1775,7 +1889,7 @@
 			S6PGHnwRnxPPr8Xe617kk6xpXhBOyffr7BB/zRdzmOA=
 			</data>
 		</dict>
-		<key>charLogo/Merry.png</key>
+		<key>charLogoImgFile/Merry.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1786,7 +1900,7 @@
 			IpiC31+iNkCl4j1H9WhnHMkjtcQ0wu0+gSgkiXqzEKg=
 			</data>
 		</dict>
-		<key>charLogo/Miko.png</key>
+		<key>charLogoImgFile/Miko.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1797,7 +1911,7 @@
 			tJLrQ1UDQ/KfMSOQ7cO6n4iE7yld/Iznn6lcbN/fJDw=
 			</data>
 		</dict>
-		<key>charLogo/Minamitsu.png</key>
+		<key>charLogoImgFile/Minamitsu.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1808,7 +1922,7 @@
 			XUvX4kjyYty9xy97EdtdnVtTowyofJFIT5cEDJQIPoA=
 			</data>
 		</dict>
-		<key>charLogo/Minoriko.png</key>
+		<key>charLogoImgFile/Minoriko.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1819,7 +1933,7 @@
 			3xXCwku/92S/+sGe7L1t6xFd5yyscrRGDG1o32LpubI=
 			</data>
 		</dict>
-		<key>charLogo/Mokou.png</key>
+		<key>charLogoImgFile/Mokou.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1830,7 +1944,7 @@
 			amiLoCUGD5YfHXOqKxjkXYrbQP7MIE3D/pKnQs2JNmo=
 			</data>
 		</dict>
-		<key>charLogo/Momizi.png</key>
+		<key>charLogoImgFile/Momizi.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1841,7 +1955,7 @@
 			RtFDrWHhKNm0vuyfwHK95tfsCMg/jn2qArQqTbhHfOc=
 			</data>
 		</dict>
-		<key>charLogo/Mystia.png</key>
+		<key>charLogoImgFile/Mystia.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1852,7 +1966,7 @@
 			CxawVnzd/Ce1nXDA+Monzmtwh7dFY+Dw5Yy6BamFyWw=
 			</data>
 		</dict>
-		<key>charLogo/Namazu.png</key>
+		<key>charLogoImgFile/Namazu.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1863,7 +1977,7 @@
 			4KgWdOAdFYHfwroGukDJaLWcHGIcZsNMzt7ZzNaDblc=
 			</data>
 		</dict>
-		<key>charLogo/Nazrin.png</key>
+		<key>charLogoImgFile/Nazrin.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1874,7 +1988,7 @@
 			iHlVciwFYh6Wp56sKeaVF5gk19+1UVA4gEocj14ahnY=
 			</data>
 		</dict>
-		<key>charLogo/Nemuno.png</key>
+		<key>charLogoImgFile/Nemuno.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1885,7 +1999,7 @@
 			cHtwWsH6qpeJ0rnPizSqAHkYpMHvn7xF1ZPasC7JIgM=
 			</data>
 		</dict>
-		<key>charLogo/Nitori.png</key>
+		<key>charLogoImgFile/Nitori.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1896,7 +2010,7 @@
 			VqwTBXPOk228ltDgvCu3vYXPzndayECEWwo78yy3erc=
 			</data>
 		</dict>
-		<key>charLogo/Nue.png</key>
+		<key>charLogoImgFile/Nue.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1907,7 +2021,7 @@
 			uuOT1RsXrF73yZb4Rl1hh24KquDpwnMDfPP1DXkpTao=
 			</data>
 		</dict>
-		<key>charLogo/Oku.png</key>
+		<key>charLogoImgFile/Oku.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1918,7 +2032,7 @@
 			z1LgPA/KXaWk9znGFLZ1yNx3qPGcRt8UXrLYFlqlDqY=
 			</data>
 		</dict>
-		<key>charLogo/Orin.png</key>
+		<key>charLogoImgFile/Orin.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1929,7 +2043,7 @@
 			OW1kTrUfqCsyJy1laH+O+0kIUWhENkdNXYQe2hfHs4g=
 			</data>
 		</dict>
-		<key>charLogo/Parsee.png</key>
+		<key>charLogoImgFile/Parsee.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1940,7 +2054,7 @@
 			m76Cu/nN61g5DNWHzzB8ma8H3EBxUselVGhMBBOc+2I=
 			</data>
 		</dict>
-		<key>charLogo/Patchouli.png</key>
+		<key>charLogoImgFile/Patchouli.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1951,7 +2065,7 @@
 			9c32V70FIyZxnR6XsY70mJsz/yZU8L2miVIg0SBh6No=
 			</data>
 		</dict>
-		<key>charLogo/PrismRiver.png</key>
+		<key>charLogoImgFile/PrismRiver.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1962,7 +2076,7 @@
 			OIx5UHTeGaAOlxZyJgThunFOGdVp5uYukCBtAhiHFrw=
 			</data>
 		</dict>
-		<key>charLogo/Raiko.png</key>
+		<key>charLogoImgFile/Raiko.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1973,7 +2087,7 @@
 			kR+ZP7Z3VFi72S/6J5F8eeKhvc2508Z5EICFn70yqHw=
 			</data>
 		</dict>
-		<key>charLogo/Ran.png</key>
+		<key>charLogoImgFile/Ran.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1984,7 +2098,7 @@
 			nx/6Qp0L9GNqdaLmg6VB+Ap+0m94VUSV5Z2xNhMTayI=
 			</data>
 		</dict>
-		<key>charLogo/Reimu.png</key>
+		<key>charLogoImgFile/Reimu.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1995,7 +2109,7 @@
 			ms2VmK8iL25ercquDBkhQWgFN+9Ena9dsL10WOxeHr0=
 			</data>
 		</dict>
-		<key>charLogo/Reisen.png</key>
+		<key>charLogoImgFile/Reisen.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2006,7 +2120,7 @@
 			GmjR46XMEuuDzavody5Y/2IDxhgWDdbEcRms4eq1HBc=
 			</data>
 		</dict>
-		<key>charLogo/Remilia.png</key>
+		<key>charLogoImgFile/Remilia.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2017,7 +2131,7 @@
 			eR71DnRUJDCm6kfK6qwaO6m209CzWJuLcbyh6lF58T0=
 			</data>
 		</dict>
-		<key>charLogo/Renko.png</key>
+		<key>charLogoImgFile/Renko.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2028,7 +2142,7 @@
 			ou3YoJ5r9aL3YKZTE3+8GCNH2avmlGXOUoKLrCnXWm8=
 			</data>
 		</dict>
-		<key>charLogo/Ringo.png</key>
+		<key>charLogoImgFile/Ringo.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2039,7 +2153,7 @@
 			O66PLsZJxROI1sub9qq/3yZSm4IdaCTPYMkGrjpyvew=
 			</data>
 		</dict>
-		<key>charLogo/Rinnosuke.png</key>
+		<key>charLogoImgFile/Rinnosuke.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2050,7 +2164,7 @@
 			e6Vzuq2rygWTBfudECtDq1NaBIHzH5c5Ia1WBfKHBHg=
 			</data>
 		</dict>
-		<key>charLogo/Rumia.png</key>
+		<key>charLogoImgFile/Rumia.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2061,7 +2175,7 @@
 			pEXxhLDm5APJ4P+pSKsOyuLyi1Hh+P6ZCaMwozTYpu8=
 			</data>
 		</dict>
-		<key>charLogo/Sagume.png</key>
+		<key>charLogoImgFile/Sagume.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2072,7 +2186,7 @@
 			yrcv7L5lIrceY4hM/8nmjEIB1cY+TSM/k3m27a3Np34=
 			</data>
 		</dict>
-		<key>charLogo/Sakuya.png</key>
+		<key>charLogoImgFile/Sakuya.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2083,7 +2197,7 @@
 			45LDViTInZIV+itxg94L4rxOsHwc3i/njIpdYFfasKg=
 			</data>
 		</dict>
-		<key>charLogo/Sanae.png</key>
+		<key>charLogoImgFile/Sanae.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2094,7 +2208,7 @@
 			55vQe3kgc+5ind5JvTL7WDPueh1lzZK7TJ2f7KirPqw=
 			</data>
 		</dict>
-		<key>charLogo/Satori.png</key>
+		<key>charLogoImgFile/Satori.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2105,7 +2219,7 @@
 			g4UozL3xlSjQ+M4xfe54bTkHVCAeaJMid8ICHOalL50=
 			</data>
 		</dict>
-		<key>charLogo/Seiga.png</key>
+		<key>charLogoImgFile/Seiga.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2116,7 +2230,7 @@
 			NQHA9O5XI6Z3Xx6bX1YJVKelbuR7eIEQh15k2sFegt4=
 			</data>
 		</dict>
-		<key>charLogo/Seija.png</key>
+		<key>charLogoImgFile/Seija.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2127,7 +2241,7 @@
 			VqJvgYwkQKqJ10cSgvrdfgDdGaFQwJ7rVLS9+3mAXo4=
 			</data>
 		</dict>
-		<key>charLogo/Seiran.png</key>
+		<key>charLogoImgFile/Seiran.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2138,7 +2252,7 @@
 			mOILnMsIRfbi1pVYEUy2dWHMDwYGvn+oIC9Gff9azr0=
 			</data>
 		</dict>
-		<key>charLogo/Sekibanki.png</key>
+		<key>charLogoImgFile/Sekibanki.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2149,7 +2263,7 @@
 			VAf8YVtjXN/SaElmOBNYoym1I3WaYIMCp2bhkBodA5k=
 			</data>
 		</dict>
-		<key>charLogo/Shinmyoumaru.png</key>
+		<key>charLogoImgFile/Shinmyoumaru.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2160,7 +2274,7 @@
 			yjVsVEZ/ClbezScymcMqx+QzRlLlAACJL39KuTXqWlY=
 			</data>
 		</dict>
-		<key>charLogo/Shizuha.png</key>
+		<key>charLogoImgFile/Shizuha.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2171,7 +2285,7 @@
 			8VRcqxaTupUAVlaA5XznM/N+ctLcZI7vK3+vttgvXE8=
 			</data>
 		</dict>
-		<key>charLogo/Star.png</key>
+		<key>charLogoImgFile/Star.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2182,7 +2296,7 @@
 			QypzI9rGy4FbCjvU4e152bMM7oer2gAwQ3/+I9/kJPw=
 			</data>
 		</dict>
-		<key>charLogo/Suika.png</key>
+		<key>charLogoImgFile/Suika.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2193,7 +2307,7 @@
 			bFIVzaJjozDfaKyCq92lToIb1GOM4rrsNcCGtAk/Z5A=
 			</data>
 		</dict>
-		<key>charLogo/Sumireko.png</key>
+		<key>charLogoImgFile/Sumireko.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2204,7 +2318,7 @@
 			oBXqOmDhC+wWvnemq4rA+AfsOFS9D9C0Bjfxbdi+Jzk=
 			</data>
 		</dict>
-		<key>charLogo/Sunny.png</key>
+		<key>charLogoImgFile/Sunny.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2215,7 +2329,7 @@
 			2FVry8ms9pN1hvXsQIOFeONBrcu8DSCSAHvIuzSLVtM=
 			</data>
 		</dict>
-		<key>charLogo/Suwako.png</key>
+		<key>charLogoImgFile/Suwako.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2226,7 +2340,7 @@
 			zQksNEuMPLuHyjS1ifYGl8hAbhjGmgEeNIaQ0FFvgeM=
 			</data>
 		</dict>
-		<key>charLogo/Syou.png</key>
+		<key>charLogoImgFile/Syou.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2237,7 +2351,7 @@
 			icpjPJgy9i9HWleyW1f9hlMTUzMJtyDSMEf8R1jDhV8=
 			</data>
 		</dict>
-		<key>charLogo/Tenshi.png</key>
+		<key>charLogoImgFile/Tenshi.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2248,7 +2362,7 @@
 			BOA81cNXwuzqyQ9VXLeiprnD3woMsdQlE8LrzBIv9s0=
 			</data>
 		</dict>
-		<key>charLogo/Tewi.png</key>
+		<key>charLogoImgFile/Tewi.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2259,7 +2373,7 @@
 			Az/fy4LEwo+3EESPYxKyMt9ou/PPK9L+pTcQLN43ykQ=
 			</data>
 		</dict>
-		<key>charLogo/ThreeFairys.png</key>
+		<key>charLogoImgFile/ThreeFairys.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2270,7 +2384,7 @@
 			i0ltSExCjtr416Otg0cxQz65jSqW5Eoc44VXEC0DgIM=
 			</data>
 		</dict>
-		<key>charLogo/Toyohime.png</key>
+		<key>charLogoImgFile/Toyohime.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2281,7 +2395,7 @@
 			Inj9h+pqOpOcGQvVmYZPnL7QCBeDPHcblqFN3PdiTYU=
 			</data>
 		</dict>
-		<key>charLogo/Toziko.png</key>
+		<key>charLogoImgFile/Toziko.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2292,7 +2406,7 @@
 			KRO3aL5fevll+HqBKeo+vxs9YpNnyeP4IvQDDNRz6x8=
 			</data>
 		</dict>
-		<key>charLogo/TsukumoSister.png</key>
+		<key>charLogoImgFile/TsukumoSister.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2303,7 +2417,7 @@
 			1lPumVTgwVtbe5by0jRxiCWeRzi6OGfQFbQxbunvAFM=
 			</data>
 		</dict>
-		<key>charLogo/Udonge.png</key>
+		<key>charLogoImgFile/Udonge.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2314,7 +2428,7 @@
 			w58LHjRb24Wpykg1EiYQUQAZemBfKo3zrR6mqAx03RQ=
 			</data>
 		</dict>
-		<key>charLogo/Unzan.png</key>
+		<key>charLogoImgFile/Unzan.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2325,7 +2439,7 @@
 			x7Sj3C2TtXhKWFb53slku8DS94rgEbPxualsxfM99J4=
 			</data>
 		</dict>
-		<key>charLogo/Wakasagihime.png</key>
+		<key>charLogoImgFile/Wakasagihime.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2336,7 +2450,7 @@
 			JAeQFt/DKOnyyOSu+nj6nUM3nzKHovEl+lh3k7Pbxw0=
 			</data>
 		</dict>
-		<key>charLogo/Wriggle.png</key>
+		<key>charLogoImgFile/Wriggle.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2347,7 +2461,7 @@
 			S3TRXdPxcCigbuNCYeG3tZAsmbUHAUFFgc/8bnNAD/M=
 			</data>
 		</dict>
-		<key>charLogo/Yamame.png</key>
+		<key>charLogoImgFile/Yamame.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2358,7 +2472,7 @@
 			4Bd9fFeraqwm1hTkV8t3tDfW+7TE+WrN7G2naIIjiJw=
 			</data>
 		</dict>
-		<key>charLogo/Yatsuhashi.png</key>
+		<key>charLogoImgFile/Yatsuhashi.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2369,7 +2483,7 @@
 			sv83mCMM6Atoz6+7xYde3AAAtOqx+04yFiPUs8LXKtM=
 			</data>
 		</dict>
-		<key>charLogo/Yorihime.png</key>
+		<key>charLogoImgFile/Yorihime.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2380,7 +2494,7 @@
 			j7zZ4IZonlY4+b4YHrAHxGUnBhos7By0wnS2x/V5oM4=
 			</data>
 		</dict>
-		<key>charLogo/Yoshika.png</key>
+		<key>charLogoImgFile/Yoshika.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2391,7 +2505,7 @@
 			dgdF2wgeL1u/mmwyYLMs2zcnnSOAe3qzBB/D+m4Ebqk=
 			</data>
 		</dict>
-		<key>charLogo/Youmu.png</key>
+		<key>charLogoImgFile/Youmu.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2402,7 +2516,7 @@
 			w3/iY1FGPQ5Yn2E0hdIQH+/ln10sAyifT9CLKKxgWfA=
 			</data>
 		</dict>
-		<key>charLogo/Yukari.png</key>
+		<key>charLogoImgFile/Yukari.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2413,7 +2527,7 @@
 			uX2bfeKNR30VwlujrV1egU6jbf+ZSYL+dWZqncrgqvA=
 			</data>
 		</dict>
-		<key>charLogo/Yuugi.png</key>
+		<key>charLogoImgFile/Yuugi.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2424,7 +2538,7 @@
 			1V1eG/m9JDLS5J1DhIHcOuGyFu4SSgaRj039mZDdjQw=
 			</data>
 		</dict>
-		<key>charLogo/Yuuka.png</key>
+		<key>charLogoImgFile/Yuuka.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2435,7 +2549,7 @@
 			BqB2kHjNAP8kPM5KPGf7CjsFhtkOPtX976C6/KiDJt8=
 			</data>
 		</dict>
-		<key>charLogo/Yuyuko.png</key>
+		<key>charLogoImgFile/Yuyuko.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2446,7 +2560,7 @@
 			y/LnXCxeeC2iPpUmF62MTOyr3b3tPIcSyufBRL+jBuE=
 			</data>
 		</dict>
-		<key>charLogo/forOldChar.png</key>
+		<key>charLogoImgFile/forOldChar.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2468,215 +2582,6 @@
 			Lm4roTqNUGZd6HnhN8FwhG2HRTNaIaCz1tmvul2vYnw=
 			</data>
 		</dict>
-		<key>images/check.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ke28SjTiOLYdvnkD2i1CcFVvaYI=
-			</data>
-			<key>hash2</key>
-			<data>
-			jZR0iP/wCHdxlNOoBkalNpmkAA8wTzvB7QxpLThsVYE=
-			</data>
-		</dict>
-		<key>images/comment.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MnCvl04UmQr+xFzc6iL2BUh7f60=
-			</data>
-			<key>hash2</key>
-			<data>
-			R2/dh5/4KQ3qZo7ZItAWhi7Qe5JqZprOuPFDbQstlnM=
-			</data>
-		</dict>
-		<key>images/comment@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PhKLNYBgoA6tBIGNl3zaYZeWzTo=
-			</data>
-			<key>hash2</key>
-			<data>
-			C/TZ1RjNpB4pjVcZqjWdr5oXURwsU9DWQbf3B7I1TV0=
-			</data>
-		</dict>
-		<key>images/disable_check.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zdtuHWezUbVuq0QV42WGOXQYmC8=
-			</data>
-			<key>hash2</key>
-			<data>
-			Lc1bKKwp6Jd8hDLTih0EBIwg1V07mH6+wifTq4HF2mQ=
-			</data>
-		</dict>
-		<key>images/disk.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			w0sP5BKhlsxZCt5ubD0xyoOwuTI=
-			</data>
-			<key>hash2</key>
-			<data>
-			LfSCpQ4Cd9MS8UG54evwsstQilKeYLJa31Uwvbb4OVA=
-			</data>
-		</dict>
-		<key>images/disk@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kiNbmO6pC8wiGcyrCZqgi1jz7HU=
-			</data>
-			<key>hash2</key>
-			<data>
-			YLw6foMBN7nNN61I4aKKyrf9BjaRN25cjZSgC4b7TIY=
-			</data>
-		</dict>
-		<key>images/home.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TpWa4sSXkHC8imA4n1PWHlOe6jA=
-			</data>
-			<key>hash2</key>
-			<data>
-			uFkZD18vop2ZxuNxm2NTAQiAwLhL4mEW5HyLggKTiVA=
-			</data>
-		</dict>
-		<key>images/home@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9czNTV1I0I8R/hVxdeZOMzQtwUA=
-			</data>
-			<key>hash2</key>
-			<data>
-			cMNn/bBeUG5SeDk281qvF3z9SpP0LXtmkENmM6rWzQk=
-			</data>
-		</dict>
-		<key>images/line.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/A503RywMhFGXU6gpqnBnFUW880=
-			</data>
-			<key>hash2</key>
-			<data>
-			xEtHBacYMllpv9z3MRGPDJmTEj/9I/U4jp7yvsy9xWs=
-			</data>
-		</dict>
-		<key>images/man.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1dzh6/c3zT59XVT5oc9pPr4hddw=
-			</data>
-			<key>hash2</key>
-			<data>
-			qO3SzWT4hbyJapkjdSJ4WQ3xGtSeHYEsoX/9eJ1+rsM=
-			</data>
-		</dict>
-		<key>images/man@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			IOKSlkEOq5iA65j7yvqFX3YC47c=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZzR8Kew/f5havvUGJSLv095nm5ta0u9FU9SvFsE4th0=
-			</data>
-		</dict>
-		<key>images/noImage.jpg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Fnh9yuDX20ZbUEKF2kChPBIly54=
-			</data>
-			<key>hash2</key>
-			<data>
-			gfv89jxDylkiM7RK/cUeGazroBx36xUp0KhcfWJn+g4=
-			</data>
-		</dict>
-		<key>images/nocheck.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Lv1l5WMHzLtRyunsw7x9rbTb538=
-			</data>
-			<key>hash2</key>
-			<data>
-			orvzBD+t4FwJGB2yvJADkQHLyaD8/487Ix1V+dFYXoc=
-			</data>
-		</dict>
-		<key>images/other.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			10o/P8PMKMGo1+Gy5KuEd2/zbG8=
-			</data>
-			<key>hash2</key>
-			<data>
-			B09r0706GeF16I6yxD24ElIBenPl7spDDoPUrLp5bGM=
-			</data>
-		</dict>
-		<key>images/other@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fJ6GsrW2VC+cpuIs6MGR7O9bM4o=
-			</data>
-			<key>hash2</key>
-			<data>
-			wxbknmLPQc+ut+UfZZZixvJWIyUY8Z/Wdb3777dAyaY=
-			</data>
-		</dict>
-		<key>images/question.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DnysrBhg6xTM+m3Cu+OrzJ1EwDg=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZfQy6zA1Ut9CM01PLZADxXNTRIvWnXOZ+c3tPDCGO10=
-			</data>
-		</dict>
-		<key>images/question@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3LkxCsi/Z8BPYTi3/JStMW5o6C8=
-			</data>
-			<key>hash2</key>
-			<data>
-			nHCx35GEEsYm1vGuTn3Z0SPm+ghofVtfk9Om/Xfaxno=
-			</data>
-		</dict>
-		<key>images/search.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DDBljSGK8lKd9qu+zvpp0dAMONw=
-			</data>
-			<key>hash2</key>
-			<data>
-			IisO1hawg9sQdwwBYBokn+l8Xvb+1hh5ZaOm0JP6v/s=
-			</data>
-		</dict>
-		<key>images/search@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xZjlL0ZNyFzy1p+xEUSlzrVhYOs=
-			</data>
-			<key>hash2</key>
-			<data>
-			pRHTjgGf/G5O4ZsIuZzzn8AZJkKtdBsc7PiuKNM8HYs=
-			</data>
-		</dict>
 		<key>libswiftRemoteMirror.dylib</key>
 		<dict>
 			<key>hash</key>
@@ -2688,7 +2593,271 @@
 			46/xeCc+IPUuHJTwUlQtzUTUmiXgqJwFE6WtRcfCFTg=
 			</data>
 		</dict>
-		<key>textData/QandA.txt</key>
+		<key>mainPageIconImgFile/charOldIcon.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sYML+lJZcDDX9tmtuRMBVo2DbTo=
+			</data>
+			<key>hash2</key>
+			<data>
+			TF5bbXIS1Jrs8aBCbTnpm2YMGpmwS23IvIFKdWkkdWg=
+			</data>
+		</dict>
+		<key>mainPageIconImgFile/charWinIcon.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			H1T4eE0JArCaceRE5Q9g5Eu4ejM=
+			</data>
+			<key>hash2</key>
+			<data>
+			NlZOqS5b/h0nQgPvAkI2tFQcmH6sOPXU+uCXrYRR6Bc=
+			</data>
+		</dict>
+		<key>mainPageIconImgFile/locationIcon.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Iva8nLWTrL3VC6LtL2JQ8UB5sIs=
+			</data>
+			<key>hash2</key>
+			<data>
+			Zf8aASBJ17T/Yy+aa7CWUomhi+PaNF5DuWCQJBIoRWc=
+			</data>
+		</dict>
+		<key>mainPageIconImgFile/musicIcon.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Mz42Z3chNncFx6X8kMWPymx1HY0=
+			</data>
+			<key>hash2</key>
+			<data>
+			KtUgbNDfp1y8iqpm4r63Wlo587UhMsWWntUrBwNBrzs=
+			</data>
+		</dict>
+		<key>mainPageIconImgFile/shotIcon.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vZWDxAYqcfOtcr91uW/7jw60VO0=
+			</data>
+			<key>hash2</key>
+			<data>
+			2iNZkIDLisMoPGcGKhnZbPHOMuQk8j8x6ySqmMGY20Q=
+			</data>
+		</dict>
+		<key>mainPageIconImgFile/skillIcon.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TN0tbFOi20/IHfY3XZZMYrJlsfU=
+			</data>
+			<key>hash2</key>
+			<data>
+			fVuoWhkZaCm1nvmTO4px+7K9eV91QHc1IKqXz7bX6ps=
+			</data>
+		</dict>
+		<key>mainPageIconImgFile/spellIcon.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lFdon8tUkA5/s6X1hcUe701ySJw=
+			</data>
+			<key>hash2</key>
+			<data>
+			PvR3G9XFp4em8KZaNz514Di1GRRDiz4jDQzV+RveyFU=
+			</data>
+		</dict>
+		<key>mainPageIconImgFile/talkIcon.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XMBOISUHGu39Utsfxb/9QiS/gi0=
+			</data>
+			<key>hash2</key>
+			<data>
+			dc0CfeH/W1ekyTQzSqJA1zMQ29ZqqJ4nPeyDthGf7bk=
+			</data>
+		</dict>
+		<key>mainPageIconImgFile/worksIcon.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wWoF/xIpFRnRhqGJm7hhlJm6Yqg=
+			</data>
+			<key>hash2</key>
+			<data>
+			/oLkjjUfXBwd7CPfwpyaCkpzikhCZhPpGr/bw6TN51Y=
+			</data>
+		</dict>
+		<key>otherImgFile/check.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ke28SjTiOLYdvnkD2i1CcFVvaYI=
+			</data>
+			<key>hash2</key>
+			<data>
+			jZR0iP/wCHdxlNOoBkalNpmkAA8wTzvB7QxpLThsVYE=
+			</data>
+		</dict>
+		<key>otherImgFile/disable_check.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zdtuHWezUbVuq0QV42WGOXQYmC8=
+			</data>
+			<key>hash2</key>
+			<data>
+			Lc1bKKwp6Jd8hDLTih0EBIwg1V07mH6+wifTq4HF2mQ=
+			</data>
+		</dict>
+		<key>otherImgFile/line.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/A503RywMhFGXU6gpqnBnFUW880=
+			</data>
+			<key>hash2</key>
+			<data>
+			xEtHBacYMllpv9z3MRGPDJmTEj/9I/U4jp7yvsy9xWs=
+			</data>
+		</dict>
+		<key>otherImgFile/noImage.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Fnh9yuDX20ZbUEKF2kChPBIly54=
+			</data>
+			<key>hash2</key>
+			<data>
+			gfv89jxDylkiM7RK/cUeGazroBx36xUp0KhcfWJn+g4=
+			</data>
+		</dict>
+		<key>otherImgFile/nocheck.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Lv1l5WMHzLtRyunsw7x9rbTb538=
+			</data>
+			<key>hash2</key>
+			<data>
+			orvzBD+t4FwJGB2yvJADkQHLyaD8/487Ix1V+dFYXoc=
+			</data>
+		</dict>
+		<key>sqlFile/charDetailData.sqlite</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LzmB7g94rI2oVrk8cL1LENaRbQU=
+			</data>
+			<key>hash2</key>
+			<data>
+			Kw1rIDUDMywCGsnOUMUAen51e59/C4IH4WUdcbK2Vjs=
+			</data>
+		</dict>
+		<key>sqlFile/landData.sqlite</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AZ6QNVWG0n+pGFfT4bPEfXzbFhU=
+			</data>
+			<key>hash2</key>
+			<data>
+			N8C1mMghwnmtNtvCGYFo5o9P89MgM1JKWlk1H1ebtUI=
+			</data>
+		</dict>
+		<key>sqlFile/musicData.sqlite</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			quvMl+QV0anTgy03OI534gg5ju8=
+			</data>
+			<key>hash2</key>
+			<data>
+			RLnGS25fFrn/sp1HsHxN7qzhRRrZkdZFzUhxF01LSJI=
+			</data>
+		</dict>
+		<key>sqlFile/musicData2.sqlite</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			W7jBS4CzNYInruAeJkJMjBbMGWE=
+			</data>
+			<key>hash2</key>
+			<data>
+			tKjCiwL12C7BhqOzf7YZzJ4ZQy+r0MgQ8cEnfUmz9uI=
+			</data>
+		</dict>
+		<key>sqlFile/shotDetailData.sqlite</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bqN+iDsCK4lpksZW9nB1w7q/RTQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			u5uGrqIzOlupAFDsT/3VzUjnskQlep/giPI2EEk1hZU=
+			</data>
+		</dict>
+		<key>sqlFile/skillDetailData.sqlite</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1RFCn4iJ0kjEPCIX5Grhp5UpMdI=
+			</data>
+			<key>hash2</key>
+			<data>
+			7mifUm0JU5tamlescc6n6aLfy/OEh/3ajAAAXa2qGiA=
+			</data>
+		</dict>
+		<key>sqlFile/spellDetailData.sqlite</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iQwv0qQ2IIH353RYTurPCFK4CEM=
+			</data>
+			<key>hash2</key>
+			<data>
+			SyOuAnfcBRT9t2ahxs9MTEqhXvaBPVYjjOIrdPt6QeY=
+			</data>
+		</dict>
+		<key>sqlFile/stageDetailData.sqlite</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qaQf9SogUPMquQN9nqrL96iyk84=
+			</data>
+			<key>hash2</key>
+			<data>
+			wkZiMgLN66OO6dHGqsZMbq+5JZXhbjiOTuWX4RyPSOQ=
+			</data>
+		</dict>
+		<key>sqlFile/talkData.sqlite</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MFX13BEjIVsVpjDA7XrsgnmBddA=
+			</data>
+			<key>hash2</key>
+			<data>
+			5jh2JetUZcL9teMz/fbWJdY99yILnazcDgjpo3iz5fs=
+			</data>
+		</dict>
+		<key>sqlFile/titleDetailData.sqlite</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Poe+TkDY4isY2DkGKqVezbXRFsI=
+			</data>
+			<key>hash2</key>
+			<data>
+			8Tth+RTtSwvs1ABoeMyLWv5fBykgiXEsbOz6/GHWURw=
+			</data>
+		</dict>
+		<key>textFile/QandA.txt</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2699,7 +2868,7 @@
 			yfZUaQubXPPrFx35jceUHyxvQNVQklM6bkD8W+A2kK8=
 			</data>
 		</dict>
-		<key>textData/abbreviation.txt</key>
+		<key>textFile/abbreviation.txt</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2710,7 +2879,7 @@
 			i91LjAs6UkygPdcXVQF4pMo1o6nx92/5buJm1jD0sYg=
 			</data>
 		</dict>
-		<key>textData/aboutSkillList.txt</key>
+		<key>textFile/aboutSkillList.txt</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2721,7 +2890,7 @@
 			2Eylu4QtONMWNS1xRhnaZVZYL/tRByoccmbflbT7WfE=
 			</data>
 		</dict>
-		<key>textData/aboutTalk.txt</key>
+		<key>textFile/aboutTalk.txt</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2732,7 +2901,7 @@
 			LpqYiiolGXVt1ysNOQFEnNEntDOrSd9UiXpBcIS/K5U=
 			</data>
 		</dict>
-		<key>textData/howToUseSearch.txt</key>
+		<key>textFile/howToUseSearch.txt</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2743,7 +2912,7 @@
 			j+poK8AGsPrEXRJiUB5VJX3TR4RBjjupq2AsNvY4Q5Y=
 			</data>
 		</dict>
-		<key>textData/searchMusicIndex.txt</key>
+		<key>textFile/searchMusicIndex.txt</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2754,7 +2923,7 @@
 			8F0h/C54OWUS8aLfNJUerjYpukFf5vDR8l/0I2qqXXQ=
 			</data>
 		</dict>
-		<key>textData/searchMusicIndex2.txt</key>
+		<key>textFile/searchMusicIndex2.txt</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2765,7 +2934,7 @@
 			Ag7kPRv9yiT8QeW6TdBGFMxGyh9CkDsVlB7KD12h+Mo=
 			</data>
 		</dict>
-		<key>textData/sortExplation.txt</key>
+		<key>textFile/sortExplation.txt</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2776,7 +2945,7 @@
 			h413kZ1DXs4XjfAUJE4BDgp4pb7biEdexQCjfuMpbeA=
 			</data>
 		</dict>
-		<key>textData/specialThanks.txt</key>
+		<key>textFile/specialThanks.txt</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2787,7 +2956,7 @@
 			gG9lQSZv6qAJYPk/maXd2L6TmbYtf5zPZhIFV/7KSKY=
 			</data>
 		</dict>
-		<key>textData/spellReading.txt</key>
+		<key>textFile/spellReading.txt</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2798,7 +2967,7 @@
 			WBRSZQZYskrcIPDTCRI0NIWeTXTfPKuPfEE/pZ7q6NM=
 			</data>
 		</dict>
-		<key>textData/support.txt</key>
+		<key>textFile/support.txt</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2809,7 +2978,7 @@
 			6XzecH0gq+AfLaa3Co7FY6/TrHZUCUhq8F7Br0ksGGI=
 			</data>
 		</dict>
-		<key>textData/updatePlan.txt</key>
+		<key>textFile/updatePlan.txt</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2818,6 +2987,347 @@
 			<key>hash2</key>
 			<data>
 			e9/sww+GP7iz2FKYHG8Rp0ZpxzynoVRBcHMBlo24LGY=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_1.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			K7rMRG5qpiCa2/9LXwn7Yoe2a94=
+			</data>
+			<key>hash2</key>
+			<data>
+			n4sKhOxmntdc9opXlhv8Zja/nKR6JA6imCg6KHeYHNA=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_10.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U8WLoA/5v0PCQawsTTfMoKImIRU=
+			</data>
+			<key>hash2</key>
+			<data>
+			Hlxx6ybixypYRhHAs8S7f/vXdLwBF4Xn8o0S0e4/Sc4=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_101.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nG1Ut+rFUr83pgmHv10D/E1U0zA=
+			</data>
+			<key>hash2</key>
+			<data>
+			jKnYHn6nKgprMTWIpp2my5sNWNWaglOnPniMubDkNak=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_102.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nG1Ut+rFUr83pgmHv10D/E1U0zA=
+			</data>
+			<key>hash2</key>
+			<data>
+			jKnYHn6nKgprMTWIpp2my5sNWNWaglOnPniMubDkNak=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_103.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nG1Ut+rFUr83pgmHv10D/E1U0zA=
+			</data>
+			<key>hash2</key>
+			<data>
+			jKnYHn6nKgprMTWIpp2my5sNWNWaglOnPniMubDkNak=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_104.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nG1Ut+rFUr83pgmHv10D/E1U0zA=
+			</data>
+			<key>hash2</key>
+			<data>
+			jKnYHn6nKgprMTWIpp2my5sNWNWaglOnPniMubDkNak=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_105.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nG1Ut+rFUr83pgmHv10D/E1U0zA=
+			</data>
+			<key>hash2</key>
+			<data>
+			jKnYHn6nKgprMTWIpp2my5sNWNWaglOnPniMubDkNak=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_11.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7Jc9rVueqyX3hwag8El03pL8Ey0=
+			</data>
+			<key>hash2</key>
+			<data>
+			TSJdUZ3SWb4FB/v+/Mg+7lKjMV440JLLbfqxTr0j310=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_12.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LxGOHo0X7Vi50UgeAD8DqDd5aRk=
+			</data>
+			<key>hash2</key>
+			<data>
+			O03YQd6BaFStcKyohx07/nDQtR/kxKAehpIgpvoocWw=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_13.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dZIawCS8AsJaT34kX/yhAG1NANo=
+			</data>
+			<key>hash2</key>
+			<data>
+			lcrMM8S5P/rWjvL4Vy092A2HUFuqrKQu0/5gm+b2AeY=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_14.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			azfXo0ARRmLfyWfd2Q2gIp32OoU=
+			</data>
+			<key>hash2</key>
+			<data>
+			/Z8Bv+OXwDBvvP7vDCT9ZfHohvXvcVk08NkZdpdXI6o=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_15.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XU27yscohAdJEj0KJoRsH0vzMa0=
+			</data>
+			<key>hash2</key>
+			<data>
+			7Qa2f9L5w1WmM2dZNqXPuMnR4d98ebt6uNp8iKcvacM=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_16.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			24xIieM6AZ4DyAolYDe4gkQpbY0=
+			</data>
+			<key>hash2</key>
+			<data>
+			v+UcFMVfuVs3fnDLSd3Iij91IDcv4OLzpNO+D6adT7Q=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_17.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mLJH6tDOGYG76un6umpxuyvaDco=
+			</data>
+			<key>hash2</key>
+			<data>
+			uF/orhTdFh9KMX2o7pFTOKx7RPLQJGKQtL4EWOUPLWU=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_18.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			D0tkFG0pdzsez98jZVBxOVVMgFQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			s6r6CwnesMwvab6lBKA5vf+XTVZ+sYBF933W8oATepQ=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_19.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6DZk54XzUW65w6AK7Nin45tCo7o=
+			</data>
+			<key>hash2</key>
+			<data>
+			NU79FFoxHl2twsJGbGZFNxY/Xq7WOoTB7jhWJeWXUy0=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_2.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4csHtXAExrI1MdLFRk0+pt4Ex2U=
+			</data>
+			<key>hash2</key>
+			<data>
+			eZBR85jrJfJDVEcpgQoFABE3Twwj7BsG9mYfKuU0CuY=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_20.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9FIGNBmnupoF6pkiCBJqj/tDb2s=
+			</data>
+			<key>hash2</key>
+			<data>
+			u8nxyDsGoau3Ga5laEgwVDGuYpRx16CzTbFF5BG5rws=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_21.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			a6hBZWK2YYmvFsisUeCu3XO+log=
+			</data>
+			<key>hash2</key>
+			<data>
+			H2FYke2g3Q+eFCgKzL4zWS7rLsJEVt1kzjkGPPJa1+c=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_22.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Sp+RgKgdkgYnutdPdb0VRzBmsfM=
+			</data>
+			<key>hash2</key>
+			<data>
+			uTXbnBB7/bXq37gnJh6pUQ3+cNmMx9cBbnjihNtXoDU=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_23.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7w4p/upW1d39H8GcJFELjKqnElg=
+			</data>
+			<key>hash2</key>
+			<data>
+			NXHdn+YyyXqfh61BFi66/3gloa5KS1losclNebhEBPQ=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_24.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1Ze8itnH2vlXBbpgXW2jjHFmweE=
+			</data>
+			<key>hash2</key>
+			<data>
+			UGMNzP1KoHF5bSBv2JAgYGLU+BQ8uBSgFjD8fgQIXmg=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_25.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Fnh9yuDX20ZbUEKF2kChPBIly54=
+			</data>
+			<key>hash2</key>
+			<data>
+			gfv89jxDylkiM7RK/cUeGazroBx36xUp0KhcfWJn+g4=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_26.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Fnh9yuDX20ZbUEKF2kChPBIly54=
+			</data>
+			<key>hash2</key>
+			<data>
+			gfv89jxDylkiM7RK/cUeGazroBx36xUp0KhcfWJn+g4=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_3.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4CKAly1KnDNh1K2sKfStRIZpOxk=
+			</data>
+			<key>hash2</key>
+			<data>
+			G/s8buFCrOrddRgSj7n6YPaTem9izBFhFUJAY6BCvR0=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_4.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			N5nxq4eo8W3xt6vD+1GmVCmRfyA=
+			</data>
+			<key>hash2</key>
+			<data>
+			8JcLEANxcsEReD2XFkcsz5JT5D0BP/eiSe56/lBpJrQ=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_5.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NumgtZpX7xCuKcXV54ZzjN3YTvo=
+			</data>
+			<key>hash2</key>
+			<data>
+			yGSxyrvhug9sHCgRq5k1N63YJrR213xPnprnXrqE9kI=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_6.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sSwfdf77s8CjusLotxKb0IWOljY=
+			</data>
+			<key>hash2</key>
+			<data>
+			zY4G8svAIOorlMIySSrkb0aBm99ndfUPExbVP5WWxpg=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_7.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WPEcsVlt4CCtOFRYCXczBcHscD8=
+			</data>
+			<key>hash2</key>
+			<data>
+			saGypSUB6dPvwUIdu27GGfiS9aunTcLChO9spCmpn1A=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_8.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			erWknI3kFtEv2d5kWpyYOC/OK4Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			xuNXEOZQWEuRL+jvzxJqVvnwf8OuFa0xDIOiJg86KKo=
+			</data>
+		</dict>
+		<key>titleImgFile/titleImgFile_9.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			804Zmd/SgkgH5xdyiehZV+ko7zE=
+			</data>
+			<key>hash2</key>
+			<data>
+			vnpNl34DW+lXH17NaQ03lUgFzkTpTmJZsvsb236MxY8=
 			</data>
 		</dict>
 	</dict>

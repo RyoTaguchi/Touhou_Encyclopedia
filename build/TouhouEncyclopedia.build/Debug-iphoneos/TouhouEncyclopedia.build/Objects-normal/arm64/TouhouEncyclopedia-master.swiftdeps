@@ -1,11 +1,13 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "f874178eeba4d67fedd7a0e42869575c"
-build_time: [556045887, 56343000]
+build_time: [556488474, 515217000]
 inputs:
-  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/PlistFileManager.swift": [552830739, 0]
-  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/SqlFileManager.swift": [555874623, 0]
-  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/SecondViewController.swift": [551797281, 0]
-  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/AppDelegate.swift": [552830737, 0]
-  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/MainPageViewController.swift": [556027635, 0]
-  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/TextViewController.swift": [555326214, 0]
-  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/ListTableViewController.swift": [556045886, 0]
+  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/source/SqlFileManager.swift": [556474938, 0]
+  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/source/SecondViewController.swift": [551797281, 0]
+  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/source/MainPageViewController.swift": [556487752, 0]
+  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/source/TabBarController.swift": [556487333, 0]
+  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/source/AppDelegate.swift": [552830737, 0]
+  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/source/CollectionViewController.swift": [556488472, 0]
+  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/source/TextViewController.swift": [556476013, 0]
+  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/source/ListTableViewController.swift": [556478348, 0]
+  "/Users/taguchiryou/Documents/progrmaing/Swift/TouhouEncyclopedia/TouhouEncyclopedia/source/PlistFileManager.swift": [552830739, 0]

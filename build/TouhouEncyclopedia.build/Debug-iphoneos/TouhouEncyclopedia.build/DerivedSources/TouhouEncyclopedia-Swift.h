@@ -155,16 +155,39 @@ SWIFT_CLASS("_TtC18TouhouEncyclopedia11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
-@class UITableViewCell;
-@class UILongPressGestureRecognizer;
+@class UICollectionView;
+@class UICollectionViewCell;
+@class UIStoryboardSegue;
+@class UICollectionViewLayout;
 @class NSBundle;
 @class NSCoder;
 
+SWIFT_CLASS("_TtC18TouhouEncyclopedia24CollectionViewController")
+@interface CollectionViewController : UICollectionViewController
+@property (nonatomic, copy) NSString * _Nonnull m_barTitle;
+- (void)viewDidLoad;
+- (void)initObjectList SWIFT_METHOD_FAMILY(none);
+- (void)didReceiveMemoryWarning;
+- (void)viewWillAppear:(BOOL)animated;
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getCellTextWithIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getCellImagePathWithIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithCollectionViewLayout:(UICollectionViewLayout * _Nonnull)layout OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+@class UITableViewCell;
+@class UILongPressGestureRecognizer;
+
 SWIFT_CLASS("_TtC18TouhouEncyclopedia23ListTableViewController")
 @interface ListTableViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate, UITableViewDelegate>
+@property (nonatomic, copy) NSString * _Nonnull m_barTitle;
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified listTableView;
-@property (nonatomic, copy) NSString * _Nonnull barTitle;
 - (void)viewDidLoad;
 - (void)initObjectList SWIFT_METHOD_FAMILY(none);
 - (void)initsectionNameList;
@@ -189,10 +212,7 @@ SWIFT_CLASS("_TtC18TouhouEncyclopedia23ListTableViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UICollectionView;
 @class UIButton;
-@class UICollectionViewCell;
-@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC18TouhouEncyclopedia22MainPageViewController")
 @interface MainPageViewController : UIViewController <UIScrollViewDelegate, UICollectionViewDataSource, UICollectionViewDelegate>
@@ -215,6 +235,20 @@ SWIFT_CLASS("_TtC18TouhouEncyclopedia20SecondViewController")
 @interface SecondViewController : UIViewController
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITabBar;
+@class UITabBarItem;
+
+SWIFT_CLASS("_TtC18TouhouEncyclopedia16TabBarController")
+@interface TabBarController : UITabBarController <UITabBarControllerDelegate>
+@property (nonatomic) NSInteger m_displayTabIndex;
+@property (nonatomic, copy) NSString * _Nonnull m_barTitle;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (void)tabBar:(UITabBar * _Nonnull)tabBar didSelectItem:(UITabBarItem * _Nonnull)item;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
