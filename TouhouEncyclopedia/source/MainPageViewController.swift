@@ -136,6 +136,10 @@ class MainPageViewController: UIViewController, UICollectionViewDelegate, UIColl
             performSegue(withIdentifier: "SegueForTableViewFromHome",sender: nil)
         case 3, 4, 5:
             performSegue(withIdentifier: "SegueForSpellsTabController",sender: nil)
+        case 6:
+            performSegue(withIdentifier: "SegueForMusicTabController",sender: nil)
+        case 8:
+            performSegue(withIdentifier: "SegueForCollectionViewByTitle",sender: nil)
         default:
             break
         }
@@ -166,8 +170,8 @@ class MainPageViewController: UIViewController, UICollectionViewDelegate, UIColl
             }
         }
         
-        //CollectionViewに遷移
-        if (segue.identifier == "SegueForSpellsTabController") {
+        //tabControllerに遷移
+        if segue.identifier == "SegueForSpellsTabController" {
             let nextView:TabBarController = (segue.destination as? TabBarController)!
             
             switch (m_selectedIcon) {
@@ -180,6 +184,16 @@ class MainPageViewController: UIViewController, UICollectionViewDelegate, UIColl
             default:
                 break
             }
+        } else if segue.identifier == "SegueForMusicTabController" {
+            let nextView:TabBarController = (segue.destination as? TabBarController)!
+            nextView.m_mode = TabBarController.TabMode.MODE_MUSIC_ZUN
+        }
+        
+        //CollectionViewに遷移
+        if segue.identifier == "SegueForCollectionViewByTitle" {
+            let nextView:CollectionViewController = (segue.destination as? CollectionViewController)!
+            nextView.m_dataType = CollectionViewController.CollectionDataType.COLLECTION_DATA_TALKS
+            nextView.m_batTitle = "会話集"
         }
     }
 }

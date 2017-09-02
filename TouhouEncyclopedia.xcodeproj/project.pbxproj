@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0A0A751F5369BA000E047D /* titleMusicList in Resources */ = {isa = PBXBuildFile; fileRef = 2C0A0A701F5369BA000E047D /* titleMusicList */; };
+		2C0A0A761F5369BA000E047D /* titleMusicList2 in Resources */ = {isa = PBXBuildFile; fileRef = 2C0A0A711F5369BA000E047D /* titleMusicList2 */; };
+		2C0A0A771F5369BA000E047D /* titleShotList in Resources */ = {isa = PBXBuildFile; fileRef = 2C0A0A721F5369BA000E047D /* titleShotList */; };
+		2C0A0A781F5369BA000E047D /* titleSkillList in Resources */ = {isa = PBXBuildFile; fileRef = 2C0A0A731F5369BA000E047D /* titleSkillList */; };
+		2C0A0A791F5369BA000E047D /* titleSpellList in Resources */ = {isa = PBXBuildFile; fileRef = 2C0A0A741F5369BA000E047D /* titleSpellList */; };
+		2C0A0A7B1F536A46000E047D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A0A7A1F536A46000E047D /* TabBarController.swift */; };
+		2C0A0A7D1F537489000E047D /* CollectionIndexTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A0A7C1F537489000E047D /* CollectionIndexTitle.swift */; };
 		2C3F792D1F013D210030ED3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3F792B1F013D210030ED3A /* Main.storyboard */; };
 		2C3F792F1F013D210030ED3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3F792E1F013D210030ED3A /* Assets.xcassets */; };
 		2C3F79321F013D210030ED3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3F79301F013D210030ED3A /* LaunchScreen.storyboard */; };
 		2C3F793D1F013D210030ED3A /* TouhouEncyclopediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F793C1F013D210030ED3A /* TouhouEncyclopediaTests.swift */; };
 		2C3F79481F013D210030ED3A /* TouhouEncyclopediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F79471F013D210030ED3A /* TouhouEncyclopediaUITests.swift */; };
-		2C74D28F1F48AF490033AA85 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C74D28E1F48AF490033AA85 /* TabBarController.swift */; };
+		2C74D2971F4A0AC80033AA85 /* SearchPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C74D2961F4A0AC80033AA85 /* SearchPageController.swift */; };
+		2C8EFD0A1F5A32110094C771 /* EextendPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EFD091F5A32110094C771 /* EextendPanGestureRecognizer.swift */; };
 		2C9396CA1F05A7EE00F82CD4 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9396BC1F05A76400F82CD4 /* SQLite.framework */; };
 		2C9396CC1F05A82100F82CD4 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9396BC1F05A76400F82CD4 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2CA8FA321F48782300652DCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8FA2B1F48782300652DCC /* AppDelegate.swift */; };
@@ -120,6 +128,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C0A0A701F5369BA000E047D /* titleMusicList */ = {isa = PBXFileReference; lastKnownFileType = folder; name = titleMusicList; path = titleListFile/titleMusicList; sourceTree = "<group>"; };
+		2C0A0A711F5369BA000E047D /* titleMusicList2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = titleMusicList2; path = titleListFile/titleMusicList2; sourceTree = "<group>"; };
+		2C0A0A721F5369BA000E047D /* titleShotList */ = {isa = PBXFileReference; lastKnownFileType = folder; name = titleShotList; path = titleListFile/titleShotList; sourceTree = "<group>"; };
+		2C0A0A731F5369BA000E047D /* titleSkillList */ = {isa = PBXFileReference; lastKnownFileType = folder; name = titleSkillList; path = titleListFile/titleSkillList; sourceTree = "<group>"; };
+		2C0A0A741F5369BA000E047D /* titleSpellList */ = {isa = PBXFileReference; lastKnownFileType = folder; name = titleSpellList; path = titleListFile/titleSpellList; sourceTree = "<group>"; };
+		2C0A0A7A1F536A46000E047D /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = source/TabBarController.swift; sourceTree = "<group>"; };
+		2C0A0A7C1F537489000E047D /* CollectionIndexTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionIndexTitle.swift; path = source/CollectionIndexTitle.swift; sourceTree = "<group>"; };
 		2C3F79221F013D210030ED3A /* TouhouEncyclopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouhouEncyclopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3F792C1F013D210030ED3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C3F792E1F013D210030ED3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -131,7 +146,8 @@
 		2C3F79431F013D210030ED3A /* TouhouEncyclopediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouhouEncyclopediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3F79471F013D210030ED3A /* TouhouEncyclopediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouhouEncyclopediaUITests.swift; sourceTree = "<group>"; };
 		2C3F79491F013D210030ED3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C74D28E1F48AF490033AA85 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = source/TabBarController.swift; sourceTree = "<group>"; };
+		2C74D2961F4A0AC80033AA85 /* SearchPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchPageController.swift; path = source/SearchPageController.swift; sourceTree = "<group>"; };
+		2C8EFD091F5A32110094C771 /* EextendPanGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EextendPanGestureRecognizer.swift; path = source/EextendPanGestureRecognizer.swift; sourceTree = "<group>"; };
 		2C9396931F05A57E00F82CD4 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = Carthage/Build/iOS/SQLite.framework; sourceTree = "<group>"; };
 		2C9396B11F05A76400F82CD4 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = Carthage/Checkouts/SQLite.swift/SQLite.xcodeproj; sourceTree = "<group>"; };
 		2CA8FA2B1F48782300652DCC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = source/AppDelegate.swift; sourceTree = "<group>"; };
@@ -205,16 +221,24 @@
 			children = (
 				2CA8FA2B1F48782300652DCC /* AppDelegate.swift */,
 				2CDC7A9C1F4878F700D64B50 /* CollectionViewController.swift */,
+				2C0A0A7C1F537489000E047D /* CollectionIndexTitle.swift */,
 				2CA8FA2C1F48782300652DCC /* ListTableViewController.swift */,
 				2CA8FA2D1F48782300652DCC /* MainPageViewController.swift */,
 				2CA8FA2E1F48782300652DCC /* PlistFileManager.swift */,
 				2CA8FA2F1F48782300652DCC /* SecondViewController.swift */,
+				2C8EFD091F5A32110094C771 /* EextendPanGestureRecognizer.swift */,
 				2CA8FA301F48782300652DCC /* SqlFileManager.swift */,
-				2C74D28E1F48AF490033AA85 /* TabBarController.swift */,
+				2C74D2961F4A0AC80033AA85 /* SearchPageController.swift */,
+				2C0A0A7A1F536A46000E047D /* TabBarController.swift */,
 				2CA8FA311F48782300652DCC /* TextViewController.swift */,
 				2C3F792E1F013D210030ED3A /* Assets.xcassets */,
 				2C3F792B1F013D210030ED3A /* Main.storyboard */,
 				2C3F79301F013D210030ED3A /* LaunchScreen.storyboard */,
+				2C0A0A701F5369BA000E047D /* titleMusicList */,
+				2C0A0A711F5369BA000E047D /* titleMusicList2 */,
+				2C0A0A721F5369BA000E047D /* titleShotList */,
+				2C0A0A731F5369BA000E047D /* titleSkillList */,
+				2C0A0A741F5369BA000E047D /* titleSpellList */,
 				2CDC7AB01F48A21500D64B50 /* titleImgFile */,
 				2CDC7AAE1F48A15500D64B50 /* textFile */,
 				2CDC7AAC1F48A09900D64B50 /* charLogoImgFile */,
@@ -436,12 +460,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0A0A761F5369BA000E047D /* titleMusicList2 in Resources */,
 				2CDC7AAF1F48A15500D64B50 /* textFile in Resources */,
 				2CDC7AA91F489E6100D64B50 /* barIconImgFile in Resources */,
+				2C0A0A771F5369BA000E047D /* titleShotList in Resources */,
 				2CDC7AAA1F489E6100D64B50 /* mainPageIconImgFile in Resources */,
+				2C0A0A791F5369BA000E047D /* titleSpellList in Resources */,
+				2C0A0A751F5369BA000E047D /* titleMusicList in Resources */,
 				2C3F79321F013D210030ED3A /* LaunchScreen.storyboard in Resources */,
 				2C3F792F1F013D210030ED3A /* Assets.xcassets in Resources */,
 				2CDC7AB11F48A21500D64B50 /* titleImgFile in Resources */,
+				2C0A0A781F5369BA000E047D /* titleSkillList in Resources */,
 				2C3F792D1F013D210030ED3A /* Main.storyboard in Resources */,
 				2CDC7AA51F489D3A00D64B50 /* sqlFile in Resources */,
 				2CDC7AAD1F48A09900D64B50 /* charLogoImgFile in Resources */,
@@ -470,10 +499,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0A0A7D1F537489000E047D /* CollectionIndexTitle.swift in Sources */,
 				2CA8FA371F48782300652DCC /* SqlFileManager.swift in Sources */,
 				2CA8FA361F48782300652DCC /* SecondViewController.swift in Sources */,
+				2C74D2971F4A0AC80033AA85 /* SearchPageController.swift in Sources */,
+				2C8EFD0A1F5A32110094C771 /* EextendPanGestureRecognizer.swift in Sources */,
+				2C0A0A7B1F536A46000E047D /* TabBarController.swift in Sources */,
 				2CA8FA341F48782300652DCC /* MainPageViewController.swift in Sources */,
-				2C74D28F1F48AF490033AA85 /* TabBarController.swift in Sources */,
 				2CA8FA321F48782300652DCC /* AppDelegate.swift in Sources */,
 				2CDC7A9D1F4878F700D64B50 /* CollectionViewController.swift in Sources */,
 				2CA8FA381F48782300652DCC /* TextViewController.swift in Sources */,

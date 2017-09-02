@@ -123,6 +123,30 @@ class SqlFileManager {
         return sqlRowArray
     }
     
+    //SQL,クエリを指定し、レコードを一つ取得
+    func getOneRecordWithFilter(sql: String, query:SQLite.QueryType) -> SQLite.Row? {
+        
+        let path:String = Bundle.main.bundlePath + "/sqlFile/" + sql + ".sqlite"
+        
+        do {
+            let db:SQLite.Connection = try Connection(path, readonly: true)
+            
+            do {
+                if let record:SQLite.Row = try db.pluck(query){
+                    return record
+                } else {
+                    print("ERROR: db.pluck(query) result is nil.")
+                    return nil
+                }
+            } catch {
+                print("ERROR: db.pluck(query) failed.")
+                return nil
+            }
+        } catch {
+            print("ERROR: Connection database failed.")
+            return nil
+        }
+    }
     
     //SQL,Tableを指定し、要素数を取得
     func getTableElementCount(sql: String, table: String) -> Int {

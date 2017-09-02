@@ -30,6 +30,7 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         super.viewDidLoad()
         
         self.delegate = self
+        setTabInfo(selectedTabIndex: selectedIndex)
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,6 +39,30 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
 
     
     override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
+        
+        switch m_mode {
+        case TabMode.MODE_SPELL, TabMode.MODE_SKILL, TabMode.MODE_SHOT:
+            if item.title == "タイトル別" {
+                setTabInfo(selectedTabIndex: 1)
+            } else if item.title == "キャラクター別" {
+                setTabInfo(selectedTabIndex: 2)
+            } else {
+                setTabInfo(selectedTabIndex: 0)
+            }
+    
+        case TabMode.MODE_MUSIC_ZUN:
+            if item.title == "タイトル別" {
+                setTabInfo(selectedTabIndex: 1)
+            } else {
+                setTabInfo(selectedTabIndex: 0)
+            }
+            
+        default:
+            break
+        }
+    }
+    
+    func setTabInfo(selectedTabIndex: Int) {
         
         var tmp:String = ""
         
@@ -60,19 +85,27 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         
         switch m_mode {
         case TabMode.MODE_SPELL, TabMode.MODE_SKILL, TabMode.MODE_SHOT:
-            if item.title == "タイトル別" {
+            if selectedTabIndex == 1 {
                 m_displayTabIndex = 1
                 m_barTitle = tmp + " - タイトル別"
-            } else if item.title == "キャラクター別" {
+            } else if selectedTabIndex == 2 {
                 m_displayTabIndex = 2
                 m_barTitle = tmp + " - キャラクター別"
             } else {
                 m_displayTabIndex = 0
+                m_barTitle = tmp + " - 検索"
+            }
+        case TabMode.MODE_MUSIC_ZUN:
+            if selectedTabIndex == 1 {
+                m_displayTabIndex = 1
+                m_barTitle = tmp + " - タイトル別"
+            } else {
+                m_displayTabIndex = 0
+                m_barTitle = tmp + " - 検索"
             }
         default:
             break
         }
-        
     }
 
 }

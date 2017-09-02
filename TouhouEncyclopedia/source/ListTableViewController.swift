@@ -210,6 +210,8 @@ class ListTableViewController: UIViewController, UITableViewDelegate, UITableVie
             } else {
                 return nil
             }
+        case ListDataType.LIST_DATA_CHAR_OLD:
+            return sectionNameList
         default:
             return nil
         }
